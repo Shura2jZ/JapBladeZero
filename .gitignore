@@ -1,0 +1,39 @@
+# --- artefacts lourds (générés, non versionnés) ----------------------------
+# packages extraits / patchés, tests IoStore
+build/
+# WAV VOICEVOX (out/jp_events) et .wem (out/jp_wem)
+out/
+# modèle de traduction local (opus-mt-zh-ja, ~300 Mo)
+models/
+# moteur VOICEVOX Engine
+voicevox/
+# journaux d'exécution
+logs/
+# wheels d'analyse (vgmstream, pywwise)
+tools_dec/
+# encodeur aoTuV (binaire tiers)
+tools/*.exe
+tools/*.whl
+tools/packed_codebooks_aoTuV_603.bin
+
+# --- artefacts de travail ---------------------------------------------------
+*.wav
+!data/samples/*.wav
+*.wem
+*.ogg
+*.ucas
+*.utoc
+*.pak
+*.log
+__pycache__/
+*.pyc
+data/manifest_jp.csv.bak
+data/jp_durations.json
+
+# --- secrets / chemins locaux ----------------------------------------------
+# contient la clé AES du jeu : ne jamais commiter
+pbz_paths.txt
+
+# --- divers -----------------------------------------------------------------
+.DS_Store
+Thumbs.db

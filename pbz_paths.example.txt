@@ -1,0 +1,15 @@
+# Configuration locale des outils C# (CUE4Parse).
+# Copier ce fichier en `pbz_paths.txt` et compléter avec les chemins de ta machine.
+# `pbz_paths.txt` est ignoré par git : il contient la clé de déchiffrement du jeu.
+
+# dossier des .pak du jeu (ProjectPBZ/Content/Paks)
+paks=E:\SteamLibrary\steamapps\common\PBZ\ProjectPBZ\Content\Paks
+
+# clé AES du jeu (Steam build 26367565)
+aes=0x0000000000000000000000000000000000000000000000000000000000000000
+
+# bibliothèque Oodle (oo2core) requise pour lire les paks compressés
+oodle=C:\tools\oo2core_9_win64.dll
+
+# mapping usmap pour les noms de propriétés des assets
+usmap=C:\tools\ProjectPBZ-5.7.4-302256-full.usmap
