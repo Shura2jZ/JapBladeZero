@@ -69,4 +69,5 @@ environ 6 % du jeu garde sa voix chinoise.
 - **16/11** — extraction du jeu, traduction, premier passage TTS. (`docs/CHECKPOINT.md`)
 - **17/11** — ré-écriture des `.wem` au format exact du jeu, premier patch binaire.
 - **18/11** — campagne d'alignement des durées, encodage des 4 167 médias, injection
-  de 3 924 packages, nettoyage du dépôt et mise en place du dépôt Git.
+  de 3 924 packages, nettoyage du dépôt et mise en place du dépôt Git
+  (`github.com/Shura2jZ/JapBladeZero`, remote en SSH).
