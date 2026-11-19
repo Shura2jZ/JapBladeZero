@@ -48,3 +48,6 @@ tools/csharp/*/build/
 
 # liste vide utilisée pour créer le .pak du mod
 build/empty_list.txt
+
+# sondes de diagnostic jetables
+tools/csharp/city/

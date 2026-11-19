@@ -187,7 +187,9 @@ IoStore. Chaque fichier (`.uasset`, `.ubulk`) est un *chunk* :
 | fait | détail |
 |------|--------|
 | identifiant de chunk | 12 octets = id de package (8 o) + index (2 o) + padding (1 o) + type (1 o) |
-| id de package | `FPackageId.FromName("/Game/<chemin sans extension>")` |
+| id de package | `FPackageId.FromName("/Game/<chemin sans extension>")`, écrit **en little-endian** (ordre natif) |
+| type 1 | export bundle (le `.uasset`) |
+| type 2 | bulk data (le `.ubulk`) |
 | type 1 | export bundle (le `.uasset`) |
 | type 2 | bulk data (le `.ubulk`) |
 | compression | Oodle, blocs de 256 Ko, chiffrement AES |
@@ -197,6 +199,19 @@ IoStore. Chaque fichier (`.uasset`, `.ubulk`) est un *chunk* :
 Vérifié : `CHUNKID(VO_CN.uasset) = c3e3f641696cd69700000001`,
 `CHUNKID(VO_CN.ubulk) = c3e3f641696cd69700000002` — les mêmes valeurs que dans le
 TOC du jeu.
+
+> **Piège : l'ordre des octets de l'id de package.** Le moteur écrit l'id de
+> package en ordre natif (`*reinterpret_cast<uint64*>(&Data[0]) = ChunkId`),
+> donc **little-endian** sur x86-64. Écrit en big-endian, l'id ne correspond à
+> aucun chunk du jeu : le conteneur est monté mais **aucun chunk n'est résolu**,
+> et le jeu joue alors les voix d'origine. C'est ce qui est arrivé ; le contrôle
+> (`tools/csharp/idprobe`) consiste à recalculer les ids de tous les fichiers
+> et à les chercher dans la table brute du `.utoc` du jeu :
+>
+> | Ordre | Chunk ids du mod présents dans le TOC du jeu |
+> |-------|-----------------------------------------------|
+> | big-endian | 0 / 7 851 |
+> | little-endian | 7 850 / 7 851 |
 
 ### Pourquoi un `.pak` ne peut pas fonctionner
 
@@ -277,3 +292,30 @@ ProjectPBZ/Content/Paks/PBZJapaneseVoice_9_P.utoc   (1,1 Mo)
 
 Contrôle : CUE4Parse relit le conteneur du mod et renvoie bien la version
 japonaise (`.ubulk` de 96 477 o au lieu de 114 920 o).
+
+## 8. Emplacement des fichiers de travail
+
+Les artefacts lourds (paquets extraits et patchés, WAV et `.wem` générés) ne
+sont pas versionnés et n'ont pas leur place sur le disque système. Par défaut
+ils vivent sur `E:` ; le dépôt y accède par **jonctions de répertoire** :
+
+```
+C:\...\JapBladeZero\build  ->  E:\PBZ_Build\build     (2,7 Go)
+C:\...\JapBladeZero\out    ->  E:\PBZ_Build\out       (1,6 Go)
+```
+
+Créées sous Windows avec :
+
+```cmd
+mklink /J build E:\PBZ_Build\build
+mklink /J out   E:\PBZ_Build\out
+```
+
+Les chemins des scripts restent donc relatifs au dépôt : rien à changer après
+un `git clone`. Le dossier de travail de la construction du conteneur est
+précisé explicitement pour ne pas saturer le disque système :
+
+```bash
+python src/patch/build_container.py --files data/container_files.tsv \
+    --out E:/PBZ_Mod --work E:/PBZ_Build/container
+```

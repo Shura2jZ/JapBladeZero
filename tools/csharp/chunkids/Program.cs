@@ -10,6 +10,10 @@ using CUE4Parse.UE4.IO.Objects;
 // The chunk id is the 12 byte identifier used by the containers: the package id
 // (8 bytes), the chunk index (2 bytes), a padding byte and the chunk type
 // (1 = export bundle, 2 = bulk data).
+//
+// The package id is stored in native (little endian) byte order: the engine
+// writes it with *reinterpret_cast<uint64*>(&Data[0]) = ChunkId. Using big
+// endian produces ids that the engine never resolves.
 
 var files = args[0];
 var outFile = args.Length > 1 ? args[1] : null;
@@ -27,7 +31,7 @@ foreach (var line in File.ReadAllLines(files))
     var packageId = FPackageId.FromName(pkgPath);
     byte type = ext == ".ubulk" ? (byte)2 : (byte)1;
     var id = new byte[12];
-    for (int i = 0; i < 8; i++) id[i] = (byte)(packageId.id >> (56 - 8 * i));
+    for (int i = 0; i < 8; i++) id[i] = (byte)(packageId.id >> (8 * i));
     id[11] = type;
     Console.WriteLine($"{path}\t{Convert.ToHexString(id).ToLowerInvariant()}\t{pkgPath}");
     w?.WriteLine($"{path}\t{Convert.ToHexString(id).ToLowerInvariant()}\t{pkgPath}");

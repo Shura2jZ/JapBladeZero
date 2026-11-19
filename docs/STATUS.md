@@ -1,6 +1,6 @@
 # État d'avancement
 
-Dernière mise à jour : 19 novembre 2026.
+Dernière mise à jour : 20 novembre 2026.
 
 ## Vue d'ensemble
 
@@ -13,7 +13,7 @@ Dernière mise à jour : 19 novembre 2026.
 | 5 | Extraction des packages | ✅ terminé | 4 167 `.uasset` + 3 929 `.ubulk` |
 | 6 | Injection du média | ✅ terminé | **4 167 / 4 167** (les 238 « sans `.ubulk` » sont dans la bibliothèque Wwise) |
 | 7 | Écriture `Duration_Japanese` | 🟡 en cours | layout binaire identifié, patch à écrire |
-| 8 | Packaging | 🟡 | conteneur IoStore construit (7 851 chunks, 3 925 packages) — installé dans le jeu |
+| 8 | Packaging | ✅ | conteneur IoStore construit (7 851 chunks, 3 925 packages) — installé dans le jeu, **7 850 / 7 851 chunk ids résolus par le moteur** |
 | 9 | Test en jeu | 🟡 | le jeu démarre avec le mod ; **l'audio reste à écouter** |
 
 ## Découverte majeure : le jeu est un conteneur IoStore
@@ -49,7 +49,42 @@ sans quoi le moteur ne résout aucun paquet) : voir `docs/PIPELINE.md` § 7.
 - La Table `DT_WwiseVoiceDuration` n'a pas encore de durées japonaises : le lip-sync
   reposera sur la padding de silence tant que l'étape 7 n'est pas faite.
 
-## Prochaines étapes, par priorité
+## Cause racine des voix restées chinoises — ordre des octets du package id
+
+Le conteneur du mod était **correctement monté** par le moteur, mais aucun de ses
+chunks n'était résolu : les voix jouées restaient celles du conteneur du jeu.
+
+Le chunk id d'un paquet est fait de l'identifiant de package (8 octets), de
+l'index de chunk (2 octets), d'un octet de bourrage et du type de chunk
+(1 octet). Le moteur écrit l'identifiant de package **en ordre natif, donc
+little-endian** :
+
+```cpp
+// Runtime/Core/Public/IO/IoChunkId.h
+*reinterpret_cast<uint64*>(&Data[0]) = ChunkId;   // little-endian sur x86-64
+```
+
+L'outil `tools/csharp/chunkids` l'écrivait en **big-endian**. Les identifiants
+produits ne correspondaient donc à aucun chunk du jeu :
+
+| Ordre | Chunk ids du mod présents dans le TOC du jeu |
+|-------|-----------------------------------------------|
+| big-endian | **0 / 7 851** |
+| little-endian | **7 850 / 7 851** |
+
+(le 7 851ᵉ est l'en-tête de conteneur, absent du TOC du jeu par construction).
+
+Démonstration : `tools/csharp/idprobe` recalcule les ids de tous les fichiers
+vrais et les cherche dans la table de chunk ids brute du `.utoc` du jeu.
+
+Le correctif est une ligne dans `tools/csharp/chunkids/Program.cs` :
+
+```csharp
+// avant : id[i] = (byte)(packageId.id >> (56 - 8 * i));   // big-endian
+for (int i = 0; i < 8; i++) id[i] = (byte)(packageId.id >> (8 * i));  // little-endian
+```
+
+## Les 243 échecs d'injection — résolus
 
 1. **Écouter le jeu** : le conteneur du mod est installé
    (`ProjectPBZ/Content/Paks/PBZJapaneseVoice_9_P.{pak,ucas,utoc}`), le jeu
@@ -82,3 +117,7 @@ sans quoi le moteur ne résout aucun paquet) : voir `docs/PIPELINE.md` § 7.
 - **19/11** — cause racine des 238 échecs (média dans la bibliothèque Wwise
   `VO_CN`) ; abandon du `.pak` au profit d'un conteneur IoStore construit avec
   `retoc` patché ; conteneur du mod installé dans le jeu.
+- **20/11** — cause racine des voix restées chinoises : **ordre des octets du
+  package id** dans le chunk id (big-endian au lieu de little-endian) ; 0 chunk
+  résolu avant, 7 850 / 7 851 après. Conteneur reconstruit et réinstallé.
+  Déplacement des artefacts lourds (`build/`, `out/`) vers `E:` via jonctions.
