@@ -1,6 +1,6 @@
 # État d'avancement
 
-Dernière mise à jour : 18 novembre 2026.
+Dernière mise à jour : 19 novembre 2026.
 
 ## Vue d'ensemble
 
@@ -10,24 +10,32 @@ Dernière mise à jour : 18 novembre 2026.
 | 2 | TTS japonais (VOICEVOX) | ✅ terminé | 4 253 WAV dans `out/jp_events/` |
 | 3 | Alignement des durées | ✅ terminé | 4 167 lignes avec son chinois, **0 hors tolérance (≤ 5 %)** |
 | 4 | Encodage Wwise | ✅ terminé | 4 167 `.wem` dans `out/jp_wem/` |
-| 5 | Extraction des packages | ✅ terminé | 4 167 `.uasset` + 3 929 `.ubulk` dans `build/raw_all/` |
-| 6 | Injection du média | 🟡 94,2 % | 3 924 événements patchés, **243 échecs** |
-| 7 | Écriture `Duration_Japanese` | ❌ 0 % | `data/durations.json` contient encore `[zh, 0]` partout |
-| 8 | Packaging IoStore (`~mods`) | ❌ 0 % | projet UE `F:\Games\UnrealProjects\PBZ_JP_Dub` vide |
-| 9 | Test en jeu | ❌ | jamais lancé |
+| 5 | Extraction des packages | ✅ terminé | 4 167 `.uasset` + 3 929 `.ubulk` |
+| 6 | Injection du média | ✅ terminé | **4 167 / 4 167** (les 238 « sans `.ubulk` » sont dans la bibliothèque Wwise) |
+| 7 | Écriture `Duration_Japanese` | 🟡 en cours | layout binaire identifié, patch à écrire |
+| 8 | Packaging | 🟡 | conteneur IoStore construit (7 851 chunks, 3 925 packages) — installé dans le jeu |
+| 9 | Test en jeu | 🟡 | le jeu démarre avec le mod ; **l'audio reste à écouter** |
 
-## Les 243 échecs d'injection
+## Découverte majeure : le jeu est un conteneur IoStore
 
-| Cause | Nombre | Exemple |
-|-------|--------|---------|
-| `no .ubulk` (le média n'est pas stocké à part) | 238 | `Vo_Plot_DDSD_GM_GM_25` |
-| `expected at most 2 media blocks, found 4` | 3–4 | — |
-| `no media block` | 1 | — |
-| table de bulk-data incohérente (940 038 vs 1 104 265 o) | 1 | — |
+`ProjectPBZ/Content/Paks/` ne contient pas de `.pak` de contenu : les 141 Go de
+jeu sont dans `ProjectPBZ-Windows.ucas` + 65 partitions, décrits par
+`ProjectPBZ-Windows.utoc`, compressés en Oodle.
 
-Les 238 événements « sans `.ubulk` » ont un `.uasset` de 758 octets : le média doit
-être stocké ailleurs (package partagé ou bulk inline). **Cause racine non traitée** →
-environ 6 % du jeu garde sa voix chinoise.
+Conséquence : **un `.pak` ne peut pas remplacer les voix** (les paquets d'un jeu
+IoStore sont résolus par identifiant de package, pas par chemin de fichier ; testé,
+le `.pak` de 1,15 Go est simplement ignoré). Le mod est donc construit comme un
+**vrai conteneur IoStore** avec `retoc` (patché pour écrire le *package store*,
+sans quoi le moteur ne résout aucun paquet) : voir `docs/PIPELINE.md` § 7.
+
+## Les 243 échecs d'injection — résolus
+
+| Cause | Nombre | Résolution |
+|-------|--------|------------|
+| `no .ubulk` | 238 | le média est dans la bibliothèque Wwise `VO_CN` (`PackagingStrategy = External`) : patché en place (243 blocs remplacés, 234 ok / 9 écart de durée ± 0,06 s) |
+| `expected at most 2 media blocks, found 4` | 3–4 | idem |
+| `no media block` | 1 | idem |
+| table de bulk-data incohérente | 1 | idem |
 
 ## Réserves connues
 
@@ -43,26 +51,26 @@ environ 6 % du jeu garde sa voix chinoise.
 
 ## Prochaines étapes, par priorité
 
-1. **Traiter les 238 événements sans `.ubulk`** — chercher où le média est réellement
-   stocké, ou confirmer qu'ils sont sans voix.
-2. **Écrire `Duration_Japanese`** dans `DT_WwiseVoiceDuration` (CUE4Parse
-   `TrySavePackage` a déjà été validé sur ce package).
-3. **Assembler le mod** : injecter les 3 924 packages patchés + la DataTable dans le
-   projet UE, cooker en IoStore, produire
-   `ProjectPBZ/Content/Paks/~mods/PBZJapaneseVoice_9_P.{pak,ucas,utoc}`.
-4. **Tester en jeu** (voix = chinois, sous-titres = japonais ou anglais) et vérifier
-   que le conteneur `~mods` est bien prioritaire sur les fichiers du jeu.
-5. **Mapping `Character_*` → personnage → voix VOICEVOX**, en priorité 左殇 / 魂
+1. **Écouter le jeu** : le conteneur du mod est installé
+   (`ProjectPBZ/Content/Paks/PBZJapaneseVoice_9_P.{pak,ucas,utoc}`), le jeu
+   démarre ; vérifier que les voix sont bien japonaises (et non chinoises).
+2. **Écrire `Duration_Japanese`** dans `DT_WwiseVoiceDuration` : le layout binaire
+   est identifié (4 flottants contigus par ligne après le nom de l'événement),
+   `TrySavePackage` ne persistant pas l'écriture, il faut un patch binaire.
+3. **Corriger l'écart de durée de 9 médias** de la bibliothèque Wwise (± 0,06 s).
+4. **Mapping `Character_*` → personnage → voix VOICEVOX**, en priorité 左殇 / 魂
    (ZuoShang), qui porte 207 lignes.
-6. **Nettoyage** : balises dans `japanese_text`, 8 lignes dégradées.
+5. **Nettoyage** : balises dans `japanese_text`, 8 lignes dégradées.
+6. **Durées** : le lip-sync s'appuie sur `Duration_Japanese` ; jusque-là la
+   padding de silence absorbe l'écart.
 
 ## Décisions à trancher
 
 - Voix : garder l'heuristique actuelle pour livrer vite, ou faire le mapping
   `DT_LocTable` avant le packaging ?
-- Format : `.pak` simple (plus simple à vérifier) ou conteneur IoStore segmenté
-  (cohérent avec le jeu, vérification plus pénille) ?
-- Investir sur les 238 échecs maintenant, ou livrer d'abord un mod fonctionnel à 94 % ?
+- `retoc` patché : le correctif doit être rejoué à chaque mise à jour de l'outil
+  (le patch est décrit dans `docs/PIPELINE.md` § 7) ; on peut aussi proposer le correctif
+  à l'auteur upstream.
 
 ## Journal
 
@@ -71,3 +79,6 @@ environ 6 % du jeu garde sa voix chinoise.
 - **18/11** — campagne d'alignement des durées, encodage des 4 167 médias, injection
   de 3 924 packages, nettoyage du dépôt et mise en place du dépôt Git
   (`github.com/Shura2jZ/JapBladeZero`, remote en SSH).
+- **19/11** — cause racine des 238 échecs (média dans la bibliothèque Wwise
+  `VO_CN`) ; abandon du `.pak` au profit d'un conteneur IoStore construit avec
+  `retoc` patché ; conteneur du mod installé dans le jeu.

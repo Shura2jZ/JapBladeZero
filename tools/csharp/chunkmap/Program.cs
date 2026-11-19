@@ -57,13 +57,22 @@ foreach (var tocPath in Directory.GetFiles(paks, "*.utoc").OrderBy(p => p))
     int found = 0;
     if (dumpFile != null && args.Contains("--all"))
     {
-        sw?.WriteLine("index	id	type	chunkIndex	offset	length");
+        sw?.WriteLine("index	id	type	chunkIndex	offset	length	hash");
         for (int i = 0; i < toc.ChunkIds.Length; i++)
         {
             var cid = toc.ChunkIds[i];
             var ol = toc.ChunkOffsetLengths[i];
-            sw?.WriteLine($"{i}	{cid.ChunkId}	{cid.ChunkType}	{cid._chunkIndex}	{ol.Offset}	{ol.Length}");
+            var meta = toc.ChunkMetas != null && i < toc.ChunkMetas.Length ? toc.ChunkMetas[i] : default;
+            sw?.WriteLine($"{i}	{cid.ChunkId}	{cid.ChunkType}	{cid._chunkIndex}	{ol.Offset}	{ol.Length}	{meta.ChunkHash}");
         }
+        sw?.WriteLine($"# compression_blocks	{toc.CompressionBlocks?.Length ?? 0}");
+        for (int i = 0; toc.CompressionBlocks != null && i < toc.CompressionBlocks.Length; i++)
+        {
+            var cb = toc.CompressionBlocks[i];
+            sw?.WriteLine($"cb	{i}	{cb.Offset}	{cb.CompressedSize}	{cb.UncompressedSize}	{cb.CompressionMethodIndex}");
+        }
+        sw?.WriteLine("# compression_methods	" + (toc.CompressionMethods != null ? string.Join(",", toc.CompressionMethods.Select(m => m.ToString())) : ""));
+        sw?.WriteLine($"# header	version={toc.Header.Version}	entries={toc.Header.TocEntryCount}	blocks={toc.Header.TocCompressedBlockEntryCount}	blocksize={toc.Header.TocCompressedBlockEntrySize}	methodcount={toc.Header.CompressionMethodNameCount}	methodlen={toc.Header.CompressionMethodNameLength}	comprblk={toc.Header.CompressionBlockSize}	diridx={toc.Header.DirectoryIndexSize}	partitioncount={toc.Header.PartitionCount}	partitionsize={toc.Header.PartitionSize}	headersize={toc.Header.TocHeaderSize}	seeds={toc.Header.TocChunkPerfectHashSeedsCount}	noperfect={toc.Header.TocChunksWithoutPerfectHashCount}");
     }
     if (sizesFile != null)
     {
@@ -86,7 +95,7 @@ foreach (var tocPath in Directory.GetFiles(paks, "*.utoc").OrderBy(p => p))
         if (!wanted.Contains(low) && !wanted.Contains(high)) continue;
         found++;
         var ol = toc.ChunkOffsetLengths[i];
-        var meta = i < toc.ChunkMetas.Length ? toc.ChunkMetas[i] : default;
+        var meta = toc.ChunkMetas != null && i < toc.ChunkMetas.Length ? toc.ChunkMetas[i] : default;
         Console.WriteLine($"   HIT chunk {i} id=0x{cid.ChunkId:X16} type={cid.ChunkType} index={cid._chunkIndex} offset={ol.Offset} len={ol.Length} chunkhash={meta.ChunkHash}");
         sw?.WriteLine($"{toc.ChunkIds[i].ChunkId}\t{toc.ChunkIds[i].ChunkType}\t{ol.Offset}\t{ol.Length}\t{meta.ChunkHash}");
     }

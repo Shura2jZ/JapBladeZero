@@ -45,20 +45,58 @@ provider.PostMount();
 const string tablePath = "ProjectPBZ/Content/PBZContent/DataTable/Audio/DT_WwiseVoiceDuration.uasset";
 var key = provider.Files.Keys.First(k => k.EndsWith(tablePath, StringComparison.OrdinalIgnoreCase));
 
-string writeFile = null, outDir = null;
+string writeFile = null, outDir = null, rowsFile = null, localFile = null;
 bool dump = false;
 for (int i = 0; i < args.Length; i++)
 {
     if (args[i] == "--write") writeFile = args[++i];
     if (args[i] == "--out") outDir = args[++i];
+    if (args[i] == "--rows") rowsFile = args[++i];
+    if (args[i] == "--file") localFile = args[++i];
     if (args[i] == "--dump") dump = true;
 }
 
 var pk = provider.LoadPackage(provider.Files[key]) as IoPackage;
-if (pk is null) { Console.WriteLine("not an IoPackage"); return; }
-var table = pk.ExportsLazy.Select(e => e.Value).OfType<UDataTable>().FirstOrDefault();
+IPackage pkg;
+if (localFile != null)
+{
+    // reads a local .uasset instead of the one in the game: the file is indexed as a
+    // loose file by a dedicated provider
+    var version = new CUE4Parse.UE4.Versions.VersionContainer(CUE4Parse.UE4.Versions.EGame.GAME_PhantomBladeZero);
+    var dir = Path.GetDirectoryName(Path.GetFullPath(localFile));
+    var localProvider = new CUE4Parse.FileProvider.DefaultFileProvider(dir, System.IO.SearchOption.TopDirectoryOnly, version);
+    localProvider.MappingsContainer = new FileUsmapTypeMappingsProvider(cfg["usmap"]);
+    localProvider.Initialize();
+    localProvider.SubmitKey(new CUE4Parse.UE4.Objects.Core.Misc.FGuid(), new FAesKey(cfg["aes"]));
+    var localGameFile = localProvider.Files.Values.FirstOrDefault(f => string.Equals(Path.GetFileName(f.ToString()), Path.GetFileName(localFile), StringComparison.OrdinalIgnoreCase));
+    if (localGameFile is null) { Console.WriteLine("cannot find " + localFile + " in " + dir); return; }
+    IPackage local;
+    try { local = localProvider.LoadPackage(localGameFile); }
+    catch (Exception ex) { Console.WriteLine("cannot load " + localFile + ": " + ex.Message); return; }
+    pkg = local;
+    Console.WriteLine($"local package {localFile}");
+}
+else
+{
+    if (pk is null) { Console.WriteLine("not an IoPackage"); return; }
+    pkg = pk;
+}
+var table = pkg.ExportsLazy.Select(e => e.Value).OfType<UDataTable>().FirstOrDefault();
 if (table is null) { Console.WriteLine("no UDataTable export"); return; }
 Console.WriteLine($"key={key} rows={table.RowMap.Count} rowStruct={table.RowStructName}");
+
+// dumps every row with its four durations, used to locate them in the raw file
+if (rowsFile != null)
+{
+    using var w = new StreamWriter(rowsFile);
+    w.WriteLine("event\tchinese\tenglish\tgerman\tjapanese");
+    foreach (var kv in table.RowMap)
+    {
+        w.WriteLine($"{kv.Key}\t{GetFloat(kv.Value, "Duration_Chinese")}\t{GetFloat(kv.Value, "Duration_English")}\t{GetFloat(kv.Value, "Duration_German")}\t{GetFloat(kv.Value, "Duration_Japanese")}");
+    }
+    Console.WriteLine($"{table.RowMap.Count} rows written to {rowsFile}");
+    return;
+}
 
 if (dump)
 {

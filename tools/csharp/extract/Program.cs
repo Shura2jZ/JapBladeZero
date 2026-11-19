@@ -80,6 +80,20 @@ void SavePackage(string key, string name)
     ok++;
 }
 
+if (args.Contains("--paths"))
+{
+    foreach (var ev in File.ReadAllLines(eventsFile!).Select(l => l.Trim()).Where(l => l.Length > 0))
+    {
+        var key = provider.Files.Keys.FirstOrDefault(k => k.EndsWith("/" + ev + ".uasset", StringComparison.OrdinalIgnoreCase));
+        if (key is null) { Console.WriteLine($"{ev}	"); continue; }
+        Console.WriteLine($"{ev}	{key}");
+        var ub = key.Substring(0, key.Length - ".uasset".Length) + ".ubulk";
+        if (provider.Files.Keys.Any(k => k.Equals(ub, StringComparison.OrdinalIgnoreCase)))
+            Console.WriteLine($"{ev}	{ub}");
+    }
+    return;
+}
+
 if (lib != null)
 {
     var key = provider.Files.Keys.First(k => Path.GetFileNameWithoutExtension(k).Equals(lib, StringComparison.OrdinalIgnoreCase)

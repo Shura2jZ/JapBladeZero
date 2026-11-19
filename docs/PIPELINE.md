@@ -138,11 +138,111 @@ corrompu.
 Piège : la première version du script lisait les flottants comme des chaînes et
 obtenait 0. Il faut lire le tag avec `UnderlyingType = typeof(float)`.
 
-## 7. Packaging (à faire)
+## 7. Packaging : le jeu est un conteneur IoStore (et non un `.pak`)
 
-- Injecter les 3 924 `.uasset` / `.ubulk` patchés + la DataTable de durées dans le
-  projet UE `F:\Games\UnrealProjects\PBZ_JP_Dub` (UE 5.7.4).
-- Cooker en IoStore, produire
-  `ProjectPBZ/Content/Paks/~mods/PBZJapaneseVoice_9_P.{pak,ucas,utoc}`.
-- Les conteneurs segmentés sont plus difficiles à vérifier avec `retoc` (il ne les lit
-  pas) : un `.pak` simple peut être préféré pour la phase de test.
+### Ce que contient l'installation
+
+```
+ProjectPBZ/Content/Paks/
+  ProjectPBZ-Windows.pak      223 Mo     index « pak » (fichiers non empaquetés)
+  ProjectPBZ-Windows.ucas     2,1 Go     données des chunks
+  ProjectPBZ-Windows.utoc     47 Mo      table des chunks (TOC)
+  ProjectPBZ-Windows_s1..s65.ucas        65 autres partitions (2 Go chacune)
+```
+
+Les 141 Go de contenu ne sont **pas** dans des `.pak` : ils sont dans un conteneur
+IoStore. Chaque fichier (`.uasset`, `.ubulk`) est un *chunk* :
+
+| fait | détail |
+|------|--------|
+| identifiant de chunk | 12 octets = id de package (8 o) + index (2 o) + padding (1 o) + type (1 o) |
+| id de package | `FPackageId.FromName("/Game/<chemin sans extension>")` |
+| type 1 | export bundle (le `.uasset`) |
+| type 2 | bulk data (le `.ubulk`) |
+| compression | Oodle, blocs de 256 Ko, chiffrement AES |
+| blocs | 1 360 361 blocs, offsets dans l'espace décompressé |
+| version du TOC | `ReplaceIoChunkHashWithIoHash` |
+
+Vérifié : `CHUNKID(VO_CN.uasset) = c3e3f641696cd69700000001`,
+`CHUNKID(VO_CN.ubulk) = c3e3f641696cd69700000002` — les mêmes valeurs que dans le
+TOC du jeu.
+
+### Pourquoi un `.pak` ne peut pas fonctionner
+
+- Les paquets d'un jeu IoStore n'ont pas le *magic* legacy (`0x9E2A83C1`) : les
+  fichiers extraits commencent par `00 00 00 00`, ils sont resolus **par id de
+  package** via le *package store* du conteneur, pas par chemin de fichier.
+- Testé : un `.pak` de 1,15 Go contenant les 7 850 fichiers patchés est ignoré par
+  le jeu (démarrage normal, aucune erreur) ; un pak volontairement corrompu ne
+  provoque pas non plus de crash → le moteur ne lit jamais ces fichiers.
+- Le moteur ne scanne que `ProjectPBZ/Content/Paks/` (chaque `.pak` monte le
+  conteneur de même nom) : il n'existe pas de dossier `~mods` dans cette version
+  d'UE (5.7).
+
+### La solution : construire un conteneur IoStore avec retoc
+
+`retoc` (Rust, <https://github.com/trumank/retoc>) sait écrire un conteneur :
+
+```
+retoc pack-raw <dossier> <sortie.utoc>
+```
+
+où le dossier contient `chunks/<id de chunk 12 octets en hex>` et un
+`manifest.json` :
+
+```json
+{ "chunk_paths": { "<id>": "../../../ProjectPBZ/Content/..." },
+  "version": "ReplaceIoChunkHashWithIoHash", "mount_point": "../../../" }
+```
+
+**Patch nécessaire** : la commande `pack-raw` d'origine écrit le conteneur *sans*
+en-tête de conteneur → `packages: 0` → le moteur ne peut résoudre aucun paquet.
+Le correctif (dans `retoc_cli/src/main.rs`) passe une version d'en-tête au writer
+et enregistre les chunks de type *export bundle* dans le *package store* :
+
+```rust
+let container_header_version = config.container_header_version_override
+    .unwrap_or(EIoContainerHeaderVersion::SoftPackageReferencesOffset);
+let mut writer = IoStoreWriter::new(args.utoc, manifest.version,
+                                     Some(container_header_version),
+                                     manifest.mount_point.into())?;
+...
+if chunk_id.get_chunk_type() == EIoChunkType::ExportBundleData {
+    let store_entry = retoc::container_header::StoreEntry {
+        export_bundles_size: data.len() as u64, load_order: 0,
+        export_count: 0, export_bundle_count: 0,
+        imported_packages: Vec::new(), shader_map_hashes: Vec::new() };
+    writer.write_package_chunk(chunk_id, path, &data, &store_entry)?;
+} else {
+    writer.write_chunk_raw(chunk_id_raw, path, &data)?;
+}
+```
+
+Compilation (GNU, il faut `E:\msys64\usr\bin` et `E:\msys64\ucrt64\bin` dans le
+`PATH`, sinon `ld` sort en erreur 53) :
+
+```bash
+export CARGO_TARGET_DIR=E:/cargo_target
+export PATH="$PATH:/e/msys64/usr/bin:/e/msys64/ucrt64/bin"
+cargo build --release -p retoc_cli
+```
+
+### Chaîne de fabrication du mod
+
+```bash
+python src/patch/build_container.py --files data/container_files.tsv --out E:/PBZ_Mod
+# -> E:/PBZ_Mod/PBZJapaneseVoice_9_P.{ucas,utoc}
+# + un .pak vide (le moteur monte le conteneur de même nom)
+UnrealPak.exe PBZJapaneseVoice_9_P.pak -Create=<liste vide> -MountPoint="../../../"
+```
+
+Installation :
+
+```
+ProjectPBZ/Content/Paks/PBZJapaneseVoice_9_P.pak    (vide, 339 o)
+ProjectPBZ/Content/Paks/PBZJapaneseVoice_9_P.ucas   (1 155 Mo)
+ProjectPBZ/Content/Paks/PBZJapaneseVoice_9_P.utoc   (1,1 Mo)
+```
+
+Contrôle : CUE4Parse relit le conteneur du mod et renvoie bien la version
+japonaise (`.ubulk` de 96 477 o au lieu de 114 920 o).

@@ -27,7 +27,8 @@ import argparse, csv, io, json, os, re, struct, subprocess, threading, time, url
 
 BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT_DIR = os.path.join(BASE, 'out', 'jp_events')
-VV_DIR = os.path.join(BASE, 'voicevox', 'windows-cpu')
+# the engine can live outside the repository (it is not versioned)
+VV_DIR = os.environ.get('VOICEVOX_DIR') or os.path.join(BASE, 'voicevox', 'windows-cpu')
 PORTS = [50021, 50022, 50023, 50024]
 SPEEDS_PATH = os.path.join(BASE, 'data', 'jp_speeds.json')
 MANIFEST = os.path.join(BASE, 'data', 'manifest_jp.csv')

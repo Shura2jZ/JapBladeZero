@@ -9,7 +9,8 @@ import csv, json, os, re, sys, time, threading, queue, subprocess, urllib.reques
 
 BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT_DIR = os.path.join(BASE, 'out', 'jp_events')
-VV_DIR = os.path.join(BASE, 'voicevox', 'windows-cpu')
+# the engine can live outside the repository (it is not versioned)
+VV_DIR = os.environ.get('VOICEVOX_DIR') or os.path.join(BASE, 'voicevox', 'windows-cpu')
 PORTS = [50021, 50022, 50023, 50024]
 MAX_RETRIES = 4
 
