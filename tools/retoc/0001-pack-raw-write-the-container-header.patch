@@ -1,0 +1,50 @@
+diff --git a/retoc_cli/src/main.rs b/retoc_cli/src/main.rs
+index df93f46..d15afe1 100644
+--- a/retoc_cli/src/main.rs
++++ b/retoc_cli/src/main.rs
+@@ -606,16 +606,40 @@ fn action_unpack_raw(args: ActionUnpackRaw, config: Arc<Config>) -> Result<()> {
+     Ok(())
+ }
+ 
+-fn action_pack_raw(args: ActionPackRaw, _config: Arc<Config>) -> Result<()> {
++fn action_pack_raw(args: ActionPackRaw, config: Arc<Config>) -> Result<()> {
+     let manifest: raw::RawIoManifest = serde_json::from_reader(BufReader::new(fs::File::open(args.input.join("manifest.json"))?))?;
+ 
+-    let mut writer = IoStoreWriter::new(args.utoc, manifest.version, None, manifest.mount_point.into())?;
++    // patched: the container header (with the package store) is required by the
++    // engine to resolve the packages of the container
++    let container_header_version = config
++        .container_header_version_override
++        .unwrap_or(EIoContainerHeaderVersion::SoftPackageReferencesOffset);
++
++    let mut writer = IoStoreWriter::new(
++        args.utoc,
++        manifest.version,
++        Some(container_header_version),
++        manifest.mount_point.into(),
++    )?;
+     for entry in args.input.join("chunks").read_dir()? {
+         let entry = entry?;
+-        let chunk_id = FIoChunkIdRaw::from_str(entry.file_name().to_string_lossy().as_ref())?;
+-        let path = manifest.chunk_paths.get(&chunk_id.into()).map(UEPath::new);
++        let chunk_id_raw = FIoChunkIdRaw::from_str(entry.file_name().to_string_lossy().as_ref())?;
++        let path = manifest.chunk_paths.get(&chunk_id_raw.into()).map(UEPath::new);
+         let data = fs::read(entry.path())?;
+-        writer.write_chunk_raw(chunk_id, path, &data)?;
++        let chunk_id = FIoChunkId::from_raw(chunk_id_raw, manifest.version);
++        if chunk_id.get_chunk_type() == EIoChunkType::ExportBundleData {
++            let store_entry = retoc::container_header::StoreEntry {
++                export_bundles_size: data.len() as u64,
++                load_order: 0,
++                export_count: 0,
++                export_bundle_count: 0,
++                imported_packages: Vec::new(),
++                shader_map_hashes: Vec::new(),
++            };
++            writer.write_package_chunk(chunk_id, path, &data, &store_entry)?;
++        } else {
++            writer.write_chunk_raw(chunk_id_raw, path, &data)?;
++        }
+     }
+     writer.finalize()?;
+     Ok(())

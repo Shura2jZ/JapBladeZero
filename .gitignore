@@ -45,3 +45,6 @@ tools/csharp/*/pbz_paths.txt
 tools/csharp/*/bin/
 tools/csharp/*/obj/
 tools/csharp/*/build/
+
+# liste vide utilisée pour créer le .pak du mod
+build/empty_list.txt
