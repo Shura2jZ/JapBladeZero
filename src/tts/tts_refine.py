@@ -17,10 +17,11 @@ runs refine multiplicatively instead of restarting from 1.0.
 """
 import csv, json, os, re, sys, time, threading, subprocess, urllib.request, urllib.parse, wave, io, struct
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-OUT_DIR = os.path.join(BASE, 'out', 'jp_events')
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from paths import BASE, out, voicevox
+OUT_DIR = out('jp_events')
 # the engine can live outside the repository (it is not versioned)
-VV_DIR = os.environ.get('VOICEVOX_DIR') or os.path.join(BASE, 'voicevox', 'windows-cpu')
+VV_DIR = voicevox()
 PORTS = [50021, 50022, 50023, 50024]
 MAX_RETRIES = 4
 

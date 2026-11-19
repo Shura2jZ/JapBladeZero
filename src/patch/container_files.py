@@ -7,10 +7,13 @@ Usage:
     python src/patch/container_files.py            -> data/container_files.tsv
 """
 import os
+import sys
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-PATCHED = os.path.join(BASE, 'build', 'patched_all')
-LIBRARY = os.path.join(BASE, 'build', 'patched_lib')
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from paths import BASE, build
+
+PATCHED = build('patched_all')
+LIBRARY = build('patched_lib')
 PATHS = os.path.join(BASE, 'data', 'event_paths.tsv')
 OUT = os.path.join(BASE, 'data', 'container_files.tsv')
 

@@ -14,9 +14,10 @@ Usage: python wem_batch.py [--workers N] [--quality Q]
 import argparse, csv, json, os, shutil, struct, subprocess, sys, tempfile
 from concurrent.futures import ThreadPoolExecutor
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-WAV_DIR = os.path.join(BASE, 'out', 'jp_events')
-OUT_DIR = os.path.join(BASE, 'out', 'jp_wem')
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from paths import BASE, out
+WAV_DIR = out('jp_events')
+OUT_DIR = out('jp_wem')
 TOOLS = os.path.join(BASE, 'tools')
 ENCODE = os.path.join(TOOLS, 'encode.exe')
 WEMPY = os.path.join(TOOLS, 'wem.py')

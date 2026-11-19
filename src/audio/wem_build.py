@@ -16,12 +16,13 @@ Usage:  python wem_build.py [--limit N] [--quality Q] [--out DIR]
 """
 import csv, json, os, shutil, subprocess, sys, tempfile, wave
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-WAV_DIR = os.path.join(BASE, 'out', 'jp_events')
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from paths import BASE, out
+WAV_DIR = out('jp_events')
 TOOLS = os.path.join(BASE, 'tools')
 ENCODE = os.path.join(TOOLS, 'encode.exe')
 WEMPY = os.path.join(TOOLS, 'wem.py')
-DEFAULT_OUT = os.path.join(BASE, 'out', 'jp_wem')
+DEFAULT_OUT = out('jp_wem')
 
 # The .wem the game ships uses vorbs where: mask 0x4101, and the media is mono 48 kHz.
 # encode.exe -> wem.py produce mask 0x4 for mono; the game's own files use 0x4101 for the

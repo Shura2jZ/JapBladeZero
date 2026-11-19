@@ -12,18 +12,20 @@ out like the game:
 Usage:
     python src/patch/stage_mod.py
 """
-import argparse, csv, json, os, shutil
+import argparse, csv, json, os, shutil, sys
+import sys
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from paths import BASE, build
 GAME_ROOT = 'ProjectPBZ/Content'
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--patched', default=os.path.join(BASE, 'build', 'patched_all'))
-    ap.add_argument('--library', default=os.path.join(BASE, 'build', 'patched_lib'))
+    ap.add_argument('--patched', default=build('patched_all'))
+    ap.add_argument('--library', default=build('patched_lib'))
     ap.add_argument('--paths', default=os.path.join(BASE, 'data', 'event_paths.tsv'))
-    ap.add_argument('--out', default=os.path.join(BASE, 'build', 'stage'))
+    ap.add_argument('--out', default=build('stage'))
     ap.add_argument('--datatable', default='', help='patched DT_WwiseVoiceDuration.uasset')
     args = ap.parse_args()
 

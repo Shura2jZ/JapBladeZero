@@ -13,7 +13,8 @@ Usage:
 """
 import argparse, json, os, shutil, subprocess, sys
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from paths import BASE, build
 RETOC = os.environ.get('RETOC', r'C:\tools\retoc\retoc.exe')
 CHUNKIDS = os.path.join(BASE, 'tools', 'csharp', 'chunkids', 'bin', 'Release', 'net10.0', 'chunkids.exe')
 TOC_VERSION = 'ReplaceIoChunkHashWithIoHash'
@@ -40,7 +41,7 @@ def main():
     ap.add_argument('--files', required=True, help='list of "game path<TAB>local file"')
     ap.add_argument('--out', default=r'E:\PBZ_Mod')
     ap.add_argument('--name', default='PBZJapaneseVoice_9_P')
-    ap.add_argument('--work', default=os.path.join(BASE, 'build', 'container'))
+    ap.add_argument('--work', default=build('container'))
     ap.add_argument('--limit', type=int, default=0)
     args = ap.parse_args()
 

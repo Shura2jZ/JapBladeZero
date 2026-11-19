@@ -8,9 +8,11 @@ lines are padded to exactly that duration.
 
 Usage: python src/patch/verify_library.py [--lib build/patched_lib]
 """
-import argparse, collections, json, os, struct
+import argparse, collections, json, os, struct, sys
+import sys
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from paths import BASE, build, out
 
 
 def find_table(uasset):
@@ -62,8 +64,8 @@ def wem_duration(blob):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--lib', default=os.path.join(BASE, 'build', 'patched_lib'))
-    ap.add_argument('--wem', default=os.path.join(BASE, 'out', 'jp_wem'))
+    ap.add_argument('--lib', default=build('patched_lib'))
+    ap.add_argument('--wem', default=out('jp_wem'))
     ap.add_argument('--refs', default=os.path.join(BASE, 'data', 'external_media_refs.tsv'))
     ap.add_argument('--packaged', default=os.path.join(BASE, 'data', 'library_packaged_files.tsv'))
     ap.add_argument('--durations', default=os.path.join(BASE, 'data', 'durations.json'))

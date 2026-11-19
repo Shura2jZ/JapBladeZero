@@ -42,11 +42,13 @@ Replacing the Chinese media with a differently sized one therefore means:
 The blocks are located through the table, and the result is verified before it is
 written, so a package with a different layout is refused instead of being corrupted.
 """
-import argparse, json, os, struct
+import argparse, json, os, struct, sys
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-WEM_DIR = os.path.join(BASE, 'out', 'jp_wem')
-RAW_DIR = os.path.join(BASE, 'build', 'raw')
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from paths import BASE, build, out
+
+WEM_DIR = out('jp_wem')
+RAW_DIR = build('raw')
 
 # The bulk-data table of the .uasset: a list of 32-byte entries, each of them
 # [-1, -1, SizeOnDisk, 0, Flags, 0, EndOffset, 0]. The blocks are contiguous, so the

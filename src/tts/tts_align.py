@@ -23,12 +23,14 @@ multiplicatively instead of restarting from 1.0.
 
 Usage: python tts_align.py [--max N] [--start I] [--tol 0.01]
 """
-import argparse, csv, io, json, os, re, struct, subprocess, threading, time, urllib.parse, urllib.request, wave
+import argparse, csv, io, json, os, re, struct, subprocess, threading, time, urllib.parse, urllib.request, wave, sys
+import sys
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-OUT_DIR = os.path.join(BASE, 'out', 'jp_events')
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from paths import BASE, out, voicevox
+OUT_DIR = out('jp_events')
 # the engine can live outside the repository (it is not versioned)
-VV_DIR = os.environ.get('VOICEVOX_DIR') or os.path.join(BASE, 'voicevox', 'windows-cpu')
+VV_DIR = voicevox()
 PORTS = [50021, 50022, 50023, 50024]
 SPEEDS_PATH = os.path.join(BASE, 'data', 'jp_speeds.json')
 MANIFEST = os.path.join(BASE, 'data', 'manifest_jp.csv')

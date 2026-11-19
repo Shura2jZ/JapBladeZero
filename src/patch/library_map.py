@@ -26,9 +26,10 @@ by duration (the duration of the Chinese media is known from DT_WwiseVoiceDurati
 Usage:
     python src/patch/library_map.py [--lib build/libs/VO_CN] [--out data/library_map.json]
 """
-import argparse, collections, json, os, struct
+import argparse, collections, json, os, struct, sys
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from paths import BASE, build
 SAMPLE_RATE = 48000
 
 
@@ -122,7 +123,7 @@ def load_refs(path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--lib', default=os.path.join(BASE, 'build', 'libs'))
+    ap.add_argument('--lib', default=build('libs'))
     ap.add_argument('--refs', default=os.path.join(BASE, 'data', 'external_media_refs.tsv'))
     ap.add_argument('--durations', default=os.path.join(BASE, 'data', 'durations.json'))
     ap.add_argument('--out', default=os.path.join(BASE, 'data', 'library_map.json'))

@@ -15,9 +15,10 @@ Only the `japanese_text` and `japanese_text_tts` columns are touched.
 """
 import csv, json, os, re, sys
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from paths import BASE, models
 MANIFEST = os.path.join(BASE, 'data', 'manifest_jp.csv')
-MODEL_DIR = os.path.join(BASE, 'models', 'opus-mt-zh-ja')
+MODEL_DIR = models('opus-mt-zh-ja')
 
 # Manual lexicon for the recurring short interjections the MT model mangles.
 # key = chinese source text (normalised), value = (japanese, tts form)

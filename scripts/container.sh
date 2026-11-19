@@ -45,6 +45,7 @@ python src/patch/build_container.py --files data/container_files.tsv --out "$OUT
 
 # le moteur monte le conteneur qui porte le nom du .pak : il faut un .pak (vide suffit)
 : > "$BASE/build/empty_list.txt"
+rm -f "$OUT/$NAME.pak"
 "$UNREALPAK" "$OUT/$NAME.pak" "-Create=$BASE/build/empty_list.txt" -MountPoint="../../../"
 
 echo "installation dans $PAKS"

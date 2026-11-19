@@ -9,17 +9,19 @@ Usage: python inject_all.py [--raw DIR] [--out DIR] [--events FILE]
 import argparse, json, os, sys, traceback
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from inject_bin import patch, BASE
+from paths import build, out
 
 MAIN = os.path.join(BASE, 'tools', 'csharp', 'inject', 'Program.cs')
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--raw', default=os.path.join(BASE, 'build', 'raw_all'))
-    ap.add_argument('--out', default=os.path.join(BASE, 'build', 'patched_all'))
+    ap.add_argument('--raw', default=build('raw_all'))
+    ap.add_argument('--out', default=build('patched_all'))
     ap.add_argument('--events', default=os.path.join(BASE, 'data', 'events_ok.txt'))
-    ap.add_argument('--wem-dir', default=os.path.join(BASE, 'out', 'jp_wem'))
+    ap.add_argument('--wem-dir', default=out('jp_wem'))
     args = ap.parse_args()
 
     events = [l.strip() for l in open(args.events, encoding='utf-8') if l.strip()]

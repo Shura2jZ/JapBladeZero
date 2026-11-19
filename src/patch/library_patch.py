@@ -33,9 +33,11 @@ updated with the new sizes and offsets.
 Usage:
     python src/patch/library_patch.py
 """
-import argparse, json, os, struct
+import argparse, json, os, struct, sys
+import sys
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from paths import BASE, build, out
 TABLE_STRIDE = 32
 TABLE_MARKER = -1
 TABLE_FLAGS = 66817
@@ -104,11 +106,11 @@ def rewrite_riff_size(blob, new_size):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--lib', default=os.path.join(BASE, 'build', 'libs'), help='VO_CN.uasset + .ubulk')
-    ap.add_argument('--wem', default=os.path.join(BASE, 'out', 'jp_wem'))
+    ap.add_argument('--lib', default=build('libs'), help='VO_CN.uasset + .ubulk')
+    ap.add_argument('--wem', default=out('jp_wem'))
     ap.add_argument('--refs', default=os.path.join(BASE, 'data', 'external_media_refs.tsv'))
     ap.add_argument('--packaged', default=os.path.join(BASE, 'data', 'library_packaged_files.tsv'))
-    ap.add_argument('--out', default=os.path.join(BASE, 'build', 'patched_lib'))
+    ap.add_argument('--out', default=build('patched_lib'))
     args = ap.parse_args()
 
     uasset = bytearray(open(os.path.join(args.lib, 'VO_CN.uasset'), 'rb').read())

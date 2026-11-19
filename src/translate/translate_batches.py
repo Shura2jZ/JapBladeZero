@@ -2,9 +2,10 @@ import csv, json, os, re, sys, glob
 import torch
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from paths import BASE, models
 MANIFEST = os.path.join(BASE, 'data', 'manifest_jp.csv')
-MODEL_DIR = os.path.join(BASE, 'models', 'opus-mt-zh-ja')
+MODEL_DIR = models('opus-mt-zh-ja')
 OUT = os.path.join(BASE, 'data', 'batches', 'out_mt.json')
 
 tok = AutoTokenizer.from_pretrained(MODEL_DIR)
