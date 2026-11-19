@@ -138,6 +138,37 @@ corrompu.
 Piège : la première version du script lisait les flottants comme des chaînes et
 obtenait 0. Il faut lire le tag avec `UnderlyingType = typeof(float)`.
 
+### Layout binaire (identifié par sondes)
+
+Écriture d'une ligne (le nom est la clé de la table, les valeurs suivent) :
+
+```
+[FString nom (longueur + caractères + 0)]
+[Duration_Chinese  float32]   <- seulement si non nul
+[Duration_English float32]   <- seulement si non nul
+[Duration_German  float32]   <- seulement si non nul
+[Duration_Japanese float32]  <- seulement si non nul
+[int32 X]  [int32 2]  [FName 4 o]  [3 o]
+```
+
+Les propriétés **à valeur nulle ne sont pas écrites** : la longueur de la ligne
+vaut 23 octets si chinois et anglais sont non nuls, 19 si un seul l'est, 15 si
+aucun ne l'est. Vérifié sur les 7 971 lignes (CN retrouvé à +0 dans 4 631/4 631
+cas, EN à +4 dans 4 387/4 388).
+
+Conséquence : écrire `Duration_Japanese` impose **d'insérer** 4 octets par ligne
+(la propriété n'existe pas encore dans le fichier), donc de modifier la taille de
+l'export `UDataTable` et du résumé du package. `tools/csharp/durations` sait lire
+et écrire en mémoire, mais `TrySavePackage` ne persiste pas la modification
+(fichier identique à l'octet près) → il faut passer par un patch binaire.
+
+Méthode de vérification (sans CUE4Parse en écriture) : construire un petit
+conteneur IoStore avec la DataTable modifiée (un seul chunk) et le relire avec
+`tools/csharp/durations` — le conteneur du mod est prioritaire dans le lecteur.
+
+Impact limité : la voix japonaise est alignée sur la durée chinoise (± 0,06 s),
+donc le lip-sync reste correct tant que la table n'est pas mise à jour.
+
 ## 7. Packaging : le jeu est un conteneur IoStore (et non un `.pak`)
 
 ### Ce que contient l'installation
