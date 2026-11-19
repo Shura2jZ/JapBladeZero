@@ -37,3 +37,11 @@ pbz_paths.txt
 # --- divers -----------------------------------------------------------------
 .DS_Store
 Thumbs.db
+
+# copies locales de la configuration C#
+tools/csharp/*/pbz_paths.txt
+
+# sorties de compilation des outils C#
+tools/csharp/*/bin/
+tools/csharp/*/obj/
+tools/csharp/*/build/

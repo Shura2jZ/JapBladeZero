@@ -1,0 +1,4422 @@
+{
+ "Vo_Plot_DDSD_GM_GM_25": {
+  "media_id": 959774969,
+  "headers": [
+   217
+  ],
+  "duration": 7.0373335,
+  "candidates": [
+   {
+    "block": 3184,
+    "size": 110471,
+    "dur": 7.037333333333334
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_HXZ_HXZ_15": {
+  "media_id": 919691586,
+  "headers": [
+   220
+  ],
+  "duration": 5.5074167,
+  "candidates": [
+   {
+    "block": 3077,
+    "size": 74669,
+    "dur": 5.507416666666667
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_HXZ_HXZ_16": {
+  "media_id": 759783962,
+  "headers": [
+   221
+  ],
+  "duration": 10.578375,
+  "candidates": [
+   {
+    "block": 2585,
+    "size": 286474,
+    "dur": 10.578375
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_HXZ_HXZ_17": {
+  "media_id": 414947909,
+  "headers": [
+   222
+  ],
+  "duration": 12.849271,
+  "candidates": [
+   {
+    "block": 1408,
+    "size": 356858,
+    "dur": 12.849270833333334
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_HXZ_HXZ_6": {
+  "media_id": 857387786,
+  "headers": [
+   903
+  ],
+  "duration": 13.791938,
+  "candidates": [
+   {
+    "block": 2868,
+    "size": 382484,
+    "dur": 13.7919375
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_HXZ_YM_1": {
+  "media_id": 304069664,
+  "headers": [
+   1409
+  ],
+  "duration": 5.364333,
+  "candidates": [
+   {
+    "block": 1032,
+    "size": 106159,
+    "dur": 5.364333333333334
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_HXZ_YM_5": {
+  "media_id": 1071215996,
+  "headers": [
+   1410
+  ],
+  "duration": 7.0886664,
+  "candidates": [
+   {
+    "block": 3529,
+    "size": 126510,
+    "dur": 7.088666666666667
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_JHRS_Hun_21": {
+  "media_id": 763903560,
+  "headers": [
+   418
+  ],
+  "duration": 1.136,
+  "candidates": [
+   {
+    "block": 2348,
+    "size": 15647,
+    "dur": 1.1359791666666668
+   },
+   {
+    "block": 2600,
+    "size": 20451,
+    "dur": 1.136
+   },
+   {
+    "block": 2825,
+    "size": 31833,
+    "dur": 1.1343333333333334
+   },
+   {
+    "block": 3204,
+    "size": 16686,
+    "dur": 1.1363958333333333
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_JHRS_JHRS_20": {
+  "media_id": 437191975,
+  "headers": [
+   526
+  ],
+  "duration": 8.605333,
+  "candidates": [
+   {
+    "block": 1495,
+    "size": 129836,
+    "dur": 8.605333333333334
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_JHRS_JHRS_22": {
+  "media_id": 794169472,
+  "headers": [
+   527
+  ],
+  "duration": 5.292,
+  "candidates": [
+   {
+    "block": 971,
+    "size": 274104,
+    "dur": 5.29
+   },
+   {
+    "block": 2713,
+    "size": 65479,
+    "dur": 5.292
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_KLSJ_MJZ_1": {
+  "media_id": 745268592,
+  "headers": [
+   1397
+  ],
+  "duration": 5.1709585,
+  "candidates": [
+   {
+    "block": 2538,
+    "size": 60609,
+    "dur": 5.170958333333333
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_KLSJ_MJZ_2": {
+  "media_id": 1047051214,
+  "headers": [
+   1398
+  ],
+  "duration": 5.9826665,
+  "candidates": [
+   {
+    "block": 3436,
+    "size": 65941,
+    "dur": 5.982666666666667
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_LY_Hun_22": {
+  "media_id": 196526700,
+  "headers": [
+   328
+  ],
+  "duration": 1.2106667,
+  "candidates": [
+   {
+    "block": 645,
+    "size": 16857,
+    "dur": 1.2085416666666666
+   },
+   {
+    "block": 692,
+    "size": 17946,
+    "dur": 1.2106666666666666
+   },
+   {
+    "block": 748,
+    "size": 26598,
+    "dur": 1.2098958333333334
+   },
+   {
+    "block": 1955,
+    "size": 30768,
+    "dur": 1.2080208333333333
+   },
+   {
+    "block": 2129,
+    "size": 16647,
+    "dur": 1.2076875
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_LY_LY_21": {
+  "media_id": 507242104,
+  "headers": [
+   457
+  ],
+  "duration": 2.8466666,
+  "candidates": [
+   {
+    "block": 1731,
+    "size": 42100,
+    "dur": 2.8466666666666667
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_Mask1_JM_1": {
+  "media_id": 516684175,
+  "headers": [
+   967
+  ],
+  "duration": 3.7835,
+  "candidates": [
+   {
+    "block": 1766,
+    "size": 78677,
+    "dur": 3.7835
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_Mask1_JM_3": {
+  "media_id": 264705238,
+  "headers": [
+   968
+  ],
+  "duration": 3.78,
+  "candidates": [
+   {
+    "block": 918,
+    "size": 73821,
+    "dur": 3.78
+   },
+   {
+    "block": 2225,
+    "size": 49146,
+    "dur": 3.7780833333333335
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_Mask1_TM_2": {
+  "media_id": 732769025,
+  "headers": [
+   1320
+  ],
+  "duration": 1.4246666,
+  "candidates": [
+   {
+    "block": 293,
+    "size": 37859,
+    "dur": 1.4233958333333334
+   },
+   {
+    "block": 649,
+    "size": 23475,
+    "dur": 1.4261666666666666
+   },
+   {
+    "block": 859,
+    "size": 38949,
+    "dur": 1.4266875
+   },
+   {
+    "block": 2259,
+    "size": 38606,
+    "dur": 1.4266875
+   },
+   {
+    "block": 2540,
+    "size": 40195,
+    "dur": 1.4266875
+   },
+   {
+    "block": 1459,
+    "size": 19895,
+    "dur": 1.4261458333333332
+   },
+   {
+    "block": 1706,
+    "size": 20736,
+    "dur": 1.423106575963719
+   },
+   {
+    "block": 2139,
+    "size": 35023,
+    "dur": 1.4256666666666666
+   },
+   {
+    "block": 2491,
+    "size": 26120,
+    "dur": 1.4246666666666667
+   },
+   {
+    "block": 2917,
+    "size": 18414,
+    "dur": 1.423875
+   },
+   {
+    "block": 3456,
+    "size": 15068,
+    "dur": 1.4244375
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_Mask2_JM_1": {
+  "media_id": 356165421,
+  "headers": [
+   1431
+  ],
+  "duration": 2.2353334,
+  "candidates": [
+   {
+    "block": 1209,
+    "size": 47818,
+    "dur": 2.235333333333333
+   },
+   {
+    "block": 1498,
+    "size": 32481,
+    "dur": 2.2357291666666668
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_Mask2_JM_3": {
+  "media_id": 275921475,
+  "headers": [
+   1432
+  ],
+  "duration": 3.1173334,
+  "candidates": [
+   {
+    "block": 958,
+    "size": 56587,
+    "dur": 3.1173333333333333
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_Mask2_TM_2": {
+  "media_id": 598717389,
+  "headers": [
+   662
+  ],
+  "duration": 3.7393334,
+  "candidates": [
+   {
+    "block": 2050,
+    "size": 73488,
+    "dur": 3.739333333333333
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_Mask2_TM_4": {
+  "media_id": 506717184,
+  "headers": [
+   663
+  ],
+  "duration": 4.1913333,
+  "candidates": [
+   {
+    "block": 1724,
+    "size": 83248,
+    "dur": 4.191333333333334
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_Mask3_AND_3": {
+  "media_id": 822853766,
+  "headers": [
+   307
+  ],
+  "duration": 6.153333,
+  "candidates": [
+   {
+    "block": 2786,
+    "size": 123667,
+    "dur": 6.153333333333333
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_Mask3_JM_1": {
+  "media_id": 445095622,
+  "headers": [
+   1546
+  ],
+  "duration": 2.7626667,
+  "candidates": [
+   {
+    "block": 1244,
+    "size": 85298,
+    "dur": 2.765645833333333
+   },
+   {
+    "block": 1522,
+    "size": 55490,
+    "dur": 2.7626666666666666
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_Mask3_TM_2": {
+  "media_id": 988539305,
+  "headers": [
+   1148
+  ],
+  "duration": 2.988,
+  "candidates": [
+   {
+    "block": 47,
+    "size": 68155,
+    "dur": 2.987375
+   },
+   {
+    "block": 3200,
+    "size": 38040,
+    "dur": 2.9873541666666665
+   },
+   {
+    "block": 1230,
+    "size": 66540,
+    "dur": 2.9897916666666666
+   },
+   {
+    "block": 3264,
+    "size": 70127,
+    "dur": 2.988
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_Mask4_JM_1": {
+  "media_id": 1059583185,
+  "headers": [
+   173
+  ],
+  "duration": 2.3426666,
+  "candidates": [
+   {
+    "block": 2446,
+    "size": 36718,
+    "dur": 2.3428958333333334
+   },
+   {
+    "block": 2473,
+    "size": 35545,
+    "dur": 2.3428958333333334
+   },
+   {
+    "block": 3037,
+    "size": 38038,
+    "dur": 2.34
+   },
+   {
+    "block": 3482,
+    "size": 48190,
+    "dur": 2.3426666666666667
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_Mask4_TM_2": {
+  "media_id": 155569665,
+  "headers": [
+   950
+  ],
+  "duration": 2.5733333,
+  "candidates": [
+   {
+    "block": 558,
+    "size": 53695,
+    "dur": 2.5733333333333333
+   },
+   {
+    "block": 1950,
+    "size": 36624,
+    "dur": 2.57312925170068
+   },
+   {
+    "block": 3189,
+    "size": 63886,
+    "dur": 2.5715416666666666
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_NJK_NJK_10": {
+  "media_id": 816328801,
+  "headers": [
+   1330
+  ],
+  "duration": 3.107,
+  "candidates": [
+   {
+    "block": 2775,
+    "size": 38424,
+    "dur": 3.107
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_NJK_NJK_9": {
+  "media_id": 25947841,
+  "headers": [
+   1095
+  ],
+  "duration": 7.386,
+  "candidates": [
+   {
+    "block": 81,
+    "size": 103034,
+    "dur": 7.386
+   }
+  ]
+ },
+ "Vo_Plot_DDSD_NJK_NJK_9_1": {
+  "media_id": 786179849,
+  "headers": [
+   535
+  ],
+  "duration": 3.132,
+  "candidates": [
+   {
+    "block": 1940,
+    "size": 43645,
+    "dur": 3.1349583333333335
+   },
+   {
+    "block": 2663,
+    "size": 41847,
+    "dur": 3.132
+   }
+  ]
+ },
+ "Vo_Plot_DHSD_FengXueDaoKe1_Battle_1_2": {
+  "media_id": 447977712,
+  "headers": [
+   1385
+  ],
+  "duration": 2.0645626,
+  "candidates": [
+   {
+    "block": 164,
+    "size": 18958,
+    "dur": 2.0650625
+   },
+   {
+    "block": 292,
+    "size": 29126,
+    "dur": 2.0625833333333334
+   },
+   {
+    "block": 1531,
+    "size": 34105,
+    "dur": 2.0645625
+   },
+   {
+    "block": 1792,
+    "size": 26351,
+    "dur": 2.065166666666667
+   },
+   {
+    "block": 1821,
+    "size": 26184,
+    "dur": 2.061700680272109
+   }
+  ]
+ },
+ "Vo_Plot_DHSD_FengXueDaoKe1_Battle_2": {
+  "media_id": 1035097337,
+  "headers": [
+   510
+  ],
+  "duration": 4.082667,
+  "candidates": [
+   {
+    "block": 3407,
+    "size": 79320,
+    "dur": 4.082666666666666
+   }
+  ]
+ },
+ "Vo_Plot_DHSD_FengXueDaoKe1_Battle_3": {
+  "media_id": 103151811,
+  "headers": [
+   511
+  ],
+  "duration": 3.626,
+  "candidates": [
+   {
+    "block": 361,
+    "size": 72035,
+    "dur": 3.626
+   },
+   {
+    "block": 2737,
+    "size": 60817,
+    "dur": 3.626
+   },
+   {
+    "block": 1431,
+    "size": 31986,
+    "dur": 3.628791666666667
+   }
+  ]
+ },
+ "Vo_Plot_DHSD_FengXueDaoKe2_FengXueDaoKe_Battle_1": {
+  "media_id": 791076614,
+  "headers": [
+   928
+  ],
+  "duration": 5.6266665,
+  "candidates": [
+   {
+    "block": 2687,
+    "size": 104874,
+    "dur": 5.626666666666667
+   }
+  ]
+ },
+ "Vo_Plot_DHSD_FengXueDaoKe2_Hun_Battle_2": {
+  "media_id": 605248778,
+  "headers": [
+   1314
+  ],
+  "duration": 0.8153333,
+  "candidates": [
+   {
+    "block": 111,
+    "size": 12704,
+    "dur": 0.8175625
+   },
+   {
+    "block": 815,
+    "size": 17667,
+    "dur": 0.8162083333333333
+   },
+   {
+    "block": 1084,
+    "size": 12970,
+    "dur": 0.8148541666666667
+   },
+   {
+    "block": 2074,
+    "size": 16089,
+    "dur": 0.8153333333333334
+   },
+   {
+    "block": 2171,
+    "size": 14098,
+    "dur": 0.8169375
+   },
+   {
+    "block": 2461,
+    "size": 11516,
+    "dur": 0.8157708333333333
+   },
+   {
+    "block": 2926,
+    "size": 20335,
+    "dur": 0.815125
+   }
+  ]
+ },
+ "Vo_Plot_DHSD_FengXueDaoKe3_Battle_1": {
+  "media_id": 748905363,
+  "headers": [
+   1580
+  ],
+  "duration": 2.48,
+  "candidates": [
+   {
+    "block": 2087,
+    "size": 53915,
+    "dur": 2.4787916666666665
+   },
+   {
+    "block": 2544,
+    "size": 44553,
+    "dur": 2.48
+   }
+  ]
+ },
+ "Vo_Plot_DHSD_FengXueDaoKe3_Battle_2": {
+  "media_id": 302389821,
+  "headers": [
+   1579
+  ],
+  "duration": 3.384,
+  "candidates": [
+   {
+    "block": 1024,
+    "size": 65314,
+    "dur": 3.384
+   }
+  ]
+ },
+ "Vo_Plot_End_CBA_MengHua1_Inanis_1": {
+  "media_id": 149391314,
+  "headers": [
+   945
+  ],
+  "duration": 1.7286667,
+  "candidates": [
+   {
+    "block": 112,
+    "size": 23125,
+    "dur": 1.728
+   },
+   {
+    "block": 138,
+    "size": 24456,
+    "dur": 1.7315625
+   },
+   {
+    "block": 1363,
+    "size": 25866,
+    "dur": 1.7315625
+   },
+   {
+    "block": 528,
+    "size": 27560,
+    "dur": 1.7286666666666666
+   },
+   {
+    "block": 2317,
+    "size": 30484,
+    "dur": 1.7268333333333334
+   },
+   {
+    "block": 2960,
+    "size": 37867,
+    "dur": 1.7290416666666666
+   },
+   {
+    "block": 3533,
+    "size": 37869,
+    "dur": 1.7308333333333332
+   }
+  ]
+ },
+ "Vo_Plot_End_CBA_MengHua1_Inanis_2": {
+  "media_id": 135163987,
+  "headers": [
+   944
+  ],
+  "duration": 4.5066667,
+  "candidates": [
+   {
+    "block": 465,
+    "size": 75211,
+    "dur": 4.506666666666667
+   }
+  ]
+ },
+ "Vo_Plot_End_CBA_MengHua1_MengHua_3": {
+  "media_id": 805310358,
+  "headers": [
+   1278
+  ],
+  "duration": 3.626,
+  "candidates": [
+   {
+    "block": 361,
+    "size": 72035,
+    "dur": 3.626
+   },
+   {
+    "block": 2737,
+    "size": 60817,
+    "dur": 3.626
+   },
+   {
+    "block": 1431,
+    "size": 31986,
+    "dur": 3.628791666666667
+   }
+  ]
+ },
+ "Vo_Plot_End_CBA_MengHua2_Inanis_1": {
+  "media_id": 484432103,
+  "headers": [
+   427
+  ],
+  "duration": 2.828,
+  "candidates": [
+   {
+    "block": 467,
+    "size": 56172,
+    "dur": 2.8293333333333335
+   },
+   {
+    "block": 1658,
+    "size": 47184,
+    "dur": 2.828
+   }
+  ]
+ },
+ "Vo_Plot_End_CBA_MengHua2_Inanis_2": {
+  "media_id": 697618717,
+  "headers": [
+   426
+  ],
+  "duration": 3.8566666,
+  "candidates": [
+   {
+    "block": 1612,
+    "size": 57462,
+    "dur": 3.859208333333333
+   },
+   {
+    "block": 2379,
+    "size": 52841,
+    "dur": 3.8566666666666665
+   }
+  ]
+ },
+ "Vo_Plot_End_Common_P1_Inanis_1": {
+  "media_id": 152503402,
+  "headers": [
+   30
+  ],
+  "duration": 4.7026668,
+  "candidates": [
+   {
+    "block": 545,
+    "size": 75129,
+    "dur": 4.7026666666666666
+   }
+  ]
+ },
+ "Vo_Plot_End_Common_P1_Inanis_2": {
+  "media_id": 681791351,
+  "headers": [
+   31
+  ],
+  "duration": 0.91533333,
+  "candidates": [
+   {
+    "block": 993,
+    "size": 11765,
+    "dur": 0.9152291666666666
+   },
+   {
+    "block": 1126,
+    "size": 28490,
+    "dur": 0.9155833333333333
+   },
+   {
+    "block": 1613,
+    "size": 16051,
+    "dur": 0.9155833333333333
+   },
+   {
+    "block": 1203,
+    "size": 13765,
+    "dur": 0.9169583333333333
+   },
+   {
+    "block": 2232,
+    "size": 14717,
+    "dur": 0.91825
+   },
+   {
+    "block": 2328,
+    "size": 14404,
+    "dur": 0.9153333333333333
+   },
+   {
+    "block": 2782,
+    "size": 22443,
+    "dur": 0.9147291666666667
+   }
+  ]
+ },
+ "Vo_Plot_End_Common_P1_Inanis_3": {
+  "media_id": 328393295,
+  "headers": [
+   32
+  ],
+  "duration": 5.5186667,
+  "candidates": [
+   {
+    "block": 1119,
+    "size": 89625,
+    "dur": 5.518666666666666
+   }
+  ]
+ },
+ "Vo_Plot_End_Common_P1_LengTu_1": {
+  "media_id": 1046378888,
+  "headers": [
+   1378
+  ],
+  "duration": 5.7966666,
+  "candidates": []
+ },
+ "Vo_Plot_End_Common_P1e_LengTu_1": {
+  "media_id": 304420856,
+  "headers": [
+   1530
+  ],
+  "duration": 5.6146665,
+  "candidates": []
+ },
+ "Vo_Plot_End_Common_P2_Inanis_1": {
+  "media_id": 714662514,
+  "headers": [
+   17
+  ],
+  "duration": 3.0306666,
+  "candidates": [
+   {
+    "block": 1981,
+    "size": 47084,
+    "dur": 3.029333333333333
+   },
+   {
+    "block": 2204,
+    "size": 81511,
+    "dur": 3.031156462585034
+   },
+   {
+    "block": 2431,
+    "size": 46410,
+    "dur": 3.030666666666667
+   }
+  ]
+ },
+ "Vo_Plot_End_Common_P2_LengTu_1": {
+  "media_id": 880670096,
+  "headers": [
+   1468
+  ],
+  "duration": 3.594885,
+  "candidates": []
+ },
+ "Vo_Plot_End_Common_P3_LengTu_1": {
+  "media_id": 758114016,
+  "headers": [
+   1584
+  ],
+  "duration": 6.948,
+  "candidates": []
+ },
+ "Vo_Plot_End_Common_P3e_LengTu_1": {
+  "media_id": 574246800,
+  "headers": [
+   1062
+  ],
+  "duration": 6.72,
+  "candidates": []
+ },
+ "Vo_Plot_End_Common_ZhuZhan1_LeiDang_1": {
+  "media_id": 423645697,
+  "headers": [
+   1141
+  ],
+  "duration": 3.324,
+  "candidates": [
+   {
+    "block": 1439,
+    "size": 66876,
+    "dur": 3.324
+   }
+  ]
+ },
+ "Vo_Plot_End_Common_ZhuZhan2_LeiDang_1": {
+  "media_id": 462283043,
+  "headers": [
+   1018
+  ],
+  "duration": 4.4926667,
+  "candidates": [
+   {
+    "block": 1579,
+    "size": 90482,
+    "dur": 4.492666666666667
+   },
+   {
+    "block": 2660,
+    "size": 124649,
+    "dur": 4.490708333333333
+   }
+  ]
+ },
+ "Vo_Plot_End_DC1C2B_MengHua1_MengHua_5": {
+  "media_id": 757294500,
+  "headers": [
+   1346
+  ],
+  "duration": 12.086145,
+  "candidates": [
+   {
+    "block": 2566,
+    "size": 318943,
+    "dur": 12.086145833333333
+   }
+  ]
+ },
+ "Vo_Plot_End_LengTu3_Battle_1": {
+  "media_id": 332696206,
+  "headers": [
+   1445
+  ],
+  "duration": 3.396,
+  "candidates": []
+ },
+ "Vo_Plot_End_LengTu4_Battle_1": {
+  "media_id": 465235093,
+  "headers": [
+   483
+  ],
+  "duration": 5.124,
+  "candidates": [
+   {
+    "block": 1596,
+    "size": 89888,
+    "dur": 5.124
+   }
+  ]
+ },
+ "Vo_Plot_End_MengHua1_Battle_1": {
+  "media_id": 1041603069,
+  "headers": [
+   1539
+  ],
+  "duration": 6.6494794,
+  "candidates": [
+   {
+    "block": 3428,
+    "size": 184890,
+    "dur": 6.649479166666667
+   }
+  ]
+ },
+ "Vo_Plot_End_MengHua1_Battle_2": {
+  "media_id": 866269726,
+  "headers": [
+   1541
+  ],
+  "duration": 9.742792,
+  "candidates": [
+   {
+    "block": 2902,
+    "size": 264945,
+    "dur": 9.742791666666667
+   }
+  ]
+ },
+ "Vo_Plot_End_MengHua1_Battle_3": {
+  "media_id": 785600573,
+  "headers": [
+   1540
+  ],
+  "duration": 4.4907084,
+  "candidates": [
+   {
+    "block": 1579,
+    "size": 90482,
+    "dur": 4.492666666666667
+   },
+   {
+    "block": 2660,
+    "size": 124649,
+    "dur": 4.490708333333333
+   }
+  ]
+ },
+ "Vo_Plot_End_MengHua2_Battle_1": {
+  "media_id": 203473651,
+  "headers": [
+   954
+  ],
+  "duration": 6.960146,
+  "candidates": [
+   {
+    "block": 724,
+    "size": 194525,
+    "dur": 6.960145833333334
+   }
+  ]
+ },
+ "Vo_Plot_End_MengHua2_Battle_2": {
+  "media_id": 563970538,
+  "headers": [
+   955
+  ],
+  "duration": 4.55775,
+  "candidates": [
+   {
+    "block": 1930,
+    "size": 130533,
+    "dur": 4.55775
+   }
+  ]
+ },
+ "Vo_Plot_End_MengHua2_Battle_3": {
+  "media_id": 356759949,
+  "headers": [
+   956
+  ],
+  "duration": 9.570604,
+  "candidates": [
+   {
+    "block": 1213,
+    "size": 276275,
+    "dur": 9.570604166666667
+   }
+  ]
+ },
+ "Vo_Plot_End_ZuoShangLongTi_Battle_1": {
+  "media_id": 369879259,
+  "headers": [
+   788
+  ],
+  "duration": 4.173333,
+  "candidates": [
+   {
+    "block": 671,
+    "size": 107627,
+    "dur": 4.173666666666667
+   },
+   {
+    "block": 1264,
+    "size": 77107,
+    "dur": 4.173333333333333
+   }
+  ]
+ },
+ "Vo_Plot_End_ZuoShangLongTi_Battle_2": {
+  "media_id": 560847368,
+  "headers": [
+   787
+  ],
+  "duration": 4.224,
+  "candidates": [
+   {
+    "block": 1916,
+    "size": 75974,
+    "dur": 4.224
+   }
+  ]
+ },
+ "Vo_Plot_End_ZuoShangLongTi_Battle_3": {
+  "media_id": 432290563,
+  "headers": [
+   786
+  ],
+  "duration": 4.205333,
+  "candidates": [
+   {
+    "block": 1481,
+    "size": 71196,
+    "dur": 4.205333333333333
+   }
+  ]
+ },
+ "Vo_Plot_End_ZuoShangLongTi_Battle_4": {
+  "media_id": 637124456,
+  "headers": [
+   791
+  ],
+  "duration": 3.5506666,
+  "candidates": [
+   {
+    "block": 2183,
+    "size": 51920,
+    "dur": 3.550666666666667
+   }
+  ]
+ },
+ "Vo_Plot_End_ZuoShangLongTi_Battle_5": {
+  "media_id": 868042679,
+  "headers": [
+   790
+  ],
+  "duration": 4.092,
+  "candidates": [
+   {
+    "block": 2912,
+    "size": 66294,
+    "dur": 4.092
+   }
+  ]
+ },
+ "Vo_Plot_End_ZuoShangLongTi_Battle_6": {
+  "media_id": 547081983,
+  "headers": [
+   789
+  ],
+  "duration": 5.472,
+  "candidates": [
+   {
+    "block": 1864,
+    "size": 80927,
+    "dur": 5.472
+   }
+  ]
+ },
+ "Vo_Plot_End_ZuoShang_Battle_1": {
+  "media_id": 768796612,
+  "headers": [
+   1405
+  ],
+  "duration": 2.6253333,
+  "candidates": [
+   {
+    "block": 685,
+    "size": 35614,
+    "dur": 2.62475
+   },
+   {
+    "block": 976,
+    "size": 54876,
+    "dur": 2.624645833333333
+   },
+   {
+    "block": 2597,
+    "size": 42505,
+    "dur": 2.628253968253968
+   },
+   {
+    "block": 2616,
+    "size": 55670,
+    "dur": 2.6253333333333333
+   }
+  ]
+ },
+ "Vo_Plot_End_ZuoShang_Battle_2": {
+  "media_id": 430078531,
+  "headers": [
+   1403
+  ],
+  "duration": 3.3286667,
+  "candidates": [
+   {
+    "block": 1471,
+    "size": 66937,
+    "dur": 3.328666666666667
+   }
+  ]
+ },
+ "Vo_Plot_End_ZuoShang_Battle_3": {
+  "media_id": 200126391,
+  "headers": [
+   1404
+  ],
+  "duration": 2.3593333,
+  "candidates": [
+   {
+    "block": 706,
+    "size": 44654,
+    "dur": 2.3593333333333333
+   },
+   {
+    "block": 1380,
+    "size": 60488,
+    "dur": 2.3587291666666665
+   }
+  ]
+ },
+ "Vo_Plot_End_ZuoShang_Battle_6": {
+  "media_id": 43190539,
+  "headers": [
+   1401
+  ],
+  "duration": 1.3356667,
+  "candidates": [
+   {
+    "block": 155,
+    "size": 23437,
+    "dur": 1.3356666666666666
+   }
+  ]
+ },
+ "Vo_Plot_End_ZuoShang_Battle_7": {
+  "media_id": 956798730,
+  "headers": [
+   1402
+  ],
+  "duration": 1.652,
+  "candidates": [
+   {
+    "block": 2015,
+    "size": 17657,
+    "dur": 1.6540625
+   },
+   {
+    "block": 2862,
+    "size": 23580,
+    "dur": 1.649
+   },
+   {
+    "block": 3166,
+    "size": 25022,
+    "dur": 1.652
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_BaiChiLian1_Battle_1": {
+  "media_id": 273111008,
+  "headers": [
+   667
+  ],
+  "duration": 16.606667,
+  "candidates": [
+   {
+    "block": 943,
+    "size": 223437,
+    "dur": 16.606666666666666
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_HSPP_BaiChiLian_Battle_1": {
+  "media_id": 530509955,
+  "headers": [
+   130
+  ],
+  "duration": 3.7866666,
+  "candidates": [
+   {
+    "block": 1817,
+    "size": 54329,
+    "dur": 3.7866666666666666
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_HSPP_BaiChiLian_Battle_2": {
+  "media_id": 190102909,
+  "headers": [
+   128
+  ],
+  "duration": 10.165334,
+  "candidates": [
+   {
+    "block": 677,
+    "size": 149631,
+    "dur": 10.165333333333333
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_HSPP_BaiChiLian_Battle_3": {
+  "media_id": 662173734,
+  "headers": [
+   129
+  ],
+  "duration": 4.1866665,
+  "candidates": [
+   {
+    "block": 2267,
+    "size": 60748,
+    "dur": 4.1866666666666665
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_JianChi1_Battle_1": {
+  "media_id": 82389029,
+  "headers": [
+   1581
+  ],
+  "duration": 6.9106665,
+  "candidates": [
+   {
+    "block": 297,
+    "size": 134198,
+    "dur": 6.910666666666667
+   },
+   {
+    "block": 2609,
+    "size": 106663,
+    "dur": 6.912
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_JianChi1_Battle_2": {
+  "media_id": 125756291,
+  "headers": [
+   1582
+  ],
+  "duration": 8.861333,
+  "candidates": [
+   {
+    "block": 423,
+    "size": 149746,
+    "dur": 8.861333333333333
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_JianChi2_Battle_1": {
+  "media_id": 518343887,
+  "headers": [
+   185
+  ],
+  "duration": 6.3346667,
+  "candidates": [
+   {
+    "block": 1774,
+    "size": 136493,
+    "dur": 6.334666666666666
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_JianChi2_Battle_2": {
+  "media_id": 904726421,
+  "headers": [
+   186
+  ],
+  "duration": 6.1113334,
+  "candidates": [
+   {
+    "block": 3026,
+    "size": 116180,
+    "dur": 6.1113333333333335
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_JingYe1_Battle_1": {
+  "media_id": 272390279,
+  "headers": [
+   1121
+  ],
+  "duration": 3.6066666,
+  "candidates": [
+   {
+    "block": 936,
+    "size": 63415,
+    "dur": 3.6066666666666665
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_JingYe1_Battle_2": {
+  "media_id": 844731846,
+  "headers": [
+   1122
+  ],
+  "duration": 5.8993335,
+  "candidates": [
+   {
+    "block": 2835,
+    "size": 86988,
+    "dur": 5.899333333333334
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_JingYe2_Battle_1": {
+  "media_id": 1027404516,
+  "headers": [
+   1060
+  ],
+  "duration": 5.136,
+  "candidates": [
+   {
+    "block": 3395,
+    "size": 89163,
+    "dur": 5.136
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_JingYe3_Battle_1": {
+  "media_id": 1010017336,
+  "headers": [
+   932
+  ],
+  "duration": 4.6346664,
+  "candidates": [
+   {
+    "block": 3339,
+    "size": 81594,
+    "dur": 4.634666666666667
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_MSXZ1_MSXZ_1": {
+  "media_id": 632698725,
+  "headers": [
+   1252
+  ],
+  "duration": 8.832,
+  "candidates": [
+   {
+    "block": 2168,
+    "size": 146711,
+    "dur": 8.832
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_MSXZ1_MSXZ_2": {
+  "media_id": 578827250,
+  "headers": [
+   1251
+  ],
+  "duration": 3.0293334,
+  "candidates": [
+   {
+    "block": 1981,
+    "size": 47084,
+    "dur": 3.029333333333333
+   },
+   {
+    "block": 2204,
+    "size": 81511,
+    "dur": 3.031156462585034
+   },
+   {
+    "block": 2431,
+    "size": 46410,
+    "dur": 3.030666666666667
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_MSXZ1_MSXZ_4": {
+  "media_id": 983256750,
+  "headers": [
+   1250
+  ],
+  "duration": 8.928,
+  "candidates": [
+   {
+    "block": 3251,
+    "size": 177324,
+    "dur": 8.928
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_MSXZ1_MSXZ_5": {
+  "media_id": 56848411,
+  "headers": [
+   1249
+  ],
+  "duration": 6.309021,
+  "candidates": [
+   {
+    "block": 198,
+    "size": 116419,
+    "dur": 6.309020833333333
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_MSXZ1_MSXZ_7": {
+  "media_id": 770138621,
+  "headers": [
+   1248
+  ],
+  "duration": 4.304,
+  "candidates": [
+   {
+    "block": 1011,
+    "size": 96085,
+    "dur": 4.3046875
+   },
+   {
+    "block": 1515,
+    "size": 74158,
+    "dur": 4.301333333333333
+   },
+   {
+    "block": 2627,
+    "size": 85636,
+    "dur": 4.304
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_MSXZ1_MSXZ_8": {
+  "media_id": 242491816,
+  "headers": [
+   1254
+  ],
+  "duration": 3.8826666,
+  "candidates": [
+   {
+    "block": 438,
+    "size": 55221,
+    "dur": 3.8817708333333334
+   },
+   {
+    "block": 834,
+    "size": 56066,
+    "dur": 3.8826666666666667
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_MSXZ1_MSXZ_9": {
+  "media_id": 463415430,
+  "headers": [
+   1253
+  ],
+  "duration": 5.8346667,
+  "candidates": [
+   {
+    "block": 1587,
+    "size": 101445,
+    "dur": 5.834666666666666
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_QuanChi1_Battle_1": {
+  "media_id": 266339705,
+  "headers": [
+   771
+  ],
+  "duration": 3.5413334,
+  "candidates": [
+   {
+    "block": 922,
+    "size": 61267,
+    "dur": 3.541333333333333
+   },
+   {
+    "block": 3316,
+    "size": 37710,
+    "dur": 3.541333333333333
+   },
+   {
+    "block": 2572,
+    "size": 92498,
+    "dur": 3.5420416666666665
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_QuanChi1_Battle_2": {
+  "media_id": 655158145,
+  "headers": [
+   770
+  ],
+  "duration": 1.6466666,
+  "candidates": [
+   {
+    "block": 581,
+    "size": 50691,
+    "dur": 1.6475416666666667
+   },
+   {
+    "block": 2237,
+    "size": 25679,
+    "dur": 1.6466666666666667
+   },
+   {
+    "block": 2862,
+    "size": 23580,
+    "dur": 1.649
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_QuanChi2_Hun_Battle_2": {
+  "media_id": 896193250,
+  "headers": [
+   131
+  ],
+  "duration": 1.86,
+  "candidates": [
+   {
+    "block": 836,
+    "size": 24524,
+    "dur": 1.8573541666666666
+   },
+   {
+    "block": 1964,
+    "size": 38820,
+    "dur": 1.8623958333333333
+   },
+   {
+    "block": 2454,
+    "size": 26389,
+    "dur": 1.8605
+   },
+   {
+    "block": 3005,
+    "size": 33997,
+    "dur": 1.86
+   },
+   {
+    "block": 3108,
+    "size": 25900,
+    "dur": 1.8614166666666667
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_QuanChi2_QuanChi_Battle_1": {
+  "media_id": 151318191,
+  "headers": [
+   150
+  ],
+  "duration": 4.7613335,
+  "candidates": [
+   {
+    "block": 537,
+    "size": 75231,
+    "dur": 4.761333333333333
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_XianZheBaiChiLian1_BaiChiLian_3": {
+  "media_id": 1015426213,
+  "headers": [
+   1303
+  ],
+  "duration": 4.7526665,
+  "candidates": [
+   {
+    "block": 3354,
+    "size": 73006,
+    "dur": 4.752666666666666
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_XianZheBaiChiLian1_BaiChiLian_4": {
+  "media_id": 715152364,
+  "headers": [
+   1304
+  ],
+  "duration": 6.317333,
+  "candidates": [
+   {
+    "block": 2435,
+    "size": 93487,
+    "dur": 6.317333333333333
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_XianZheBaiChiLian1_XianZhe_1": {
+  "media_id": 625677433,
+  "headers": [
+   1567
+  ],
+  "duration": 1.8379583,
+  "candidates": [
+   {
+    "block": 966,
+    "size": 15245,
+    "dur": 1.8394375
+   },
+   {
+    "block": 2141,
+    "size": 28273,
+    "dur": 1.8379583333333334
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_XianZheBaiChiLian1_XianZhe_2": {
+  "media_id": 72905113,
+  "headers": [
+   1566
+  ],
+  "duration": 2.2435,
+  "candidates": [
+   {
+    "block": 261,
+    "size": 33836,
+    "dur": 2.2435
+   },
+   {
+    "block": 1917,
+    "size": 32415,
+    "dur": 2.2450208333333332
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_XianZheBaiChiLian2_XianZhe_1": {
+  "media_id": 592852545,
+  "headers": [
+   741
+  ],
+  "duration": 2.0853333,
+  "candidates": [
+   {
+    "block": 2036,
+    "size": 32242,
+    "dur": 2.0853333333333333
+   },
+   {
+    "block": 3416,
+    "size": 26634,
+    "dur": 2.0875208333333335
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_XianZheBaiChiLian2_XianZhe_2": {
+  "media_id": 674229243,
+  "headers": [
+   742
+  ],
+  "duration": 3.776,
+  "candidates": [
+   {
+    "block": 2225,
+    "size": 49146,
+    "dur": 3.7780833333333335
+   },
+   {
+    "block": 2303,
+    "size": 55457,
+    "dur": 3.776
+   },
+   {
+    "block": 3429,
+    "size": 48497,
+    "dur": 3.7749375
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_ZhenYao_ZhenYao_1": {
+  "media_id": 549627094,
+  "headers": [
+   141
+  ],
+  "duration": 5.912667,
+  "candidates": [
+   {
+    "block": 1876,
+    "size": 84852,
+    "dur": 5.9126666666666665
+   }
+  ]
+ },
+ "Vo_Plot_FJZL_ZhenYao_ZhenYao_5": {
+  "media_id": 126375516,
+  "headers": [
+   142
+  ],
+  "duration": 6.561333,
+  "candidates": [
+   {
+    "block": 428,
+    "size": 99220,
+    "dur": 6.561333333333334
+   }
+  ]
+ },
+ "Vo_Plot_FXSD_YuCong4_HanBing_1": {
+  "media_id": 429698543,
+  "headers": [
+   1011
+  ],
+  "duration": 4.8853335,
+  "candidates": [
+   {
+    "block": 1467,
+    "size": 68112,
+    "dur": 4.8853333333333335
+   }
+  ]
+ },
+ "Vo_Plot_FXSD_YuCong_YuYao1_YuYao1_1": {
+  "media_id": 484295974,
+  "headers": [
+   811
+  ],
+  "duration": 2.9826667,
+  "candidates": [
+   {
+    "block": 1352,
+    "size": 46086,
+    "dur": 2.984
+   },
+   {
+    "block": 1656,
+    "size": 42861,
+    "dur": 2.982666666666667
+   },
+   {
+    "block": 2471,
+    "size": 56124,
+    "dur": 2.9846666666666666
+   }
+  ]
+ },
+ "Vo_Plot_FXSD_YuCong_YuYao2_YuYao1_1": {
+  "media_id": 690730932,
+  "headers": [
+   347
+  ],
+  "duration": 2.5233333,
+  "candidates": [
+   {
+    "block": 2360,
+    "size": 39059,
+    "dur": 2.5233333333333334
+   }
+  ]
+ },
+ "Vo_Plot_LJC_BiYuan1_Battle_1": {
+  "media_id": 740871411,
+  "headers": [
+   1569
+  ],
+  "duration": 1.431401,
+  "candidates": [
+   {
+    "block": 163,
+    "size": 19226,
+    "dur": 1.432125
+   },
+   {
+    "block": 2201,
+    "size": 18914,
+    "dur": 1.4343958333333333
+   },
+   {
+    "block": 2638,
+    "size": 30215,
+    "dur": 1.4290833333333333
+   }
+  ]
+ },
+ "Vo_Plot_LJC_BiYuan2_Battle_1": {
+  "media_id": 194140991,
+  "headers": [
+   1282
+  ],
+  "duration": 1.2329943,
+  "candidates": []
+ },
+ "Vo_Plot_LJC_BiYuan2_Battle_2": {
+  "media_id": 788493812,
+  "headers": [
+   1281
+  ],
+  "duration": 1.4258167,
+  "candidates": [
+   {
+    "block": 293,
+    "size": 37859,
+    "dur": 1.4233958333333334
+   },
+   {
+    "block": 649,
+    "size": 23475,
+    "dur": 1.4261666666666666
+   },
+   {
+    "block": 859,
+    "size": 38949,
+    "dur": 1.4266875
+   },
+   {
+    "block": 2259,
+    "size": 38606,
+    "dur": 1.4266875
+   },
+   {
+    "block": 2540,
+    "size": 40195,
+    "dur": 1.4266875
+   },
+   {
+    "block": 1459,
+    "size": 19895,
+    "dur": 1.4261458333333332
+   },
+   {
+    "block": 1706,
+    "size": 20736,
+    "dur": 1.423106575963719
+   },
+   {
+    "block": 2139,
+    "size": 35023,
+    "dur": 1.4256666666666666
+   },
+   {
+    "block": 2491,
+    "size": 26120,
+    "dur": 1.4246666666666667
+   },
+   {
+    "block": 2917,
+    "size": 18414,
+    "dur": 1.423875
+   },
+   {
+    "block": 3456,
+    "size": 15068,
+    "dur": 1.4244375
+   }
+  ]
+ },
+ "Vo_Plot_LJC_BiYuan3_Battle_1": {
+  "media_id": 677813238,
+  "headers": [
+   1337
+  ],
+  "duration": 1.8295163,
+  "candidates": []
+ },
+ "Vo_Plot_LJC_DaoRenZhangMen_SRZM_1_Far": {
+  "media_id": 29010987,
+  "headers": [
+   1376
+  ],
+  "duration": 7.429333,
+  "candidates": [
+   {
+    "block": 100,
+    "size": 131170,
+    "dur": 7.429333333333333
+   }
+  ]
+ },
+ "Vo_Plot_LJC_FZMD_Feizei_FZ_1": {
+  "media_id": 31940122,
+  "headers": [
+   201
+  ],
+  "duration": 6.034,
+  "candidates": [
+   {
+    "block": 115,
+    "size": 93698,
+    "dur": 6.034
+   },
+   {
+    "block": 845,
+    "size": 87944,
+    "dur": 6.033333333333333
+   }
+  ]
+ },
+ "Vo_Plot_LJC_MFZF_YanRu_YanRu_3": {
+  "media_id": 220442880,
+  "headers": [
+   1317
+  ],
+  "duration": 7.051768,
+  "candidates": [
+   {
+    "block": 768,
+    "size": 205857,
+    "dur": 7.051770833333333
+   }
+  ]
+ },
+ "Vo_Plot_LJC_MFZF_YanRu_ZhiGaoZhe_1": {
+  "media_id": 246453667,
+  "headers": [
+   1427
+  ],
+  "duration": 6.1631446,
+  "candidates": [
+   {
+    "block": 666,
+    "size": 92697,
+    "dur": 6.160791666666666
+   },
+   {
+    "block": 849,
+    "size": 203892,
+    "dur": 6.163145833333333
+   }
+  ]
+ },
+ "Vo_Plot_LJC_MuXiaoKui3_MuXiaoKui_1": {
+  "media_id": 1063933101,
+  "headers": [
+   852
+  ],
+  "duration": 8.101334,
+  "candidates": [
+   {
+    "block": 3502,
+    "size": 123713,
+    "dur": 8.101333333333333
+   }
+  ]
+ },
+ "Vo_Plot_LJC_MuXiaoKui3_MuXiaoKui_3": {
+  "media_id": 36203638,
+  "headers": [
+   851
+  ],
+  "duration": 2.606,
+  "candidates": [
+   {
+    "block": 129,
+    "size": 39658,
+    "dur": 2.606
+   },
+   {
+    "block": 1161,
+    "size": 39129,
+    "dur": 2.6045625
+   }
+  ]
+ },
+ "Vo_Plot_LJC_MuXiaoKui3_MuXiaoKui_4": {
+  "media_id": 666171332,
+  "headers": [
+   849
+  ],
+  "duration": 5.325333,
+  "candidates": [
+   {
+    "block": 2286,
+    "size": 77541,
+    "dur": 5.325333333333333
+   }
+  ]
+ },
+ "Vo_Plot_LJC_MuXiaoKui3_MuXiaoKui_5": {
+  "media_id": 123597866,
+  "headers": [
+   850
+  ],
+  "duration": 1.448,
+  "candidates": [
+   {
+    "block": 306,
+    "size": 18883,
+    "dur": 1.4506666666666668
+   },
+   {
+    "block": 525,
+    "size": 16452,
+    "dur": 1.4506666666666668
+   },
+   {
+    "block": 2845,
+    "size": 19594,
+    "dur": 1.4506666666666668
+   },
+   {
+    "block": 364,
+    "size": 21831,
+    "dur": 1.4480208333333333
+   },
+   {
+    "block": 417,
+    "size": 20465,
+    "dur": 1.448
+   },
+   {
+    "block": 369,
+    "size": 19249,
+    "dur": 1.44825
+   },
+   {
+    "block": 1379,
+    "size": 37726,
+    "dur": 1.44575
+   },
+   {
+    "block": 2559,
+    "size": 36137,
+    "dur": 1.4470625
+   },
+   {
+    "block": 2595,
+    "size": 11609,
+    "dur": 1.45
+   },
+   {
+    "block": 2726,
+    "size": 36227,
+    "dur": 1.4450208333333334
+   },
+   {
+    "block": 2751,
+    "size": 19949,
+    "dur": 1.4473696145124717
+   },
+   {
+    "block": 2863,
+    "size": 39053,
+    "dur": 1.4478958333333334
+   }
+  ]
+ },
+ "Vo_Plot_LJC_MuXiaoKui3_MuXiaoKui_6": {
+  "media_id": 222939166,
+  "headers": [
+   848
+  ],
+  "duration": 1.7553333,
+  "candidates": [
+   {
+    "block": 779,
+    "size": 27979,
+    "dur": 1.7553333333333334
+   }
+  ]
+ },
+ "Vo_Plot_LJC_SengRenZhangMen_2_Battle": {
+  "media_id": 24313079,
+  "headers": [
+   1301
+  ],
+  "duration": 5.1146665,
+  "candidates": [
+   {
+    "block": 76,
+    "size": 74889,
+    "dur": 5.1146666666666665
+   },
+   {
+    "block": 1206,
+    "size": 74897,
+    "dur": 5.112
+   },
+   {
+    "block": 2395,
+    "size": 160503,
+    "dur": 5.116333333333333
+   }
+  ]
+ },
+ "Vo_Plot_LJC_SengRenZhangMen_3_Battle": {
+  "media_id": 635586856,
+  "headers": [
+   847,
+   872
+  ],
+  "duration": 5.019126,
+  "candidates": [
+   {
+    "block": 1670,
+    "size": 125367,
+    "dur": 5.018791666666667
+   },
+   {
+    "block": 2177,
+    "size": 73902,
+    "dur": 5.019125
+   }
+  ]
+ },
+ "Vo_Plot_LJC_SengRenZhangMen_4_Battle": {
+  "media_id": 892449158,
+  "headers": [
+   1024
+  ],
+  "duration": 3.7521043,
+  "candidates": [
+   {
+    "block": 660,
+    "size": 67866,
+    "dur": 3.752104166666667
+   },
+   {
+    "block": 1133,
+    "size": 72144,
+    "dur": 3.752104166666667
+   },
+   {
+    "block": 1225,
+    "size": 67866,
+    "dur": 3.752104166666667
+   },
+   {
+    "block": 2988,
+    "size": 67866,
+    "dur": 3.752104166666667
+   },
+   {
+    "block": 830,
+    "size": 53901,
+    "dur": 3.75
+   },
+   {
+    "block": 1967,
+    "size": 50728,
+    "dur": 3.75
+   }
+  ]
+ },
+ "Vo_Plot_LJC_SengRenZhangMen_SRZM_1_Far": {
+  "media_id": 732162186,
+  "headers": [
+   894
+  ],
+  "duration": 8.915709,
+  "candidates": [
+   {
+    "block": 2487,
+    "size": 141892,
+    "dur": 8.915708333333333
+   }
+  ]
+ },
+ "Vo_Plot_LJC_ZhuoBi1_Battle_1": {
+  "media_id": 443428352,
+  "headers": [
+   1490
+  ],
+  "duration": 4.557104,
+  "candidates": [
+   {
+    "block": 1930,
+    "size": 130533,
+    "dur": 4.55775
+   }
+  ]
+ },
+ "Vo_Plot_LJC_ZhuoBi2_Battle_1": {
+  "media_id": 110466227,
+  "headers": [
+   1184
+  ],
+  "duration": 2.5441241,
+  "candidates": [
+   {
+    "block": 3074,
+    "size": 37343,
+    "dur": 2.5421666666666667
+   }
+  ]
+ },
+ "Vo_Plot_LJC_ZhuoBi2_Battle_2": {
+  "media_id": 750195217,
+  "headers": [
+   1183
+  ],
+  "duration": 4.6729383,
+  "candidates": []
+ },
+ "Vo_Plot_LJC_ZhuoBi3_Battle_1": {
+  "media_id": 421123742,
+  "headers": [
+   878
+  ],
+  "duration": 3.061142,
+  "candidates": []
+ },
+ "Vo_Plot_LJC_ZhuoBi3_Battle_2": {
+  "media_id": 725891614,
+  "headers": [
+   879
+  ],
+  "duration": 3.1621442,
+  "candidates": []
+ },
+ "Vo_Plot_PZ_ChangHong1_Battle_1": {
+  "media_id": 135256844,
+  "headers": [
+   1423
+  ],
+  "duration": 2.8293333,
+  "candidates": [
+   {
+    "block": 467,
+    "size": 56172,
+    "dur": 2.8293333333333335
+   },
+   {
+    "block": 1658,
+    "size": 47184,
+    "dur": 2.828
+   }
+  ]
+ },
+ "Vo_Plot_PZ_ChangHong1_Battle_2": {
+  "media_id": 417080238,
+  "headers": [
+   1424
+  ],
+  "duration": 2.222396,
+  "candidates": [
+   {
+    "block": 402,
+    "size": 34669,
+    "dur": 2.2197708333333335
+   },
+   {
+    "block": 1413,
+    "size": 50099,
+    "dur": 2.222395833333333
+   }
+  ]
+ },
+ "Vo_Plot_PZ_ChangHong1_Battle_3": {
+  "media_id": 142423783,
+  "headers": [
+   1425
+  ],
+  "duration": 1.0213333,
+  "candidates": [
+   {
+    "block": 62,
+    "size": 27007,
+    "dur": 1.0188541666666666
+   },
+   {
+    "block": 398,
+    "size": 26788,
+    "dur": 1.0188541666666666
+   },
+   {
+    "block": 769,
+    "size": 27766,
+    "dur": 1.0188541666666666
+   },
+   {
+    "block": 1219,
+    "size": 27122,
+    "dur": 1.0188541666666666
+   },
+   {
+    "block": 1712,
+    "size": 28331,
+    "dur": 1.0188541666666666
+   },
+   {
+    "block": 2299,
+    "size": 29154,
+    "dur": 1.0188541666666666
+   },
+   {
+    "block": 2415,
+    "size": 27640,
+    "dur": 1.0188541666666666
+   },
+   {
+    "block": 2997,
+    "size": 28290,
+    "dur": 1.0188541666666666
+   },
+   {
+    "block": 221,
+    "size": 28194,
+    "dur": 1.0188333333333333
+   },
+   {
+    "block": 693,
+    "size": 26030,
+    "dur": 1.0188333333333333
+   },
+   {
+    "block": 891,
+    "size": 27660,
+    "dur": 1.0188333333333333
+   },
+   {
+    "block": 1381,
+    "size": 26870,
+    "dur": 1.0188333333333333
+   },
+   {
+    "block": 2093,
+    "size": 26930,
+    "dur": 1.0188333333333333
+   },
+   {
+    "block": 2546,
+    "size": 27853,
+    "dur": 1.0188333333333333
+   },
+   {
+    "block": 2582,
+    "size": 26156,
+    "dur": 1.0188333333333333
+   },
+   {
+    "block": 3272,
+    "size": 26331,
+    "dur": 1.0188333333333333
+   },
+   {
+    "block": 497,
+    "size": 19277,
+    "dur": 1.0213333333333334
+   },
+   {
+    "block": 626,
+    "size": 13289,
+    "dur": 1.024
+   },
+   {
+    "block": 1314,
+    "size": 12111,
+    "dur": 1.024
+   },
+   {
+    "block": 2513,
+    "size": 14330,
+    "dur": 1.024
+   },
+   {
+    "block": 1172,
+    "size": 27157,
+    "dur": 1.0209791666666668
+   },
+   {
+    "block": 1686,
+    "size": 14781,
+    "dur": 1.0184583333333332
+   },
+   {
+    "block": 2293,
+    "size": 15509,
+    "dur": 1.02175
+   },
+   {
+    "block": 2697,
+    "size": 26807,
+    "dur": 1.023625
+   },
+   {
+    "block": 3418,
+    "size": 22035,
+    "dur": 1.0215833333333333
+   }
+  ]
+ },
+ "Vo_Plot_PZ_ChangHong2_Battle_1": {
+  "media_id": 452910621,
+  "headers": [
+   1308
+  ],
+  "duration": 0.9026667,
+  "candidates": [
+   {
+    "block": 1326,
+    "size": 14264,
+    "dur": 0.9011666666666667
+   },
+   {
+    "block": 1484,
+    "size": 13179,
+    "dur": 0.9051041666666667
+   },
+   {
+    "block": 1541,
+    "size": 17688,
+    "dur": 0.9026666666666666
+   },
+   {
+    "block": 1902,
+    "size": 13009,
+    "dur": 0.9038125
+   },
+   {
+    "block": 2138,
+    "size": 11353,
+    "dur": 0.9008333333333334
+   },
+   {
+    "block": 2150,
+    "size": 13673,
+    "dur": 0.9015833333333333
+   }
+  ]
+ },
+ "Vo_Plot_PZ_ChangHong2_Battle_2": {
+  "media_id": 993743833,
+  "headers": [
+   1309
+  ],
+  "duration": 2.1086667,
+  "candidates": [
+   {
+    "block": 3282,
+    "size": 47037,
+    "dur": 2.1086666666666667
+   }
+  ]
+ },
+ "Vo_Plot_PZ_HUanGui_HUanGui_1": {
+  "media_id": 516682088,
+  "headers": [
+   1416
+  ],
+  "duration": 4.0666666,
+  "candidates": [
+   {
+    "block": 1763,
+    "size": 52553,
+    "dur": 4.066666666666666
+   }
+  ]
+ },
+ "Vo_Plot_PZ_HuoLiuXing1_Battle_1": {
+  "media_id": 1061354752,
+  "headers": [
+   494
+  ],
+  "duration": 4.26,
+  "candidates": [
+   {
+    "block": 3487,
+    "size": 79510,
+    "dur": 4.26
+   }
+  ]
+ },
+ "Vo_Plot_PZ_HuoLiuXing1_Battle_2": {
+  "media_id": 612602008,
+  "headers": [
+   493
+  ],
+  "duration": 5.386667,
+  "candidates": [
+   {
+    "block": 1814,
+    "size": 45747,
+    "dur": 5.384645833333333
+   },
+   {
+    "block": 2104,
+    "size": 115012,
+    "dur": 5.386666666666667
+   },
+   {
+    "block": 2148,
+    "size": 101425,
+    "dur": 5.3886666666666665
+   },
+   {
+    "block": 2817,
+    "size": 96687,
+    "dur": 5.3853333333333335
+   }
+  ]
+ },
+ "Vo_Plot_PZ_HuoLiuXing2_Battle_1": {
+  "media_id": 429637383,
+  "headers": [
+   1159
+  ],
+  "duration": 4.904,
+  "candidates": [
+   {
+    "block": 1464,
+    "size": 108899,
+    "dur": 4.904
+   },
+   {
+    "block": 3364,
+    "size": 79050,
+    "dur": 4.906666666666666
+   }
+  ]
+ },
+ "Vo_Plot_PZ_HuoLiuXing3_HuoLiuXing_Battle_1": {
+  "media_id": 667639144,
+  "headers": [
+   1017
+  ],
+  "duration": 10.250667,
+  "candidates": [
+   {
+    "block": 2290,
+    "size": 162413,
+    "dur": 10.250666666666667
+   }
+  ]
+ },
+ "Vo_Plot_PZ_HuoLiuXing3_LengTu_Battle_2": {
+  "media_id": 21487587,
+  "headers": [
+   856
+  ],
+  "duration": 5.9453335,
+  "candidates": [
+   {
+    "block": 67,
+    "size": 111411,
+    "dur": 5.945333333333333
+   }
+  ]
+ },
+ "Vo_Plot_PZ_WuShiZunZhu_WSZZ_Battle_01": {
+  "media_id": 641453114,
+  "headers": [
+   143
+  ],
+  "duration": 3.03115,
+  "candidates": [
+   {
+    "block": 1981,
+    "size": 47084,
+    "dur": 3.029333333333333
+   },
+   {
+    "block": 2204,
+    "size": 81511,
+    "dur": 3.031156462585034
+   },
+   {
+    "block": 2431,
+    "size": 46410,
+    "dur": 3.030666666666667
+   }
+  ]
+ },
+ "Vo_Plot_PZ_WuShiZunZhu_WSZZ_Battle_2": {
+  "media_id": 202735991,
+  "headers": [
+   798
+  ],
+  "duration": 4.343878,
+  "candidates": [
+   {
+    "block": 716,
+    "size": 106638,
+    "dur": 4.343877551020408
+   }
+  ]
+ },
+ "Vo_Plot_PZ_WuXuan1_Battle_1": {
+  "media_id": 834332300,
+  "headers": [
+   1535
+  ],
+  "duration": 5.5431356,
+  "candidates": []
+ },
+ "Vo_Plot_PZ_WuXuan2_Battle_1": {
+  "media_id": 328325216,
+  "headers": [
+   1311
+  ],
+  "duration": 5.55137,
+  "candidates": [
+   {
+    "block": 409,
+    "size": 89578,
+    "dur": 5.550979166666667
+   }
+  ]
+ },
+ "Vo_Plot_PZ_WuXuan3_Battle_1": {
+  "media_id": 402010,
+  "headers": [
+   495
+  ],
+  "duration": 6.126407,
+  "candidates": []
+ },
+ "Vo_Plot_Prologue_01_PangZhen_Hun_4_HuaWaiYin": {
+  "media_id": 304224505,
+  "headers": [
+   754
+  ],
+  "duration": 7.4773335,
+  "candidates": [
+   {
+    "block": 1035,
+    "size": 106169,
+    "dur": 7.477333333333333
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_01_PangZhen_ZuoShang_2": {
+  "media_id": 186640288,
+  "headers": [
+   814
+  ],
+  "duration": 6.160792,
+  "candidates": [
+   {
+    "block": 666,
+    "size": 92697,
+    "dur": 6.160791666666666
+   },
+   {
+    "block": 849,
+    "size": 203892,
+    "dur": 6.163145833333333
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin3_Hun_2": {
+  "media_id": 421947286,
+  "headers": [
+   858
+  ],
+  "duration": 3.6287916,
+  "candidates": [
+   {
+    "block": 361,
+    "size": 72035,
+    "dur": 3.626
+   },
+   {
+    "block": 2737,
+    "size": 60817,
+    "dur": 3.626
+   },
+   {
+    "block": 1431,
+    "size": 31986,
+    "dur": 3.628791666666667
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin3_Hun_3": {
+  "media_id": 251806948,
+  "headers": [
+   859
+  ],
+  "duration": 7.845125,
+  "candidates": [
+   {
+    "block": 876,
+    "size": 132799,
+    "dur": 7.845125
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin3_Hun_7": {
+  "media_id": 582406740,
+  "headers": [
+   860
+  ],
+  "duration": 6.998396,
+  "candidates": [
+   {
+    "block": 400,
+    "size": 18848,
+    "dur": 7.0
+   },
+   {
+    "block": 2003,
+    "size": 99407,
+    "dur": 6.998395833333333
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin3_Hun_8": {
+  "media_id": 765732083,
+  "headers": [
+   857
+  ],
+  "duration": 6.912,
+  "candidates": [
+   {
+    "block": 297,
+    "size": 134198,
+    "dur": 6.910666666666667
+   },
+   {
+    "block": 2609,
+    "size": 106663,
+    "dur": 6.912
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin3_ZuoShang_1": {
+  "media_id": 128888427,
+  "headers": [
+   455
+  ],
+  "duration": 3.8817708,
+  "candidates": [
+   {
+    "block": 438,
+    "size": 55221,
+    "dur": 3.8817708333333334
+   },
+   {
+    "block": 834,
+    "size": 56066,
+    "dur": 3.8826666666666667
+   },
+   {
+    "block": 1312,
+    "size": 81507,
+    "dur": 3.8792291666666667
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin3_ZuoShang_4": {
+  "media_id": 308674671,
+  "headers": [
+   452
+  ],
+  "duration": 5.4345,
+  "candidates": [
+   {
+    "block": 1053,
+    "size": 99623,
+    "dur": 5.4345
+   },
+   {
+    "block": 2515,
+    "size": 77424,
+    "dur": 5.4327210884353745
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin3_ZuoShang_5": {
+  "media_id": 914730733,
+  "headers": [
+   453
+  ],
+  "duration": 5.6,
+  "candidates": [
+   {
+    "block": 3058,
+    "size": 90204,
+    "dur": 5.6
+   },
+   {
+    "block": 3414,
+    "size": 87445,
+    "dur": 5.6
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin3_ZuoShang_5_1": {
+  "media_id": 592154008,
+  "headers": [
+   964
+  ],
+  "duration": 6.27,
+  "candidates": [
+   {
+    "block": 2033,
+    "size": 115269,
+    "dur": 6.27
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin3_ZuoShang_6": {
+  "media_id": 166472296,
+  "headers": [
+   454
+  ],
+  "duration": 6.81,
+  "candidates": [
+   {
+    "block": 594,
+    "size": 106292,
+    "dur": 6.81
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin3_ZuoShang_9": {
+  "media_id": 55001922,
+  "headers": [
+   456
+  ],
+  "duration": 4.69,
+  "candidates": [
+   {
+    "block": 191,
+    "size": 78629,
+    "dur": 4.69
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin4_ZuoShang_1_Battle": {
+  "media_id": 142784835,
+  "headers": [
+   286
+  ],
+  "duration": 2.3768334,
+  "candidates": [
+   {
+    "block": 501,
+    "size": 45775,
+    "dur": 2.3768333333333334
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin5_ZuoShang_1_Battle": {
+  "media_id": 825817137,
+  "headers": [
+   144
+  ],
+  "duration": 3.6691666,
+  "candidates": [
+   {
+    "block": 2791,
+    "size": 62851,
+    "dur": 3.6691666666666665
+   },
+   {
+    "block": 2957,
+    "size": 66006,
+    "dur": 3.6693333333333333
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin5_ZuoShang_2_Battle": {
+  "media_id": 335663690,
+  "headers": [
+   194
+  ],
+  "duration": 0.7048125,
+  "candidates": [
+   {
+    "block": 134,
+    "size": 10675,
+    "dur": 0.7044583333333333
+   },
+   {
+    "block": 277,
+    "size": 10597,
+    "dur": 0.7026458333333333
+   },
+   {
+    "block": 2231,
+    "size": 9785,
+    "dur": 0.7026041666666667
+   },
+   {
+    "block": 1142,
+    "size": 11567,
+    "dur": 0.7048125
+   },
+   {
+    "block": 1547,
+    "size": 11714,
+    "dur": 0.70725
+   },
+   {
+    "block": 1645,
+    "size": 10624,
+    "dur": 0.704
+   },
+   {
+    "block": 2717,
+    "size": 9985,
+    "dur": 0.704
+   },
+   {
+    "block": 3178,
+    "size": 9475,
+    "dur": 0.704
+   },
+   {
+    "block": 2696,
+    "size": 10033,
+    "dur": 0.7057291666666666
+   },
+   {
+    "block": 2783,
+    "size": 10806,
+    "dur": 0.7051041666666666
+   },
+   {
+    "block": 3179,
+    "size": 10372,
+    "dur": 0.7077708333333333
+   },
+   {
+    "block": 3443,
+    "size": 10434,
+    "dur": 0.7063958333333333
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin7_Hun_3": {
+  "media_id": 80859885,
+  "headers": [
+   952
+  ],
+  "duration": 9.840208,
+  "candidates": [
+   {
+    "block": 288,
+    "size": 129118,
+    "dur": 9.840208333333333
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin7_ZuoShang_1_Battle": {
+  "media_id": 995719693,
+  "headers": [
+   677
+  ],
+  "duration": 2.1785,
+  "candidates": [
+   {
+    "block": 2172,
+    "size": 23265,
+    "dur": 2.176
+   },
+   {
+    "block": 3295,
+    "size": 35281,
+    "dur": 2.1785
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_02_ZhuLin7_ZuoShang_2": {
+  "media_id": 978719420,
+  "headers": [
+   1435
+  ],
+  "duration": 3.890271,
+  "candidates": [
+   {
+    "block": 2870,
+    "size": 51779,
+    "dur": 3.887770833333333
+   },
+   {
+    "block": 3233,
+    "size": 54831,
+    "dur": 3.890270833333333
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_03_ZhuLin1_Hun_3_Battle": {
+  "media_id": 1016857560,
+  "headers": [
+   1315
+  ],
+  "duration": 4.9066668,
+  "candidates": [
+   {
+    "block": 1464,
+    "size": 108899,
+    "dur": 4.904
+   },
+   {
+    "block": 3364,
+    "size": 79050,
+    "dur": 4.906666666666666
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_03_ZhuLin1_ZuoShang_1_Battle": {
+  "media_id": 172931271,
+  "headers": [
+   406
+  ],
+  "duration": 4.381417,
+  "candidates": [
+   {
+    "block": 620,
+    "size": 73410,
+    "dur": 4.3814166666666665
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_03_ZhuLin1_ZuoShang_2_Battle": {
+  "media_id": 912762363,
+  "headers": [
+   761
+  ],
+  "duration": 7.824521,
+  "candidates": [
+   {
+    "block": 3047,
+    "size": 142056,
+    "dur": 7.824520833333334
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_03_ZhuLin1_ZuoShang_4_Battle": {
+  "media_id": 882205540,
+  "headers": [
+   977
+  ],
+  "duration": 3.6533334,
+  "candidates": [
+   {
+    "block": 1935,
+    "size": 54229,
+    "dur": 3.6535
+   },
+   {
+    "block": 2963,
+    "size": 68070,
+    "dur": 3.6533333333333333
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_04_GuanDao2_Hun_2": {
+  "media_id": 497767211,
+  "headers": [
+   507
+  ],
+  "duration": 3.96,
+  "candidates": [
+   {
+    "block": 862,
+    "size": 49478,
+    "dur": 3.9612083333333334
+   },
+   {
+    "block": 1694,
+    "size": 66592,
+    "dur": 3.96
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_04_GuanDao2_ZhuiMing_3": {
+  "media_id": 791762128,
+  "headers": [
+   1021
+  ],
+  "duration": 5.96459,
+  "candidates": [
+   {
+    "block": 2695,
+    "size": 115000,
+    "dur": 5.964583333333334
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_04_GuanDao2_ZhuiMing_4": {
+  "media_id": 1009968981,
+  "headers": [
+   1022
+  ],
+  "duration": 2.57,
+  "candidates": [
+   {
+    "block": 60,
+    "size": 39791,
+    "dur": 2.568
+   },
+   {
+    "block": 3189,
+    "size": 63886,
+    "dur": 2.5715416666666666
+   },
+   {
+    "block": 3335,
+    "size": 49791,
+    "dur": 2.57
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_04_GuanDao2_ZhuiMing_5": {
+  "media_id": 121681163,
+  "headers": [
+   1023
+  ],
+  "duration": 1.9712083,
+  "candidates": [
+   {
+    "block": 404,
+    "size": 42753,
+    "dur": 1.9712083333333332
+   }
+  ]
+ },
+ "Vo_Plot_Prologue_05_GuiShou_GuiShou_1": {
+  "media_id": 599502206,
+  "headers": [
+   794
+  ],
+  "duration": 5.618,
+  "candidates": [
+   {
+    "block": 2056,
+    "size": 1238590,
+    "dur": 5.618
+   }
+  ]
+ },
+ "Vo_Plot_XG_FuLaoDa1_Battle_1": {
+  "media_id": 519651264,
+  "headers": [
+   1475
+  ],
+  "duration": 6.4239373,
+  "candidates": [
+   {
+    "block": 1782,
+    "size": 178539,
+    "dur": 6.4239375
+   }
+  ]
+ },
+ "Vo_Plot_XG_FuLaoDa2_Battle_1": {
+  "media_id": 269424054,
+  "headers": [
+   325
+  ],
+  "duration": 3.04,
+  "candidates": [
+   {
+    "block": 931,
+    "size": 86300,
+    "dur": 3.04
+   },
+   {
+    "block": 3175,
+    "size": 65281,
+    "dur": 3.040770833333333
+   }
+  ]
+ },
+ "Vo_Plot_XG_FuLaoDa2_Battle_2": {
+  "media_id": 1022609507,
+  "headers": [
+   326
+  ],
+  "duration": 3.5762916,
+  "candidates": [
+   {
+    "block": 175,
+    "size": 74926,
+    "dur": 3.5753541666666666
+   },
+   {
+    "block": 3383,
+    "size": 107765,
+    "dur": 3.5762916666666666
+   }
+  ]
+ },
+ "Vo_Plot_XG_FuLaoDa3_Battle_1": {
+  "media_id": 613128626,
+  "headers": [
+   1074
+  ],
+  "duration": 3.1714327,
+  "candidates": [
+   {
+    "block": 2107,
+    "size": 77212,
+    "dur": 3.1714375
+   }
+  ]
+ },
+ "Vo_Plot_XG_Hun1_Hun_2_ZiYan": {
+  "media_id": 259402851,
+  "headers": [
+   1664
+  ],
+  "duration": 1.6746666,
+  "candidates": [
+   {
+    "block": 15,
+    "size": 23600,
+    "dur": 1.6769583333333333
+   },
+   {
+    "block": 610,
+    "size": 22682,
+    "dur": 1.6724489795918367
+   },
+   {
+    "block": 904,
+    "size": 32295,
+    "dur": 1.6746666666666667
+   }
+  ]
+ },
+ "Vo_Plot_XG_Hun1_Hun_3_ZiYan": {
+  "media_id": 427509085,
+  "headers": [
+   296
+  ],
+  "duration": 3.9496667,
+  "candidates": [
+   {
+    "block": 1458,
+    "size": 66225,
+    "dur": 3.949666666666667
+   }
+  ]
+ },
+ "Vo_Plot_XG_Xinniang_Battle_1": {
+  "media_id": 237456752,
+  "headers": [
+   1064
+  ],
+  "duration": 7.5226665,
+  "candidates": [
+   {
+    "block": 820,
+    "size": 131459,
+    "dur": 7.522666666666667
+   }
+  ]
+ },
+ "Vo_Plot_XG_Xinniang_Battle_2": {
+  "media_id": 149428438,
+  "headers": [
+   1066
+  ],
+  "duration": 4.5386667,
+  "candidates": [
+   {
+    "block": 534,
+    "size": 68129,
+    "dur": 4.538666666666667
+   }
+  ]
+ },
+ "Vo_Plot_XG_Xinniang_Battle_3": {
+  "media_id": 699946883,
+  "headers": [
+   1065
+  ],
+  "duration": 5.1466665,
+  "candidates": [
+   {
+    "block": 2383,
+    "size": 81370,
+    "dur": 5.1466666666666665
+   }
+  ]
+ },
+ "Vo_Plot_XG_XiongFu_FuLaoDa_1": {
+  "media_id": 549548031,
+  "headers": [
+   1179
+  ],
+  "duration": 8.0463705,
+  "candidates": [
+   {
+    "block": 1873,
+    "size": 203410,
+    "dur": 8.046375
+   }
+  ]
+ },
+ "Vo_Plot_XG_ZhuiMing1_Battle_1": {
+  "media_id": 396292742,
+  "headers": [
+   1196
+  ],
+  "duration": 2.984,
+  "candidates": [
+   {
+    "block": 1352,
+    "size": 46086,
+    "dur": 2.984
+   },
+   {
+    "block": 1656,
+    "size": 42861,
+    "dur": 2.982666666666667
+   },
+   {
+    "block": 2471,
+    "size": 56124,
+    "dur": 2.9846666666666666
+   }
+  ]
+ },
+ "Vo_Plot_XG_ZhuiMing2_Battle_1": {
+  "media_id": 659914190,
+  "headers": [
+   560
+  ],
+  "duration": 4.7873335,
+  "candidates": [
+   {
+    "block": 900,
+    "size": 69824,
+    "dur": 4.785958333333333
+   },
+   {
+    "block": 2258,
+    "size": 80865,
+    "dur": 4.787333333333334
+   }
+  ]
+ },
+ "Vo_Plot_XG_ZhuiMing3_Battle_1": {
+  "media_id": 86742982,
+  "headers": [
+   1388
+  ],
+  "duration": 5.673333,
+  "candidates": [
+   {
+    "block": 309,
+    "size": 85729,
+    "dur": 5.673333333333333
+   }
+  ]
+ },
+ "Vo_Plot_XG_ZhuiMing3_Battle_2": {
+  "media_id": 200995336,
+  "headers": [
+   1387
+  ],
+  "duration": 6.0933332,
+  "candidates": [
+   {
+    "block": 710,
+    "size": 95199,
+    "dur": 6.093333333333334
+   },
+   {
+    "block": 2200,
+    "size": 12105,
+    "dur": 6.095
+   }
+  ]
+ },
+ "Vo_Plot_XMJX_XMJX1a_MoTian_1_HuaWaiYin": {
+  "media_id": 92801803,
+  "headers": [
+   969
+  ],
+  "duration": 5.977104,
+  "candidates": [
+   {
+    "block": 331,
+    "size": 89911,
+    "dur": 5.977104166666667
+   }
+  ]
+ },
+ "Vo_Plot_XMJX_XMJX1a_MoTian_2_HuaWaiYin": {
+  "media_id": 774387251,
+  "headers": [
+   428
+  ],
+  "duration": 12.432729,
+  "candidates": [
+   {
+    "block": 2632,
+    "size": 158610,
+    "dur": 12.432729166666666
+   }
+  ]
+ },
+ "Vo_Plot_XMJX_XMJX1a_MoTian_4": {
+  "media_id": 983170711,
+  "headers": [
+   239
+  ],
+  "duration": 3.5909376,
+  "candidates": [
+   {
+    "block": 3248,
+    "size": 58284,
+    "dur": 3.5909375
+   }
+  ]
+ },
+ "Vo_Plot_XMJX_XMJX6a_MoTian_10": {
+  "media_id": 164119312,
+  "headers": [
+   1419
+  ],
+  "duration": 4.932271,
+  "candidates": [
+   {
+    "block": 583,
+    "size": 51058,
+    "dur": 4.932270833333333
+   }
+  ]
+ },
+ "Vo_Plot_XMJX_XMJX6a_MoTian_9": {
+  "media_id": 79418342,
+  "headers": [
+   783
+  ],
+  "duration": 4.779396,
+  "candidates": [
+   {
+    "block": 283,
+    "size": 78058,
+    "dur": 4.779395833333333
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_ChangHong3_CH_4": {
+  "media_id": 626580888,
+  "headers": [
+   874
+  ],
+  "duration": 5.3886666,
+  "candidates": [
+   {
+    "block": 2104,
+    "size": 115012,
+    "dur": 5.386666666666667
+   },
+   {
+    "block": 2148,
+    "size": 101425,
+    "dur": 5.3886666666666665
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_ChangHong3_CH_5": {
+  "media_id": 494717887,
+  "headers": [
+   873
+  ],
+  "duration": 3.218,
+  "candidates": [
+   {
+    "block": 1684,
+    "size": 47339,
+    "dur": 3.218
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_ChangHong3_CH_6": {
+  "media_id": 571884639,
+  "headers": [
+   875
+  ],
+  "duration": 6.916,
+  "candidates": [
+   {
+    "block": 1953,
+    "size": 104695,
+    "dur": 6.916
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_GuiXiuXiongZhang1_GuiXiuXiongZhang1_1": {
+  "media_id": 1035956488,
+  "headers": [
+   324
+  ],
+  "duration": 5.6,
+  "candidates": [
+   {
+    "block": 3058,
+    "size": 90204,
+    "dur": 5.6
+   },
+   {
+    "block": 3414,
+    "size": 87445,
+    "dur": 5.6
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_GuiXiuXiongZhang1_GuiXiuXiongZhang1_2": {
+  "media_id": 897504804,
+  "headers": [
+   322
+  ],
+  "duration": 3.4346666,
+  "candidates": [
+   {
+    "block": 1056,
+    "size": 59949,
+    "dur": 3.433333333333333
+   },
+   {
+    "block": 3013,
+    "size": 53699,
+    "dur": 3.4346666666666668
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_GuiXiuXiongZhang1_GuiXiuXiongZhang1_3": {
+  "media_id": 880348554,
+  "headers": [
+   323
+  ],
+  "duration": 6.022333,
+  "candidates": [
+   {
+    "block": 2952,
+    "size": 102443,
+    "dur": 6.022333333333333
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_GuiXiuXiongZhang2_GuiXiuXiongZhang2_1": {
+  "media_id": 845223245,
+  "headers": [
+   205
+  ],
+  "duration": 7.2706666,
+  "candidates": [
+   {
+    "block": 2839,
+    "size": 105477,
+    "dur": 7.270666666666667
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_GuiXiuXiongZhang_GuiXiuXiongZhang_6": {
+  "media_id": 285374889,
+  "headers": [
+   338
+  ],
+  "duration": 4.711,
+  "candidates": [
+   {
+    "block": 982,
+    "size": 79829,
+    "dur": 4.711
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_GuiXiuXiongZhang_GuiXiuXiongZhang_7": {
+  "media_id": 559544262,
+  "headers": [
+   339
+  ],
+  "duration": 8.82,
+  "candidates": [
+   {
+    "block": 1910,
+    "size": 146425,
+    "dur": 8.82
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_HunDunMoOu1_GangRen_Battle_1": {
+  "media_id": 455427756,
+  "headers": [
+   1131
+  ],
+  "duration": 3.2553334,
+  "candidates": [
+   {
+    "block": 1555,
+    "size": 47386,
+    "dur": 3.255333333333333
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_HunDunMoOu1_GangRen_Battle_2": {
+  "media_id": 425134880,
+  "headers": [
+   1132
+  ],
+  "duration": 4.272,
+  "candidates": [
+   {
+    "block": 1446,
+    "size": 60830,
+    "dur": 4.272
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_HunDunMoOu1_HanBing_Battle_3": {
+  "media_id": 889484353,
+  "headers": [
+   94
+  ],
+  "duration": 1.9293333,
+  "candidates": [
+   {
+    "block": 2478,
+    "size": 72796,
+    "dur": 1.9293541666666667
+   },
+   {
+    "block": 2976,
+    "size": 28758,
+    "dur": 1.9293333333333333
+   },
+   {
+    "block": 3090,
+    "size": 82993,
+    "dur": 1.9293333333333333
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_HunDunMoOu1_HanBing_Battle_4": {
+  "media_id": 584234013,
+  "headers": [
+   93
+  ],
+  "duration": 2.036,
+  "candidates": [
+   {
+    "block": 2007,
+    "size": 32391,
+    "dur": 2.036
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_ShenYi_XieQiuDong1_1": {
+  "media_id": 255091574,
+  "headers": [
+   356
+  ],
+  "duration": 5.5693336,
+  "candidates": [
+   {
+    "block": 889,
+    "size": 102214,
+    "dur": 5.569333333333334
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_ShenYi_XieQiuDong2_1": {
+  "media_id": 1034292374,
+  "headers": [
+   1621
+  ],
+  "duration": 1.5133333,
+  "candidates": [
+   {
+    "block": 350,
+    "size": 21597,
+    "dur": 1.5155833333333333
+   },
+   {
+    "block": 3403,
+    "size": 26225,
+    "dur": 1.5133333333333334
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_ShenYi_XieQiuDong2_2": {
+  "media_id": 171572258,
+  "headers": [
+   1620
+  ],
+  "duration": 2.4350834,
+  "candidates": [
+   {
+    "block": 612,
+    "size": 44947,
+    "dur": 2.4350833333333335
+   },
+   {
+    "block": 1846,
+    "size": 35274,
+    "dur": 2.4368541666666665
+   }
+  ]
+ },
+ "Vo_Plot_XSSL_ShenYi_XieQiuDong3_1": {
+  "media_id": 1009461400,
+  "headers": [
+   1622
+  ],
+  "duration": 7.3133125,
+  "candidates": [
+   {
+    "block": 3333,
+    "size": 103819,
+    "dur": 7.3133125
+   }
+  ]
+ },
+ "Vo_Plot_XiMeng_ChaoFeng1_FenShen_1": {
+  "media_id": 220688837,
+  "headers": [
+   1437
+  ],
+  "duration": 8.328813,
+  "candidates": [
+   {
+    "block": 773,
+    "size": 134161,
+    "dur": 8.3288125
+   }
+  ]
+ },
+ "Vo_Plot_XiMeng_ChaoFeng2_FenShen_1": {
+  "media_id": 367881141,
+  "headers": [
+   1003
+  ],
+  "duration": 11.146979,
+  "candidates": [
+   {
+    "block": 1251,
+    "size": 177584,
+    "dur": 11.146979166666666
+   }
+  ]
+ },
+ "Vo_Plot_XiMeng_ChaoFeng3_FenShen_1": {
+  "media_id": 906320738,
+  "headers": [
+   1681
+  ],
+  "duration": 10.297354,
+  "candidates": [
+   {
+    "block": 3032,
+    "size": 154478,
+    "dur": 10.297354166666667
+   }
+  ]
+ },
+ "Vo_Plot_XiMeng_LeiDang1_Battle_1": {
+  "media_id": 154306419,
+  "headers": [
+   174
+  ],
+  "duration": 1.7586666,
+  "candidates": [
+   {
+    "block": 551,
+    "size": 34212,
+    "dur": 1.7586666666666666
+   },
+   {
+    "block": 1796,
+    "size": 24171,
+    "dur": 1.7611875
+   },
+   {
+    "block": 3007,
+    "size": 25960,
+    "dur": 1.7595416666666666
+   }
+  ]
+ },
+ "Vo_Plot_XiMeng_LeiDang2_Battle_1": {
+  "media_id": 683074067,
+  "headers": [
+   504
+  ],
+  "duration": 3.516,
+  "candidates": [
+   {
+    "block": 2334,
+    "size": 59747,
+    "dur": 3.516
+   }
+  ]
+ },
+ "Vo_Plot_XiMeng_LeiDang2_Battle_2": {
+  "media_id": 918329953,
+  "headers": [
+   503
+  ],
+  "duration": 3.9013333,
+  "candidates": [
+   {
+    "block": 3073,
+    "size": 72424,
+    "dur": 3.9013333333333335
+   }
+  ]
+ },
+ "Vo_Plot_XiMeng_LeiDang3_Battle_1": {
+  "media_id": 309802378,
+  "headers": [
+   299
+  ],
+  "duration": 3.4333334,
+  "candidates": [
+   {
+    "block": 1056,
+    "size": 59949,
+    "dur": 3.433333333333333
+   },
+   {
+    "block": 3013,
+    "size": 53699,
+    "dur": 3.4346666666666668
+   }
+  ]
+ },
+ "Vo_Plot_XiMeng_LeiDang3_LeiDang_3": {
+  "media_id": 946644779,
+  "headers": [
+   1430
+  ],
+  "duration": 0.75666666,
+  "candidates": [
+   {
+    "block": 563,
+    "size": 10858,
+    "dur": 0.7562916666666667
+   },
+   {
+    "block": 856,
+    "size": 10871,
+    "dur": 0.7549791666666666
+   },
+   {
+    "block": 2192,
+    "size": 11075,
+    "dur": 0.756625
+   },
+   {
+    "block": 2649,
+    "size": 11596,
+    "dur": 0.7565208333333333
+   },
+   {
+    "block": 2949,
+    "size": 12034,
+    "dur": 0.7544166666666666
+   },
+   {
+    "block": 3135,
+    "size": 13638,
+    "dur": 0.7566666666666667
+   },
+   {
+    "block": 3177,
+    "size": 10831,
+    "dur": 0.7538125
+   },
+   {
+    "block": 3190,
+    "size": 10756,
+    "dur": 0.7538125
+   }
+  ]
+ },
+ "Vo_Plot_XiMeng_LeiDang4_Battle_1": {
+  "media_id": 245760329,
+  "headers": [
+   1380
+  ],
+  "duration": 6.0333333,
+  "candidates": [
+   {
+    "block": 115,
+    "size": 93698,
+    "dur": 6.034
+   },
+   {
+    "block": 845,
+    "size": 87944,
+    "dur": 6.033333333333333
+   }
+  ]
+ },
+ "Vo_Plot_XiMeng_WuShiZunZhu_WSZZ_3": {
+  "media_id": 801388098,
+  "headers": [
+   729
+  ],
+  "duration": 4.8426666,
+  "candidates": [
+   {
+    "block": 2728,
+    "size": 60982,
+    "dur": 4.842666666666666
+   }
+  ]
+ },
+ "Vo_Plot_XiMeng_WuShiZunZhu_WSZZ_4": {
+  "media_id": 597071371,
+  "headers": [
+   728
+  ],
+  "duration": 5.3333335,
+  "candidates": [
+   {
+    "block": 2045,
+    "size": 65330,
+    "dur": 5.333333333333333
+   }
+  ]
+ },
+ "Vo_Plot_YBZL_TouYing_3XiongFu_2": {
+  "media_id": 77196901,
+  "headers": [
+   1598
+  ],
+  "duration": 0.70264584,
+  "candidates": [
+   {
+    "block": 134,
+    "size": 10675,
+    "dur": 0.7044583333333333
+   },
+   {
+    "block": 277,
+    "size": 10597,
+    "dur": 0.7026458333333333
+   },
+   {
+    "block": 2231,
+    "size": 9785,
+    "dur": 0.7026041666666667
+   },
+   {
+    "block": 701,
+    "size": 10937,
+    "dur": 0.7012708333333333
+   },
+   {
+    "block": 713,
+    "size": 11213,
+    "dur": 0.7012708333333333
+   },
+   {
+    "block": 3398,
+    "size": 10533,
+    "dur": 0.7012708333333333
+   },
+   {
+    "block": 1142,
+    "size": 11567,
+    "dur": 0.7048125
+   },
+   {
+    "block": 1645,
+    "size": 10624,
+    "dur": 0.704
+   },
+   {
+    "block": 2717,
+    "size": 9985,
+    "dur": 0.704
+   },
+   {
+    "block": 3178,
+    "size": 9475,
+    "dur": 0.704
+   },
+   {
+    "block": 2783,
+    "size": 10806,
+    "dur": 0.7051041666666666
+   }
+  ]
+ },
+ "Vo_Plot_YBZL_TouYing_DaSao_3": {
+  "media_id": 552493369,
+  "headers": [
+   1214
+  ],
+  "duration": 3.9783332,
+  "candidates": [
+   {
+    "block": 1889,
+    "size": 47164,
+    "dur": 3.9783333333333335
+   }
+  ]
+ },
+ "Vo_Plot_YBZL_TouYing_DaShiXiong_1": {
+  "media_id": 622091811,
+  "headers": [
+   357
+  ],
+  "duration": 6.547917,
+  "candidates": [
+   {
+    "block": 2128,
+    "size": 94684,
+    "dur": 6.547916666666667
+   }
+  ]
+ },
+ "Vo_Plot_YBZL_TouYing_DaShiXiong_2": {
+  "media_id": 913503110,
+  "headers": [
+   358
+  ],
+  "duration": 4.6822915,
+  "candidates": [
+   {
+    "block": 3053,
+    "size": 69742,
+    "dur": 4.682291666666667
+   }
+  ]
+ },
+ "Vo_Plot_YBZL_TouYing_FengXueDaoKe_1": {
+  "media_id": 1051749796,
+  "headers": [
+   1063
+  ],
+  "duration": 4.6386666,
+  "candidates": [
+   {
+    "block": 3459,
+    "size": 76905,
+    "dur": 4.6386666666666665
+   }
+  ]
+ },
+ "Vo_Plot_YBZL_TouYing_FuLaoDa_1": {
+  "media_id": 203880132,
+  "headers": [
+   1669
+  ],
+  "duration": 3.4646666,
+  "candidates": [
+   {
+    "block": 727,
+    "size": 62304,
+    "dur": 3.4646666666666666
+   }
+  ]
+ },
+ "Vo_Plot_YBZL_TouYing_LieYan_1": {
+  "media_id": 896433662,
+  "headers": [
+   1361
+  ],
+  "duration": 2.5969374,
+  "candidates": [
+   {
+    "block": 965,
+    "size": 44246,
+    "dur": 2.597
+   },
+   {
+    "block": 1801,
+    "size": 34641,
+    "dur": 2.5982083333333335
+   },
+   {
+    "block": 2562,
+    "size": 45584,
+    "dur": 2.598
+   },
+   {
+    "block": 3009,
+    "size": 49032,
+    "dur": 2.5969375
+   }
+  ]
+ },
+ "Vo_Plot_YBZL_TouYing_LieYan_2": {
+  "media_id": 51454847,
+  "headers": [
+   1362
+  ],
+  "duration": 4.443125,
+  "candidates": [
+   {
+    "block": 179,
+    "size": 78745,
+    "dur": 4.443125
+   }
+  ]
+ },
+ "Vo_Plot_YBZL_TouYing_LieYan_3": {
+  "media_id": 648094581,
+  "headers": [
+   1363
+  ],
+  "duration": 3.3141458,
+  "candidates": [
+   {
+    "block": 2223,
+    "size": 51640,
+    "dur": 3.3141458333333333
+   }
+  ]
+ },
+ "Vo_Plot_YBZL_TouYing_ShiDiALL_6": {
+  "media_id": 122240533,
+  "headers": [
+   410
+  ],
+  "duration": 5.550979,
+  "candidates": [
+   {
+    "block": 409,
+    "size": 89578,
+    "dur": 5.550979166666667
+   }
+  ]
+ },
+ "Vo_Plot_YBZL_TouYing_ShiDi_4": {
+  "media_id": 138353178,
+  "headers": [
+   283
+  ],
+  "duration": 3.0103333,
+  "candidates": [
+   {
+    "block": 477,
+    "size": 59572,
+    "dur": 3.0103333333333335
+   },
+   {
+    "block": 1703,
+    "size": 65322,
+    "dur": 3.0124375
+   },
+   {
+    "block": 2857,
+    "size": 47919,
+    "dur": 3.008770833333333
+   }
+  ]
+ },
+ "Vo_Plot_YBZL_TouYing_ShiDi_5": {
+  "media_id": 600763345,
+  "headers": [
+   282
+  ],
+  "duration": 3.152,
+  "candidates": [
+   {
+    "block": 2063,
+    "size": 58132,
+    "dur": 3.152
+   }
+  ]
+ },
+ "Vo_Plot_ZDDY_GeShe_HongYiNvJianKe_1_Far": {
+  "media_id": 437600573,
+  "headers": [
+   1602
+  ],
+  "duration": 2.2357292,
+  "candidates": [
+   {
+    "block": 1209,
+    "size": 47818,
+    "dur": 2.235333333333333
+   },
+   {
+    "block": 1498,
+    "size": 32481,
+    "dur": 2.2357291666666668
+   }
+  ]
+ },
+ "Vo_Plot_ZDDY_GeShe_NvJianKe_Hun_1_ZiYan": {
+  "media_id": 1061576425,
+  "headers": [
+   957
+  ],
+  "duration": 4.980907,
+  "candidates": [
+   {
+    "block": 3490,
+    "size": 85319,
+    "dur": 4.980907029478458
+   }
+  ]
+ },
+ "Vo_Plot_ZDDY_GeShe_NvJianKe_Hun_2_ZiYan": {
+  "media_id": 61267818,
+  "headers": [
+   466
+  ],
+  "duration": 2.126304,
+  "candidates": [
+   {
+    "block": 215,
+    "size": 37920,
+    "dur": 2.1263038548752835
+   },
+   {
+    "block": 1699,
+    "size": 33252,
+    "dur": 2.1245124716553287
+   }
+  ]
+ },
+ "Vo_Plot_ZDDY_JianZhen_HongYiNvJianKe_1_Far": {
+  "media_id": 656399561,
+  "headers": [
+   207
+  ],
+  "duration": 5.248104,
+  "candidates": [
+   {
+    "block": 2246,
+    "size": 72629,
+    "dur": 5.248104166666667
+   }
+  ]
+ },
+ "Vo_Plot_ZDDY_KLSJ_JCWanJunKe_1": {
+  "media_id": 95013479,
+  "headers": [
+   773
+  ],
+  "duration": 6.5394025,
+  "candidates": [
+   {
+    "block": 339,
+    "size": 175552,
+    "dur": 6.539416666666667
+   }
+  ]
+ },
+ "Vo_Plot_ZDDY_KLSJ_JCWanJunKe_2": {
+  "media_id": 640007011,
+  "headers": [
+   772
+  ],
+  "duration": 6.544002,
+  "candidates": [
+   {
+    "block": 2195,
+    "size": 180326,
+    "dur": 6.544
+   }
+  ]
+ },
+ "Vo_Plot_ZDDY_QXJZ_DiZi_8": {
+  "media_id": 733582825,
+  "headers": [
+   1087
+  ],
+  "duration": 10.14625,
+  "candidates": [
+   {
+    "block": 2497,
+    "size": 151943,
+    "dur": 10.14625
+   }
+  ]
+ },
+ "Vo_Plot_ZDDY_QXJZ_DiZi_9": {
+  "media_id": 130633827,
+  "headers": [
+   1088
+  ],
+  "duration": 9.325,
+  "candidates": [
+   {
+    "block": 444,
+    "size": 145245,
+    "dur": 9.325
+   }
+  ]
+ }
+}
