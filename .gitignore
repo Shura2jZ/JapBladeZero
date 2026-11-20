@@ -30,6 +30,14 @@ __pycache__/
 data/manifest_jp.csv.bak
 data/jp_durations.json
 
+# --- artefacts regeneres ----------------------------------------------------
+# liste des fichiers du conteneur (produite par src/patch/container_files.py)
+data/container_files.tsv
+# rapport du patch des durees (produit par src/patch/patch_dt_durations.py)
+data/dt_duration_patch.json
+# durees mesurees sur les .wem injectes (produit par src/audio/wem_durations.py)
+data/jp_wem_durations.json
+
 # --- secrets / chemins locaux ----------------------------------------------
 # contient la clé AES du jeu : ne jamais commiter
 pbz_paths.txt

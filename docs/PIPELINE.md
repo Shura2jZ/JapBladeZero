@@ -138,6 +138,20 @@ corrompu.
 Piège : la première version du script lisait les flottants comme des chaînes et
 obtenait 0. Il faut lire le tag avec `UnderlyingType = typeof(float)`.
 
+### Quelle colonne écrire : `Duration_Chinese`
+
+Le jeu n'a que **deux** banques de voix, chinoise et anglaise ; le japonais
+qu'il contient est du **texte** (la localisation `ja/Game.locres`). Le mod
+installe donc l'audio japonais **à la place** du contenu de la banque chinoise,
+et le moteur continue de jouer cette banque : la durée qu'il consulte pendant
+la lecture est `Duration_Chinese`. Les colonnes `Duration_Japanese` et
+`Duration_German` sont nulles partout dans ce build et ne sont jamais lues.
+
+Écrire `Duration_Japanese` n'aurait donc aucun effet, et coûterait cher : la
+propriété n'existe pas encore dans le fichier, il faudrait **insérer** 4 octets
+par ligne, donc modifier la taille de l'export `UDataTable` et du résumé du
+paquet.
+
 ### Layout binaire (identifié par sondes)
 
 Écriture d'une ligne (le nom est la clé de la table, les valeurs suivent) :
@@ -156,18 +170,58 @@ vaut 23 octets si chinois et anglais sont non nuls, 19 si un seul l'est, 15 si
 aucun ne l'est. Vérifié sur les 7 971 lignes (CN retrouvé à +0 dans 4 631/4 631
 cas, EN à +4 dans 4 387/4 388).
 
-Conséquence : écrire `Duration_Japanese` impose **d'insérer** 4 octets par ligne
-(la propriété n'existe pas encore dans le fichier), donc de modifier la taille de
-l'export `UDataTable` et du résumé du package. `tools/csharp/durations` sait lire
-et écrire en mémoire, mais `TrySavePackage` ne persiste pas la modification
-(fichier identique à l'octet près) → il faut passer par un patch binaire.
+### Patch en place (`src/patch/patch_dt_durations.py`)
 
-Méthode de vérification (sans CUE4Parse en écriture) : construire un petit
-conteneur IoStore avec la DataTable modifiée (un seul chunk) et le relire avec
-`tools/csharp/durations` — le conteneur du mod est prioritaire dans le lecteur.
+`tools/csharp/durations` sait lire et écrire la valeur en mémoire, mais
+`TrySavePackage` ne persiste pas la modification (fichier identique à l'octet
+près) → il faut passer par un patch binaire.
 
-Impact limité : la voix japonaise est alignée sur la durée chinoise (± 0,06 s),
-donc le lip-sync reste correct tant que la table n'est pas mise à jour.
+La bonne nouvelle : réécrire `Duration_Chinese` **en place** ne change **pas** la
+taille du fichier (le float32 existe déjà dans les 4 632 lignes concernées), donc
+ni la taille de l'export, ni le résumé du package, ni les offsets du conteneur ne
+sont à recalculer.
+
+Le script ne se fie pas au layout : pour chaque ligne, il cherche la séquence
+exacte
+
+```
+nom + "\0" + float32(durée chinoise actuelle)
+```
+
+et n'écrit que si elle est trouvée — la valeur relue est donc bien une valeur
+que le moteur stockait. La taille du fichier est vérifiée identique avant et
+après, et chaque ligne patchée est relue.
+
+Résultat : **4 167 lignes** réécrites, 6 117 octets modifiés (tous dans des zones
+de 3 octets au plus), **0 octet** de différence de taille.
+
+Les 86 lignes restantes n'ont pas de durée chinoise : leur audio reste chinois,
+leur durée doit donc rester chinoise.
+
+### Quelle durée écrire : celle du média injecté
+
+La durée écrite est celle du **média que le moteur joue**, c'est-à-dire le `.wem`
+injecté, pas le WAV source. Les `.wem` sont des Ogg Vorbis enveloppés dans un
+en-tête Wwise : leur durée décodée est mesurée par `src/audio/wem_durations.py`
+(`pyvgmstream`). Contrôle : les 4 167 durées mesurées sont **identiques au bit
+près** (0,0 ms d'écart) à celles des WAV sources, et la durée chinoise de la
+table correspond bien à la durée décodée du média chinois d'origine — la
+colonne porte donc bien la durée du média.
+
+### Vérification
+
+`tools/csharp/dtcheck` relit la table **à travers les conteneurs montés du jeu**
+(donc comme le moteur) et compare chaque ligne :
+
+```
+rows=7972 rowStruct=WwiseVoiceDurationRow
+rows with a Japanese duration : 4253
+  Chinese column = Japanese duration : 4167
+  Chinese column = original Chinese : 56
+  other                            : 0
+```
+
+Écart JP vs CN mesuré avant patch : médiane 0,021 %, max 3,74 % (0,152 s).
 
 ## 7. Packaging : le jeu est un conteneur IoStore (et non un `.pak`)
 
@@ -272,6 +326,30 @@ export CARGO_TARGET_DIR=E:/cargo_target
 export PATH="$PATH:/e/msys64/usr/bin:/e/msys64/ucrt64/bin"
 cargo build --release -p retoc_cli
 ```
+
+> **Piège : il faut le retoc *patché*, pas le retoc stock.** Les deux binaires
+> ont le même nom et le même rôle, mais le stock n'écrit pas le chunk
+> d'en-tête de conteneur (type 6) :
+>
+> | binaire | chunks écrits | dont en-tête (type 6) |
+> |---------|----------------|----------------------|
+> | `C:\tools\retoc\retoc.exe` (stock) | 1 | **0** |
+> | `E:\cargo_target\release\retoc.exe` (patché) | 2 | **1** |
+>
+> Un conteneur sans en-tête est monté sans erreur apparente mais **aucun paquet
+> n'est résolu** : le jeu joue alors le contenu d'origine. C'est exactement ce
+> que montre CUE4Parse :
+>
+> ```
+> Couldn't find chunk 0xEE8F834DFDF5AAB9 | 6 in IoStore PBZJapaneseVoice_9_P.utoc
+> ```
+>
+> `scripts/container.sh` doit donc **exporter** `RETOC`, sinon
+> `src/patch/build_container.py` utilise son propre défaut (le retoc stock) :
+>
+> ```bash
+> export RETOC="${RETOC:-E:/cargo_target/release/retoc.exe}"
+> ```
 
 ### Chaîne de fabrication du mod
 

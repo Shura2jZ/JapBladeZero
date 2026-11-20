@@ -19,7 +19,10 @@ BASE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 source "$BASE/scripts/common.sh"
 
 OUT="${1:-E:/PBZ_Mod}"
-RETOC="${RETOC:-E:/cargo_target/release/retoc.exe}"
+# retoc doit etre le binaire patche (il ecrit l'en-tete de conteneur) : la
+# variable est exportee pour que build_container.py n'utilise pas son propre
+# defaut, qui est le retoc stock, sans le correctif.
+export RETOC="${RETOC:-E:/cargo_target/release/retoc.exe}"
 UNREALPAK="${UNREALPAK:-F:/Epic/UE_5.7/Engine/Binaries/Win64/UnrealPak.exe}"
 PAKS="${PAKS:-E:/SteamLibrary/steamapps/common/PBZ/ProjectPBZ/Content/Paks}"
 WORK="${WORK:-E:/PBZ_Build/container}"
