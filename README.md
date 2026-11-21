@@ -75,16 +75,29 @@ cd JapBladeZero
 cp pbz_paths.example.txt pbz_paths.txt   # puis compléter les chemins locaux
 ```
 
-Dépendances : Python 3.10+, `transformers` + `torch`, `imageio-ffmpeg`,
+Dépendances : Python 3.10+, `imageio-ffmpeg`,
 [VOICEVOX Engine 0.26](https://github.com/VOICEVOX/voicevox_engine) (CPU suffit),
 et .NET 10 pour les outils C#.
 
 ```bash
-bash scripts/translate.sh   # traduction
+# le texte japonais vient du jeu lui-même (localisation "ja")
+dotnet tools/csharp/locres/bin/Release/net10.0/locres.dll --culture ja
+python src/translate/official_text.py --locres E:/PBZ_Build/build/locres/ja_Game.json
+
+# une voix par personnage, résolue par la colonne "Speaker" de DT_LocTable
+python src/tts/voicevox_styles.py      # styles du moteur (ids valides)
+python src/tts/voice_assign.py         # personnage -> style
+
 bash scripts/tts.sh         # voix + alignement
 bash scripts/wem.sh         # encodage .wem
 bash scripts/patch.sh       # injection
+bash scripts/container.sh E:/PBZ_Mod   # conteneur IoStore du mod
 ```
+
+> Le moteur VOICEVOX est un dossier de 2 Go : il est extrait dans `E:/PBZ_Build/voicevox`
+> (ou `voicevox/windows-cpu` dans le dépôt), et n'est pas versionné. Les
+> identifiants de style utilisés par `voice_map.json` dépendent de la version du
+> moteur : `src/tts/voicevox_styles.py` les résout par le couple (voix, style).
 
 > Les modèles, le moteur VOICEVOX et les médias générés ne sont pas versionnés :
 > ils sont reconstruits par les scripts ci-dessus.
@@ -95,8 +108,11 @@ bash scripts/patch.sh       # injection
 
 - **[CUE4Parse](https://github.com/FabianFG/CUE4Parse)** — lecture des assets UE5
 - **[VOICEVOX](https://github.com/VOICEVOX/voicevox_engine)** — synthèse vocale japonaise
-- **[Helsinki-NLP/opus-mt-zh-ja](https://huggingface.co/shun89/opus-mt-zh-ja)** — traduction
 - **Wwise** — format média du jeu (Vorbis, `wFormatTag=0xFFFF`, 48 kHz mono)
+
+> Le texte japonais des répliques n'est pas traduit : il est extrait de la
+> localisation `ja` du jeu lui-même, qui est plus fidèle qu'une traduction
+> automatique.
 
 ## Avertissement
 

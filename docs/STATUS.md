@@ -13,6 +13,8 @@ Dernière mise à jour : 20 novembre 2026.
 | 5 | Extraction des packages | ✅ terminé | 4 167 `.uasset` + 3 929 `.ubulk` |
 | 6 | Injection du média | ✅ terminé | **4 167 / 4 167** (les 238 « sans `.ubulk` » sont dans la bibliothèque Wwise) |
 | 7 | Durées japonaises dans la table | ✅ terminé | **4 167 lignes** réécrites **en place** dans `Duration_Chinese` (la colonne que le moteur lit, cf. plus bas) |
+| 7b | Texte japonais officiel | ✅ terminé | script officiel extrait du `.locres` du jeu, manifeste regénéré (4 252/4 252 lignes) |
+| 7c | Voix par personnage | ✅ terminé | `Speaker` officiel + genre déduit → 440 personnages sur 125 styles |
 | 8 | Packaging | ✅ | conteneur IoStore construit (7 851 chunks, 3 925 packages) — installé dans le jeu, **7 851 / 7 851 chunk ids résolus par le moteur** |
 | 9 | Test en jeu | 🟡 | le jeu démarre avec le mod ; **l'audio reste à écouter** |
 
@@ -37,7 +39,7 @@ sans quoi le moteur ne résout aucun paquet) : voir `docs/PIPELINE.md` § 7.
 | `no media block` | 1 | idem |
 | table de bulk-data incohérente | 1 | idem |
 
-## Le jeu n'a pas de banque voix japonaise
+## Le jeu n'a pas de banque voix japonaise — mais il a le texte japonais
 
 Rappel structurant : le jeu ne contient **que deux** banques de voix, chinoise
 et anglaise. Le japonais qui y figure est du **texte** (la localisation
@@ -56,6 +58,40 @@ n'est à recalculer. 4 167 lignes patchées, 0 octet de différence de taille.
 
 Vérification : `tools/csharp/dtcheck` relit la table à travers les conteneurs
 montés du jeu et retrouve la durée japonaise sur les 4 167 lignes.
+
+## Le texte japonais officiel, et ce que ça change
+
+`Localization/Game/ja/Game.locres` contient le **script japonais officiel** :
+5 076 lignes de dialogue. Le jeu sait donc déjà afficher ses propres sous-titres
+japonais (réglage « テキスト言語 »).
+
+Deux conséquences :
+
+1. **Notre traduction automatique était inutile — et fausse.** En traduisant
+   du chinois, elle massacrait les noms propres (`左殇` → « 左利き », « gaucher »).
+   Les 4 167 lignes patchées ont un texte officiel, et 4 154 diffèrent de
+   notre version. Le manifeste est désormais regénéré depuis la localisation
+   officielle.
+2. **Le TTS doit dire le texte officiel** — ce qu'il fait désormais. Comme le
+   jeu affiche déjà les sous-titres japonais, la voix et le texte dit maintenant
+   la même chose.
+
+Pour le joueur : laisser le jeu sur **文本言語 = 日本語** (sous-titres
+japonais natifs) et la voix sur **银行 = chinois** (la banque que le mod
+remplace).
+
+## Qui parle : l'identité officielle des personnages
+
+`DT_LocTable` porte une colonne **`Speaker`** à côté de `Audio` : c'est le
+code du personnage de chaque réplique (`Character_Main_1`, `Main_2` = 左殇,
+`Main_3` = 慕小葵...). C'est la seule source officielle — le nom de l'événement
+ne fait qu'y faire allusion — et elle couvre 99,7 % des événements patchés.
+
+Le genre se déduit des pronoms du texte japonais (俺/僕 vs 私/あたし) ; le
+chinois ne permet rien, 他 et 她 se prononcent pareil.
+
+Le mapping affecte **440 personnages** sur **125 styles** VOICEVOX, au lieu de
+19 voix pour tout le jeu.
 
 ## Deuxième cause des voix restées chinoises : le conteneur n'était pas montable
 
@@ -129,15 +165,14 @@ for (int i = 0; i < 8; i++) id[i] = (byte)(packageId.id >> (8 * i));  // little-
 
 ## Les 243 échecs d'injection — résolus
 
-1. **Écouter le jeu** : le conteneur du mod est installé
-   (`ProjectPBZ/Content/Paks/PBZJapaneseVoice_9_P.{pak,ucas,utoc}`), le jeu
-   démarre ; vérifier que les voix sont bien japonaises (et non chinoises).
-2. **Corriger l'écart de durée de 9 médias** de la bibliothèque Wwise (± 0,06 s).
-3. **Mapping `Character_*` → personnage → voix VOICEVOX**, en priorité 左殇 / 魂
-   (ZuoShang), qui porte 207 lignes.
-4. **Nettoyage** : balises dans `japanese_text`, 8 lignes dégradées.
-5. **Durées** : l'étape est faite ; le lip-sync s'appuie sur `Duration_Chinese`,
-   qui porte la durée du média japonais.
+1. **Régénérer l'audio** avec le texte officiel (4 252 lignes) puis réencodage
+   `.wem`, réinjection, mise à jour de la table des durées, reconstruction du
+   conteneur.
+2. **Écouter le jeu** : vérifier que les voix sont japonaises, que le lip-sync
+   tient, et que les sous-titres (文本言語 = 日本語) correspondent à la voix.
+3. **Corriger l'écart de durée de 9 médias** de la bibliothèque Wwise (± 0,06 s).
+4. **Nettoyage** : 8 lignes dégradées côté traduction (sans effet maintenant,
+   le texte officiel les remplace).
 
 ## Décisions à trancher
 
