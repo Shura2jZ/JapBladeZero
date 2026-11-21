@@ -28,6 +28,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from paths import BASE, out, voicevox
+from tts.voices import speaker_for
 OUT_DIR = out('jp_events')
 # the engine can live outside the repository (it is not versioned)
 VV_DIR = voicevox()
@@ -42,21 +43,11 @@ MAX_PAD_FRAC = 0.10  # never pad more than this fraction of the target with sile
 
 rows = list(csv.DictReader(open(MANIFEST, encoding='utf-8')))
 durations = json.load(open(DURATIONS, encoding='utf-8'))
-vm = json.load(open(VOICE_MAP, encoding='utf-8'))
-PREFIX_SPEAKER = vm['prefix_speaker']
-DEFAULT_SPEAKER = vm['default_speaker']
 speeds = json.load(open(SPEEDS_PATH, encoding='utf-8')) if os.path.exists(SPEEDS_PATH) else {}
 
 lock = threading.Lock()
 
 
-def speaker_for(event):
-    m = re.match(r'Vo_(?:Plot_)?(.+)$', event)
-    rest = m.group(1) if m else ''
-    for key in sorted(PREFIX_SPEAKER, key=len, reverse=True):
-        if rest.startswith(key + '_') or rest == key or rest.lower().startswith(key.lower()):
-            return PREFIX_SPEAKER[key]
-    return DEFAULT_SPEAKER
 
 
 def http(url, data=None, method=None, timeout=120):

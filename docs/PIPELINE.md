@@ -371,7 +371,72 @@ ProjectPBZ/Content/Paks/PBZJapaneseVoice_9_P.utoc   (1,1 Mo)
 Contrôle : CUE4Parse relit le conteneur du mod et renvoie bien la version
 japonaise (`.ubulk` de 96 477 o au lieu de 114 920 o).
 
-## 8. Emplacement des fichiers de travail
+## 8. Le texte japonais officiel du jeu
+
+Le jeu ne fournit pas de voix japonaise, mais il fournit **le texte japonais**.
+La culture `ja` est compilée dans le conteneur :
+
+```
+ProjectPBZ/Content/Localization/Game/ja/Game.locres
+```
+
+C'est un `FTextLocalizationResource` : 11 142 entrées, dont **5 076 lignes de
+dialogue** (`Dlg_*`) et les chaînes d'interface. Le jeu sait donc déjà
+afficher ses propres sous-titres japonais (réglage « テキスト言語 »).
+
+Conséquence majeure : **notre traduction automatique du chinois était
+inutile, et fausse**. Traduisant de la 2ᵉ à la 3ᵉ langue à travers le
+chinois, elle massacrait les noms propres (`左殇` → « 左利き », c'est-à-dire
+« gaucher »). Les 4 167 lignes patchées ont un texte officiel, et 4 154
+diffèrent de notre version.
+
+### Extraction
+
+Le `.locres` n'est pas un paquet : il vit dans le `.pak` chiffré du jeu.
+
+| étape | comment |
+|-------|---------|
+| extraction | `tools/csharp/locres` — monte les conteneurs du jeu, lit `ja/Game.locres` et le sérialise en JSON (`TrySaveAsset` + `CUE4Parse.UE4.Localization.FTextLocalizationResource`) |
+| format | magic `7574140E-FC034A67-9D90154A-1B7F37C3`, version 3 (`Optimized_CityHash64_UTF16`), table de chaînes à l'offset 16 |
+| injection | `src/translate/official_text.py` — joint sur la clé `Dlg_*` du manifeste et remplace `japanese_text` / `japanese_text_tts` (balises `<Bold>` retirées) |
+
+Résultat : **4 252 / 4 252 lignes** ont un texte officiel, 0 manquant.
+
+### API
+
+```
+dotnet tools/csharp/locres/bin/Release/net10.0/locres.dll --culture ja
+python src/translate/official_text.py --locres E:/PBZ_Build/build/locres/ja_Game.json
+```
+
+## 9. Qui parle : l'identité officielle des personnages
+
+`DT_LocTable` porte, à côté de la clé de dialogue, deux colonnes :
+
+| colonne | contenu |
+|---------|---------|
+| `Audio` | nom de l'événement Wwise (`Vo_Plot_2D_Animation5_MuTianMiao_1`) |
+| `Speaker` | code du personnage (`Character_Main_1`, `Character_Imp_18`, ...) |
+
+C'est la **seule source officielle** de l'identité d'un locuteur : le nom de
+l'événement ne fait qu'y faire allusion. La jointure couvre **99,7 %** des
+événements patchés (`data/event_speaker.json`).
+
+Le genre se déduit du texte japonais de ses répliques (pronoms de première
+personne : 俺/僕 masculins, 私/あたし féminins). Le chinois ne permet rien :
+他 et 她 se prononcent pareil.
+
+Le mapping final (`src/tts/voice_assign.py` → `data/character_voices.json`)
+affecte **440 personnages** sur **125 styles** VOICEVOX (le moteur expose 44
+voies et 128 styles ; le paramètre `speaker` de l'API est un *style*, et ces
+ids changent d'une version à l'autre, ils sont donc résolus par le couple
+(voix, style)).
+
+Les trois scripts de synthèse (`tts_generate`, `tts_refine`, `tts_align`)
+passent par `src/tts/voices.py`, qui lit ce mapping et retombe sur l'ancien
+mapping par préfixe quand le personnage est inconnu.
+
+## 10. Emplacement des fichiers de travail
 
 Les artefacts lourds (paquets extraits et patchés, WAV et `.wem` générés) ne
 sont pas versionnés et n'ont pas leur place sur le disque système. Par défaut

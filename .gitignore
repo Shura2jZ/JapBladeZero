@@ -37,6 +37,14 @@ data/container_files.tsv
 data/dt_duration_patch.json
 # durees mesurees sur les .wem injectes (produit par src/audio/wem_durations.py)
 data/jp_wem_durations.json
+# correspondace evenement -> personnage (produit par src/translate/loc_dump.py)
+data/event_speaker.json
+# voix par personnage (produit par src/tts/voice_assign.py)
+data/character_voices.json
+# styles du moteur VOICEVOX (produit par src/tts/voicevox_styles.py)
+data/voicevox_styles.json
+# vitesses de synthese par evenement (produit par src/tts/tts_align.py)
+data/jp_speeds.json
 
 # --- secrets / chemins locaux ----------------------------------------------
 # contient la clé AES du jeu : ne jamais commiter

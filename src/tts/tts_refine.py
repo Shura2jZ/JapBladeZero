@@ -19,6 +19,7 @@ import csv, json, os, re, sys, time, threading, subprocess, urllib.request, urll
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from paths import BASE, out, voicevox
+from tts.voices import speaker_for
 OUT_DIR = out('jp_events')
 # the engine can live outside the repository (it is not versioned)
 VV_DIR = voicevox()
@@ -32,20 +33,10 @@ MAX_PAD_FRAC = 0.06
 
 rows = list(csv.DictReader(open(os.path.join(BASE, 'data', 'manifest_jp.csv'), encoding='utf-8')))
 durations = json.load(open(os.path.join(BASE, 'data', 'durations.json'), encoding='utf-8'))
-vm = json.load(open(os.path.join(BASE, 'data', 'voice_map.json'), encoding='utf-8'))
-PREFIX_SPEAKER = vm['prefix_speaker']
-DEFAULT_SPEAKER = vm['default_speaker']
 SPEEDS_PATH = os.path.join(BASE, 'data', 'jp_speeds.json')
 speeds = json.load(open(SPEEDS_PATH, encoding='utf-8')) if os.path.exists(SPEEDS_PATH) else {}
 
 
-def speaker_for(event):
-    m = re.match(r'Vo_(?:Plot_)?(.+)$', event)
-    rest = m.group(1) if m else ''
-    for key in sorted(PREFIX_SPEAKER, key=len, reverse=True):
-        if rest.startswith(key + '_') or rest == key or rest.lower().startswith(key.lower()):
-            return PREFIX_SPEAKER[key]
-    return DEFAULT_SPEAKER
 
 
 def request(url, data=None, method=None, timeout=120):
