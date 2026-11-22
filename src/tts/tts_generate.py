@@ -21,6 +21,11 @@ VV_DIR = voicevox()
 PORTS = [50021, 50022, 50023, 50024, 50025, 50026, 50027, 50028]
 MAX_RETRIES = 4
 
+#: the voice assignment: a line synthesized before it was changed was made
+#: with another voice, so it has to be made again
+VOICES_PATH = os.path.join(BASE, 'data', 'character_voices.json')
+VOICES_STAMP = os.path.getmtime(VOICES_PATH) if os.path.exists(VOICES_PATH) else 0
+
 rows = list(csv.DictReader(open(os.path.join(BASE, 'data', 'manifest_jp.csv'), encoding='utf-8')))
 durations = json.load(open(os.path.join(BASE, 'data', 'durations.json'), encoding='utf-8'))
 
@@ -89,7 +94,9 @@ def synthesize(row):
         return None
     out_path = os.path.join(OUT_DIR, event + '.wav')
     if not FORCE and os.path.exists(out_path) and os.path.getsize(out_path) > 1000:
-        return 'skip'
+        # a line older than the voice assignment was made with another voice
+        if os.path.getmtime(out_path) >= VOICES_STAMP:
+            return 'skip'
     target = durations.get(event, [0.0, 0.0])[0] or 0.0
     speaker = speaker_for(event)
 

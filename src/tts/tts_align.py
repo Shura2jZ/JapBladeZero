@@ -215,7 +215,7 @@ def process(row, target, tol):
             speech_target = target * (1.0 - MAX_PAD_FRAC)
             try_text = text
             best = None
-            for _ in range(6):
+            for _ in range(8):
                 wav = synth(try_text, speaker_for(event), speed, port)
                 dur = duration_of(wav)
                 best = (wav, dur, speed)

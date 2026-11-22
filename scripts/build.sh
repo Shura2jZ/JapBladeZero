@@ -40,6 +40,16 @@ echo "=== 5. bibliotheque VO_CN ==="
 python src/patch/library_patch.py | tee logs/library.log
 python src/patch/verify_library.py 2>&1 | tee logs/library_verify.log | head -3
 
+# Sur un disque plein, la construction du conteneur echoue. Les fichiers
+# intermediaires (les WAV, qui sont deja encodes en .wem, et les paquets
+# extraits du jeu) peuvent etre effaces : PBZ_CLEAN=1 les supprime une fois
+# qu'ils ont servi.
+if [ "${PBZ_CLEAN:-0}" = "1" ]; then
+    echo "nettoyage des fichiers intermediaires (PBZ_CLEAN=1)"
+    rm -rf "$BASE/out/jp_events"
+    rm -rf "$BASE/build/raw_all" "$BASE/build/libs"
+fi
+
 echo "=== 6. durees dans DT_WwiseVoiceDuration ==="
 python src/patch/patch_dt_durations.py | tee logs/dt_durations.log
 

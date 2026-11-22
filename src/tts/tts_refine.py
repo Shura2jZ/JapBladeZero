@@ -241,7 +241,7 @@ def main():
                     print(f'{counter[0]} refined, errors={len(errors)}, remaining={len(todo)}', flush=True)
                     json.dump(speeds, open(SPEEDS_PATH, 'w'))
 
-    threads = [threading.Thread(target=worker, daemon=True) for _ in range(6)]
+    threads = [threading.Thread(target=worker, daemon=True) for _ in range(8)]
     for t in threads:
         t.start()
     for t in threads:
