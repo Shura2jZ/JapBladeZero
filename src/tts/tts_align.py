@@ -32,7 +32,7 @@ from tts.voices import speaker_for
 OUT_DIR = out('jp_events')
 # the engine can live outside the repository (it is not versioned)
 VV_DIR = voicevox()
-PORTS = [50021, 50022, 50023, 50024]
+PORTS = [50021, 50022, 50023, 50024, 50025, 50026, 50027, 50028]
 SPEEDS_PATH = os.path.join(BASE, 'data', 'jp_speeds.json')
 MANIFEST = os.path.join(BASE, 'data', 'manifest_jp.csv')
 DURATIONS = os.path.join(BASE, 'data', 'durations.json')
@@ -256,7 +256,7 @@ def main():
     ap.add_argument('--max', type=int, default=0)
     ap.add_argument('--start', type=int, default=0)
     ap.add_argument('--tol', type=float, default=0.01)
-    ap.add_argument('--threads', type=int, default=3)
+    ap.add_argument('--threads', type=int, default=6)
     args = ap.parse_args()
 
     todo = []

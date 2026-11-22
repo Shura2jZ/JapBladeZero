@@ -46,6 +46,17 @@ fi
 
 python src/patch/build_container.py --files data/container_files.tsv --out "$OUT" --name "$NAME" --work "$WORK"
 
+# Controle d'integrite : le .ucas doit contenir toutes les donnees que le .utoc
+# decrit, et son en-tete (type 6) doit etre lisible — c'est lui qui donne au
+# moteur la liste des paquets. Un conteneur tronque est monte sans erreur mais
+# ne resout aucun paquet, et le jeu joue alors le contenu original.
+python src/patch/check_container.py "$OUT" "$NAME"
+# espace libre : le conteneur (1,5 Go) doit etre ecrit puis recopie dans le jeu
+free_mb=$(df -Pm "$OUT" | tail -1 | awk '{print $4}')
+if [ "$free_mb" -lt 4096 ]; then
+    echo "avertissement : seulement ${free_mb} Mo libres sur le disque du conteneur"
+fi
+
 # le moteur monte le conteneur qui porte le nom du .pak : il faut un .pak (vide suffit)
 : > "$BASE/build/empty_list.txt"
 rm -f "$OUT/$NAME.pak"

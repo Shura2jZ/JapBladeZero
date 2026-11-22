@@ -23,7 +23,7 @@ from tts.voices import speaker_for
 OUT_DIR = out('jp_events')
 # the engine can live outside the repository (it is not versioned)
 VV_DIR = voicevox()
-PORTS = [50021, 50022, 50023, 50024]
+PORTS = [50021, 50022, 50023, 50024, 50025, 50026, 50027, 50028]
 MAX_RETRIES = 4
 
 # speech must be within this relative tolerance before we stop tuning the speed
@@ -241,7 +241,7 @@ def main():
                     print(f'{counter[0]} refined, errors={len(errors)}, remaining={len(todo)}', flush=True)
                     json.dump(speeds, open(SPEEDS_PATH, 'w'))
 
-    threads = [threading.Thread(target=worker, daemon=True) for _ in range(3)]
+    threads = [threading.Thread(target=worker, daemon=True) for _ in range(6)]
     for t in threads:
         t.start()
     for t in threads:
