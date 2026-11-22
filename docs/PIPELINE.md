@@ -30,23 +30,38 @@ pièges rencontrés dans les formats UE5 / Wwise.
 
 ## 2. Synthèse vocale et alignement (`src/tts/`)
 
-- VOICEVOX Engine 0.26.2 **CPU**, 4 instances sur les ports 50021-50024.
+- VOICEVOX Engine 0.26.2 **CPU**, 4 instances sur les ports 50021-50024
+  (`bash scripts/voicevox.sh start 4`). Chaque moteur charge son modele et pèse
+  sur le CPU : on n'en lance pas plus que nécessaire.
 - Une ligne = un événement Wwise. Chaque événement a 2 variantes, `(Chinese)` et
   `(English(US))` : seule la variante chinoise est remplacée.
+- **La voix de chaque personnage n'est pas choisie au hasard** : le jeu fournit
+  une voix chinoise à chaque personnage, dont la hauteur (F0) est mesurée
+  (`src/audio/voice_profile.py`), et les voix VOICEVOX sont profilées de la même
+  façon (`src/audio/voicevox_profile.py`). `src/tts/voice_assign.py` donne à
+  chaque personnage la voix la plus proche de la sienne (écart médian : 3 %).
 - **Pourquoi aligner** : le lip-sync et les sous-titres suivent la durée de l'événement
   vocal. Si la ligne japonaise est plus courte ou plus longue, la voix dérive par
   rapport à l'animation.
+- **Pourquoi on ne touche pas à la vitesse de la voix** : la ligne japonaise est
+  une traduction, elle n'a pas la longueur de la ligne chinoise (mesuré : 60 % des
+  lignes s'en écartent de plus de 20 %). Ajuster la `speedScale` pour que les
+  deux durées coïncident demandait des vitesses de 0,5 à 2,0 : c'est-à-dire des
+  voix ralenties de moitié ou doublées, audibles et laides. La version précédente
+  se comportait encore plus mal : la passe finale coupait la fin des phrases
+  quand la limite de vitesse était atteinte.
 - **Algorithme** (`tts_refine.py`, puis `tts_align.py`) :
-  1. synthèse à `speedScale = 1.0` ;
-  2. mesure de l'écart avec la durée chinoise ;
-  3. nouvelle synthèse avec `speedScale` recalculé (durée ∝ 1/speedScale), itérée
-     jusqu'à ≤ 3 % d'écart ;
-  4. padding de silence numérique (≤ 6 à 10 % de la cible), réparti entre le début et
-     la fin pour préserver l'attaque et l'extinction.
-- Le `speedScale` réellement utilisé est mémorisé dans `data/jp_speeds.json` : une
-  exécution ultérieure affine multiplicativement au lieu de repartir de 1.0.
-- Résultat actuel : les **4 167 lignes** ayant un son chinois sont à ≤ 5 % de la durée
-  chinoise.
+  1. synthèse à la vitesse naturelle du moteur (`speedScale = 1.0`) ;
+  2. si la ligne dépasse son créneau chinois, elle est compressée, **au plus de
+     15 %** ; au-delà, elle est laissée telle quelle ;
+  3. si elle est plus courte, le reste du créneau est comblé par du silence
+     numérique (≤ 30 % du créneau), placé **à la fin** : la ligne commence
+     quand elle doit, et le créneau garde sa longueur ;
+  4. la table des durées (`DT_WwiseVoiceDuration`) est ensuite écrite avec la
+     longueur **réelle** du média japonais : le jeu sait donc combien de temps
+     dure la ligne, et ne la coupe jamais en plein milieu.
+- Les ports et le nombre de workers se règlent par l'environnement
+  (`VOICEVOX_PORTS`, `VOICEVOX_WORKERS`).
 
 ## 3. Encodage Wwise (`src/audio/`)
 
