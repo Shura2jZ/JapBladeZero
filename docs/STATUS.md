@@ -16,7 +16,7 @@ Dernière mise à jour : 20 novembre 2026.
 | 7b | Texte japonais officiel | ✅ terminé | script officiel extrait du `.locres` du jeu, manifeste regénéré (4 252/4 252 lignes) |
 | 7c | Voix par personnage | ✅ terminé | `Speaker` officiel + genre déduit → 440 personnages sur 125 styles |
 | 8 | Packaging | ✅ | conteneur IoStore construit (7 851 chunks, 3 925 packages) — installé dans le jeu, **7 851 / 7 851 chunk ids résolus par le moteur** |
-| 9 | Test en jeu | 🟡 | le jeu démarre avec le mod ; **l'audio reste à écouter** |
+| 9 | Test en jeu | 🟡 | cause de l'audio original identifiée (ordre de montage) et corrigée ; **reste à rejouer le test** |
 
 ## Découverte majeure : le jeu est un conteneur IoStore
 
@@ -202,3 +202,19 @@ for (int i = 0; i < 8; i++) id[i] = (byte)(packageId.id >> (8 * i));  // little-
   place** dans `Duration_Chinese` (4 167 lignes), la DataTable patchée est
   ajoutée au conteneur, et `tools/csharp/dtcheck` relit la table à travers le
   montage du jeu pour confirmer.
+- **22/11** — troisième cause, et la bonne : **l'ordre de montage**. Le nom du
+  pak du mod était `PBZJapaneseVoice_9_P.pak`, qui n'obtient pas l'ordre de
+  montage 4 que `GetPakOrderFromPakFilePath` accorde au pak du jeu
+  (`Paks/ProjectPBZ-…`), mais l'ordre 3. `FFileIoStore` trie les conteneurs par
+  ordre décroissant et le premier qui contient le chunk gagne
+  (`FileIoDispatcherBackend.cpp`) : le conteneur du jeu passait devant, et le
+  jeu jouait l'original. Le conteneur est renommé `ProjectPBZ-JapaneseVoice`
+  (même ordre que le jeu, et nom plus petit donc monté en dernier donc
+  prioritaire). Une garde-fou dans `scripts/container.sh` refuse de construire
+  un conteneur qui ne gagnerait pas le montage.
+  Les données du conteneur étaient déjà correctes : les 7 851 chunks ont été
+  relus et comparés octet à octet, et les 3 926 package ids de l'en-tête
+  correspondent aux chunk ids du TOC. Le contrôle `src/patch/check_container.py`,
+  qui comparait des offsets logiques à la taille du fichier, signalait à tort
+  un conteneur tronqué : il raisonne désormais sur la table des blocs et
+  vérifie la correspondance package ids ↔ chunk ids.

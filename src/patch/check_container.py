@@ -22,7 +22,7 @@ réelle sur le disque. Comparer directement `offset + longueur` à la taille du
 
 Ce contrôle refuse un conteneur incomplet. Usage :
 
-    python src/patch/check_container.py E:/PBZ_Mod [PBZJapaneseVoice_9_P]
+    python src/patch/check_container.py E:/PBZ_Mod [ProjectPBZ-JapaneseVoice]
 """
 import argparse
 import os
@@ -96,7 +96,7 @@ def read_header_package_ids(ucas, offset, count):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('dir', help='directory of the container')
-    ap.add_argument('name', nargs='?', default='PBZJapaneseVoice_9_P')
+    ap.add_argument('name', nargs='?', default='ProjectPBZ-JapaneseVoice')
     args = ap.parse_args()
 
     ucas = os.path.join(args.dir, args.name + '.ucas')

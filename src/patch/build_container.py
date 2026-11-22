@@ -40,7 +40,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--files', required=True, help='list of "game path<TAB>local file"')
     ap.add_argument('--out', default=r'E:\PBZ_Mod')
-    ap.add_argument('--name', default='PBZJapaneseVoice_9_P')
+    ap.add_argument('--name', default='ProjectPBZ-JapaneseVoice')
     ap.add_argument('--work', default=build('container'))
     ap.add_argument('--limit', type=int, default=0)
     args = ap.parse_args()

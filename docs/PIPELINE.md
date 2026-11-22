@@ -351,21 +351,52 @@ cargo build --release -p retoc_cli
 > export RETOC="${RETOC:-E:/cargo_target/release/retoc.exe}"
 > ```
 
+### Le nom du pak détermine qui gagne (cause de l'audio original)
+
+Le moteur monte les paks de `ProjectPBZ/Content/Paks/` et leur donne un
+**ordre** (`FPakPlatformFile::GetPakOrderFromPakFilePath`) :
+
+| condition (chemin relatif au répertoire du projet) | ordre |
+|---|---|
+| `Paks/ProjectPBZ-…` | **4** |
+| `Paks/…` (autre) | 3 |
+| `Engine/Content/…` | 2 |
+| `Saved/…` | 1 |
+
+Le nom de pak du jeu est `ProjectPBZ-Windows.pak` : il obtient l'ordre **4**.
+Un pak du mod nommé autrement (par exemple `PBZJapaneseVoice_9_P.pak`)
+n'obtient que l'ordre **3**.
+
+Or les conteneurs IoStore sont triés par ordre **décroissant** et le premier
+conteneur qui contient le chunk gagne (`FFileIoStore::GetChunkInfo`,
+`FileIoDispatcherBackend.cpp`) : avec l'ordre 3, le conteneur du **jeu** passe
+devant, le mod est monté sans erreur… et le jeu joue le contenu d'origine.
+
+Deux conditions à réunir pour que le mod gagne :
+
+1. **même ordre que le jeu** → le nom doit commencer par `ProjectPBZ-` ;
+2. **monté après le jeu** → les paks sont montés dans l'ordre *décroissant* du
+   nom, donc le nom du mod doit être **plus petit** que `ProjectPBZ-Windows`.
+
+D'où le nom retenu : `ProjectPBZ-JapaneseVoice`. La garde-fou de
+`scripts/container.sh` vérifie les deux conditions avant de construire quoi que
+ce soit.
+
 ### Chaîne de fabrication du mod
 
 ```bash
 python src/patch/build_container.py --files data/container_files.tsv --out E:/PBZ_Mod
-# -> E:/PBZ_Mod/PBZJapaneseVoice_9_P.{ucas,utoc}
+# -> E:/PBZ_Mod/ProjectPBZ-JapaneseVoice.{ucas,utoc}
 # + un .pak vide (le moteur monte le conteneur de même nom)
-UnrealPak.exe PBZJapaneseVoice_9_P.pak -Create=<liste vide> -MountPoint="../../../"
+UnrealPak.exe ProjectPBZ-JapaneseVoice.pak -Create=<liste vide> -MountPoint="../../../"
 ```
 
 Installation :
 
 ```
-ProjectPBZ/Content/Paks/PBZJapaneseVoice_9_P.pak    (vide, 339 o)
-ProjectPBZ/Content/Paks/PBZJapaneseVoice_9_P.ucas   (1 155 Mo)
-ProjectPBZ/Content/Paks/PBZJapaneseVoice_9_P.utoc   (1,1 Mo)
+ProjectPBZ/Content/Paks/ProjectPBZ-JapaneseVoice.pak    (vide, 339 o)
+ProjectPBZ/Content/Paks/ProjectPBZ-JapaneseVoice.ucas   (1 155 Mo)
+ProjectPBZ/Content/Paks/ProjectPBZ-JapaneseVoice.utoc   (1,1 Mo)
 ```
 
 Contrôle : CUE4Parse relit le conteneur du mod et renvoie bien la version
