@@ -21,7 +21,10 @@ from tts.voices import speaker_for
 OUT_DIR = out('jp_events')
 # the engine can live outside the repository (it is not versioned)
 VV_DIR = voicevox()
-PORTS = [50021, 50022, 50023, 50024, 50025, 50026, 50027, 50028]
+# les moteurs a utiliser : chaque moteur charge son modele et pese sur le CPU,
+# on n'en lance donc que le necessaire (scripts/voicevox.sh)
+PORTS = [int(p) for p in os.environ.get('VOICEVOX_PORTS', '50021-50028').split('-')]
+WORKERS = int(os.environ.get('VOICEVOX_WORKERS', len(PORTS)))
 MAX_RETRIES = 4
 
 #: the voice assignment: a line synthesized before it was changed was made
@@ -152,7 +155,7 @@ def main():
                 if counter[0] % 100 == 0:
                     print(f'{counter[0]} processed, errors={len(errors)}, remaining={len(todo)}', flush=True)
 
-    threads = [threading.Thread(target=worker, daemon=True) for _ in range(6)]
+    threads = [threading.Thread(target=worker, daemon=True) for _ in range(WORKERS)]
     for t in threads:
         t.start()
     for t in threads:

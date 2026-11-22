@@ -19,7 +19,10 @@ from tts.voices import speaker_for
 OUT_DIR = out('jp_events')
 # the engine can live outside the repository (it is not versioned)
 VV_DIR = voicevox()
-PORTS = [50021, 50022, 50023, 50024, 50025, 50026, 50027, 50028]
+# les moteurs a utiliser : chaque moteur charge son modele et pese sur le CPU,
+# on n'en lance donc que le necessaire (scripts/voicevox.sh)
+PORTS = [int(p) for p in os.environ.get('VOICEVOX_PORTS', '50021-50028').split('-')]
+WORKERS = int(os.environ.get('VOICEVOX_WORKERS', len(PORTS)))
 SPEEDS_PATH = os.path.join(BASE, 'data', 'jp_speeds.json')
 MANIFEST = os.path.join(BASE, 'data', 'manifest_jp.csv')
 DURATIONS = os.path.join(BASE, 'data', 'durations.json')
@@ -128,7 +131,7 @@ def main():
     ap.add_argument('--max', type=int, default=0)
     ap.add_argument('--start', type=int, default=0)
     ap.add_argument('--tol', type=float, default=0.01)
-    ap.add_argument('--threads', type=int, default=6)
+    ap.add_argument('--threads', type=int, default=WORKERS)
     args = ap.parse_args()
 
     todo = []

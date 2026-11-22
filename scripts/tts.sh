@@ -12,8 +12,12 @@
 #    silence numérique. La table des durées portera la longueur réelle.
 # 3. tts_align.py    : dernière passe, uniquement du silence de remplissage.
 #
-# Les moteurs VOICEVOX doivent tourner (8 instances, ports 50021-50028) :
-#   E:/PBZ_Build/voicevox/windows-cpu/run.exe --host 127.0.0.1 --port <p> --init_processes 1
+# Les moteurs VOICEVOX doivent tourner. Chacun charge son modele et pese sur le
+# CPU : 4 suffisent, et les scripts n'en utilisent que ceux-la.
+#   bash scripts/voicevox.sh start 4
+export VOICEVOX_PORTS="${VOICEVOX_PORTS:-50021-50024}"
+export VOICEVOX_WORKERS="${VOICEVOX_WORKERS:-4}"
+
 set -euo pipefail
 source "$(dirname "${BASH_SOURCE[0]}")/common.sh"
 
