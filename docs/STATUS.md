@@ -229,3 +229,12 @@ for (int i = 0; i < 8; i++) id[i] = (byte)(packageId.id >> (8 * i));  // little-
   Restent 5 événements sur 4 172 en chinois : leur `.ubulk` contient deux
   événements (4 blocs média) et il faut le hash Wwise pour savoir quel bloc
   remplacer.
+- **22/11 (correction)** — les barks de combat du boss (dans la bibliothèque
+  `VO_CN`) étaient **muets** : le patch de la bibliothèque écrivait les
+  `EndOffset` de la table de bulk data **au double** de la valeur correcte
+  (l'offset était compté deux fois), alors que le runtime localise les blocs
+  par cette table — les médias étaient donc introuvables. La table d'origine
+  a été vérifiée (`EndOffset(k)` = somme des tailles jusqu'à `k`) : c'est
+  désormais le comportement appliqué, et `verify_library.py` refuse une table
+  incohérente. Le chemin des paquets (`inject_bin.py`) était juste.
+  Mod reconstruit et réinstallé.

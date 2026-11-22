@@ -85,6 +85,26 @@ def read_blocks(uasset, ubulk):
     return blocks
 
 
+def check_end_offsets(uasset, count):
+    """The EndOffset of every entry must be the end of its block.
+
+    The runtime locates the blocks through this table: if the offsets are wrong,
+    the media cannot be read and the event plays nothing at all.
+    """
+    base, n = find_table(uasset)
+    if n != count:
+        raise ValueError(f'table has {n} entries, {count} blocks')
+    offset = 0
+    for k in range(count):
+        o = base + k * TABLE_STRIDE
+        size = struct.unpack_from('<I', uasset, o + TABLE_SIZE_POS)[0]
+        offset += size
+        if k < count - 1:
+            end = struct.unpack_from('<I', uasset, o + TABLE_END_POS)[0]
+            if end != offset:
+                raise ValueError(f'entry {k}: EndOffset {end}, expected {offset}')
+
+
 def is_media(blob, size):
     if blob[:4] != b'RIFF' or blob[8:12] != b'WAVE':
         return False
@@ -202,19 +222,22 @@ def main():
     base, count = find_table(uasset)
     if count != len(new_sizes):
         raise ValueError(f'table has {count} entries, {len(new_sizes)} blocks')
+    # The EndOffset of an entry is the offset of the end of its block, that is the
+    # sum of the sizes of the blocks up to it. The last entry is left untouched:
+    # the cooker does not fill it in (it holds a meaningless value).
     offset = 0
     for k, size in enumerate(new_sizes):
         o = base + k * TABLE_STRIDE
         struct.pack_into('<I', uasset, o + TABLE_SIZE_POS, size)
-        if k < len(new_sizes) - 1:
-            offset += size
-            struct.pack_into('<I', uasset, o + TABLE_END_POS, offset)
         offset += size
+        if k < len(new_sizes) - 1:
+            struct.pack_into('<I', uasset, o + TABLE_END_POS, offset)
 
     # the table describes the blocks; check that it still tiles the .ubulk
     check = read_blocks(bytes(uasset), bytes(new_ubulk))
     if len(check) != len(new_sizes):
         raise ValueError('the rewritten table does not describe the new .ubulk')
+    check_end_offsets(bytes(uasset), len(new_sizes))
 
     os.makedirs(args.out, exist_ok=True)
     open(os.path.join(args.out, 'VO_CN.uasset'), 'wb').write(bytes(uasset))

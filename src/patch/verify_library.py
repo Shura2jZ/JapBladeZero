@@ -43,8 +43,13 @@ def blocks_of(uasset, ubulk_size):
     blocks, offset = [], 0
     for k in range(count):
         size = struct.unpack_from('<I', uasset, base + k * 32 + 8)[0]
-        blocks.append((offset, size))
+        # the EndOffset of an entry is the end of its block : the runtime locates
+        # the blocks through the table, so a wrong offset means unreadable media
+        end = struct.unpack_from('<I', uasset, base + k * 32 + 24)[0]
         offset += size
+        if k < count - 1 and end != offset:
+            raise ValueError(f'entry {k}: EndOffset {end}, expected {offset}')
+        blocks.append((offset - size, size))
     assert offset == ubulk_size, f'blocks cover {offset}, file is {ubulk_size}'
     return blocks
 
