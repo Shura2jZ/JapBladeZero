@@ -14,7 +14,8 @@ Dernière mise à jour : 20 novembre 2026.
 | 6 | Injection du média | ✅ terminé | **4 167 / 4 167** (les 238 « sans `.ubulk` » sont dans la bibliothèque Wwise) |
 | 7 | Durées japonaises dans la table | ✅ terminé | **4 167 lignes** réécrites **en place** dans `Duration_Chinese` (la colonne que le moteur lit, cf. plus bas) |
 | 7b | Texte japonais officiel | ✅ terminé | script officiel extrait du `.locres` du jeu, manifeste regénéré (4 252/4 252 lignes) |
-| 7c | Voix par personnage | ✅ terminé | `Speaker` officiel + genre déduit → 440 personnages sur 125 styles |
+| 7c | Voix par personnage | ✅ terminé | `Speaker` officiel + **hauteur mesurée** sur la voix chinoise du jeu → 437 personnages, écart de hauteur médian **3 %** |
+| 7d | Vitesse naturelle | 🔄 | la voix est synthétisée à vitesse naturelle (l'alignement forcait `speedScale` jusqu'à 2,0, ce qui rendait la voix laide et coupait des phrases) — **régénération à faire** |
 | 8 | Packaging | ✅ | conteneur IoStore construit (7 851 chunks, 3 925 packages) — installé dans le jeu, **7 851 / 7 851 chunk ids résolus par le moteur** |
 | 9 | Test en jeu | 🟡 | cause de l'audio original identifiée (ordre de montage) et corrigée ; mod reconstruit et installé ; **reste à confirmer à l'oreille** |
 
@@ -238,3 +239,28 @@ for (int i = 0; i < 8; i++) id[i] = (byte)(packageId.id >> (8 * i));  // little-
   désormais le comportement appliqué, et `verify_library.py` refuse une table
   incohérente. Le chemin des paquets (`inject_bin.py`) était juste.
   Mod reconstruit et réinstallé.
+- **22/11 (voix par personnage)** — la voix de chaque personnage n'est plus
+  devinée : le jeu fournit une voix chinoise à chaque personnage, dont la
+  hauteur (F0) est mesurée (`src/audio/voice_profile.py`, 4 141 lignes), et les
+  voix VOICEVOX sont profilées de la même façon (`src/audio/voicevox_profile.py`).
+  `src/tts/voice_assign.py` donne à chaque personnage la voix la plus proche de
+  la sienne (écart médian **3 %**, pire cas divisé par 2). Cela a révélé une
+  vraie erreur : `Character_Main_2` était dubbed avec une voix de femme alors
+  que sa voix chinoise est à 79 Hz.
+- **22/11 (vitesse naturelle)** — l'alignement calquait la durée chinoise en
+  changeant la vitesse de la voix (`speedScale` 0,5 à 2,0 : 47,6 % des lignes
+  retraillées à plus de 20 % d'écart), et la passe finale **coupait la fin des
+  phrases** quand la limite était atteinte. La voix est maintenant synthétisée à
+  sa vitesse naturelle, le trop long est comprimé au plus de 15 %, le trop
+  court est comblé par du silence numérique (≤ 30 % du créneau, placé à la
+  fin), et la table des durées porte la longueur **réelle** du média japonais.
+  Un test de bout en bout confirme que le silence traverse l'encodage (2,000 s
+  + 0,6 s de padding → `.wem` décodé 2,600 s exactement).
+- **22/11 (à reprendre)** — la régénération a été interrompue (les moteurs
+  VOICEVOX ont été arrêtés pour ne pas saturer le CPU). Le mod **actuellement
+  installé dans le jeu est intact** et fonctionne (voix du boss comprises).
+  Pour tout reconstruire : `bash scripts/all.sh` (moteurs → voix à vitesse
+  naturelle → alignement → encodage → injection → `VO_CN` → table des durées →
+  conteneur → installation ; ~3 h). Garde-fous ajoutés : la liste de fichiers et
+  le conteneur sont refusés s'ils sont incomplets, pour qu'un échec de
+  l'injection n'installe jamais un mod sans voix.
