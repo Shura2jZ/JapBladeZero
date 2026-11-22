@@ -172,11 +172,13 @@ def refine(row, target):
     # forcing the duration: it is dropped, the voice goes back to its natural
     # speed, which is the whole point.
     speed = 1.0
+    forced = float(speeds.get(event, 1.0))
+    was_forced = abs(forced - 1.0) > 0.001
 
     # The speech has to fit in the slot of the Chinese line. It is compressed
     # a little when it is too long, but never more than MAX_SPEED.
     best = None
-    if cur_dur > target * (1.0 + REL_TOL):
+    if was_forced or cur_dur > target * (1.0 + REL_TOL):
         for attempt in range(MAX_RETRIES):
             port = pool.any_available()
             if port is None:
