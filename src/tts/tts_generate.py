@@ -1,8 +1,11 @@
 """Generate Japanese TTS for PBZ voice events using local VOICEVOX engines.
 
-- One fixed voice per character prefix (voice_map.json).
-- Target duration = Chinese original duration (DT_WwiseVoiceDuration), so the
-  Japanese audio stays aligned with the original animation/subtitle timing.
+- One voice per character, measured against the Chinese voice of the game
+  (src/tts/voice_assign.py).
+- The speech is synthesized at the *natural* speed of the voice: the Japanese
+  line is a translation, it does not have the length of the Chinese one, and
+  forcing it to would make the voice unnatural. The length is dealt with
+  afterwards, by a little silence (tts_refine.py).
 - Resilient: engines may die or fail; the script restarts them and retries.
 """
 import csv, json, os, re, sys, time, threading, queue, subprocess, urllib.request, urllib.parse, wave, io
@@ -113,21 +116,10 @@ def synthesize(row):
             query = json.loads(request(
                 f'http://127.0.0.1:{port}/audio_query?text={urllib.parse.quote(text)}&speaker={speaker}',
                 method='POST', timeout=90))
-            speed = query.get('speedScale', 1.0)
-            best = None
-            for _ in range(MAX_RETRIES):
-                query['speedScale'] = speed
-                wav = request(f'http://127.0.0.1:{port}/synthesis?speaker={speaker}',
-                              data=json.dumps(query).encode('utf-8'), timeout=180)
-                dur = wav_duration(wav)
-                best = (wav, dur)
-                if target <= 0:
-                    break
-                ratio = dur / target
-                if 0.9 <= ratio <= 1.1:
-                    break
-                speed = max(0.5, min(2.0, speed * ratio))
-            wav, dur = best
+            # natural speed: the engine's own speedScale, untouched
+            wav = request(f'http://127.0.0.1:{port}/synthesis?speaker={speaker}',
+                          data=json.dumps(query).encode('utf-8'), timeout=180)
+            dur = wav_duration(wav)
             with open(out_path, 'wb') as f:
                 f.write(wav)
             return dur

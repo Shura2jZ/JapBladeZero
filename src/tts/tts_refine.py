@@ -1,19 +1,25 @@
-"""Refine Japanese TTS durations so every line matches the Chinese original exactly.
+"""Gives every Japanese voice line the length of the Chinese original, without
+making the voice unnatural.
 
 Rationale
 ---------
-The first pass accepted a +-10% duration mismatch, which is far too loose for lip sync:
-1073/4167 lines were off by more than 0.3 s (worst case 17.9 s).
+The Japanese line is a translation: it does not have the length of the Chinese
+one (measured on a sample, 60% of the lines are more than 20% off), and the
+length of the voice has to follow the Chinese one, or the voice drifts against
+the animation and the subtitles.
 
-This pass, for every line whose duration is off by more than TOL:
-  1. re-synthesises it with a new VOICEVOX speedScale, computed from the measured
-     error (duration is roughly inversely proportional to speedScale),
-  2. iterates until the speech sits within 3% of the Chinese duration,
-  3. pads the result with a little digital silence so the *total* length is exactly
-     the Chinese duration (silence is inaudible; speeding the voice up by 20% is not).
+But matching it by speeding the voice up is audible and ugly: a line fitted to
+the millisecond needs a speedScale of 0.5 to 2.0, which sounds like a chipmunk
+or a drawl. So the length is not obtained by stretching the speech:
 
-State (speedScale actually used per event) is stored in jp_speeds.json so that later
-runs refine multiplicatively instead of restarting from 1.0.
+  1. the speech keeps the *natural* speed of the voice (speedScale = 1),
+  2. if it is a little too long for the slot, it is compressed, but never more
+     than MAX_SPEED (15%): beyond that the line is left as it is, and the
+     duration table carries its real length,
+  3. if it is shorter than the slot, the remainder is filled with digital
+     silence, which is inaudible, up to MAX_PAD_FRAC of the slot.
+
+The speedScale actually used is stored in jp_speeds.json.
 """
 import csv, json, os, re, sys, time, threading, subprocess, urllib.request, urllib.parse, wave, io, struct
 
@@ -26,10 +32,13 @@ VV_DIR = voicevox()
 PORTS = [50021, 50022, 50023, 50024, 50025, 50026, 50027, 50028]
 MAX_RETRIES = 4
 
-# speech must be within this relative tolerance before we stop tuning the speed
-REL_TOL = 0.03
-# ... and then silence padding absorbs what is left, up to this much
-MAX_PAD_FRAC = 0.06
+# the speech is never compressed more than this: a line that is really too long
+# is left as it is, and the duration table carries its real length
+MAX_SPEED = 1.15
+# ... and silence never fills more than this fraction of the slot
+MAX_PAD_FRAC = 0.30
+# below that, the difference is not worth a new synthesis
+REL_TOL = 0.02
 
 rows = list(csv.DictReader(open(os.path.join(BASE, 'data', 'manifest_jp.csv'), encoding='utf-8')))
 durations = json.load(open(os.path.join(BASE, 'data', 'durations.json'), encoding='utf-8'))
@@ -156,43 +165,54 @@ def refine(row, target):
             current = f.read()
     cur_dur = wav_duration(current) if current else 0.0
 
-    speed = float(speeds.get(event, 1.0))
-    if current is None:
-        speed = 1.0
+    # The natural speed of the voice. The speed stored by a previous run was
+    # forcing the duration: it is dropped, the voice goes back to its natural
+    # speed, which is the whole point.
+    speed = 1.0
 
-    # speech-only target: the Chinese duration minus a tiny safety margin
-    speech_target = target * (1.0 - MAX_PAD_FRAC)
-
+    # The speech has to fit in the slot of the Chinese line. It is compressed
+    # a little when it is too long, but never more than MAX_SPEED.
     best = None
-    for attempt in range(MAX_RETRIES):
-        port = pool.any_available()
-        if port is None:
-            time.sleep(8)
-            if not pool.ensure(PORTS[0]):
-                continue
+    if cur_dur > target * (1.0 + REL_TOL):
+        for attempt in range(MAX_RETRIES):
             port = pool.any_available()
             if port is None:
+                time.sleep(8)
+                if not pool.ensure(PORTS[0]):
+                    continue
+                port = pool.any_available()
+                if port is None:
+                    continue
+            try:
+                wav = synth_with_speed(text, speaker_for(event), speed, port)
+                dur = wav_duration(wav)
+                best = (wav, dur, speed)
+                if dur <= target * (1.0 + REL_TOL):
+                    break
+                # duration ~ 1/speed: the speed that would make it fit
+                wanted = speed * (dur / target)
+                if wanted > MAX_SPEED:
+                    # even at the limit the line is too long: it is kept as it
+                    # is, the duration table will carry its real length
+                    break
+                speed = min(MAX_SPEED, wanted)
+            except Exception as e:
+                with error_lock:
+                    errors.append((event, repr(e)[:120]))
+                pool.unavailable.add(port)
+                time.sleep(2)
                 continue
-        try:
-            wav = synth_with_speed(text, speaker_for(event), speed, port)
-            dur = wav_duration(wav)
-            best = (wav, dur, speed)
-            if abs(dur - speech_target) / speech_target <= REL_TOL:
-                break
-            # duration ~ 1/speed -> new_speed = speed * (dur / target)
-            speed = max(0.5, min(2.0, speed * (dur / speech_target)))
-        except Exception as e:
-            with error_lock:
-                errors.append((event, repr(e)[:120]))
-            pool.unavailable.add(port)
-            time.sleep(2)
-            continue
+        if best is None:
+            return 'error'
+        wav, dur, speed = best
+    else:
+        wav, dur = current, cur_dur
+        if not wav:
+            return 'error'
 
-    if best is None:
-        return 'error'
-
-    wav, dur, speed = best
-    if dur < target:
+    # The remainder of the slot is filled with silence: it is inaudible, and it
+    # keeps the line where the Chinese one was.
+    if dur < target and (target - dur) <= target * MAX_PAD_FRAC:
         wav = pad_to(wav, target)
     with open(out_path, 'wb') as f:
         f.write(wav)

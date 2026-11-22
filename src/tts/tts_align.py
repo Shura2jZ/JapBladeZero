@@ -1,25 +1,12 @@
-"""Align every Japanese voice line with the duration of the Chinese original.
+"""Final pass on the length of the Japanese voice lines.
 
-Why
----
-Lip sync and subtitles in Phantom Blade Zero follow the length of the voice event.
-If the Japanese line is shorter or longer than the Chinese one, the voice drifts
-against the animation and the subtitles. The Chinese duration for every event is
-available from DT_WwiseVoiceDuration (durations.json).
+The voice keeps its natural speed (see tts_refine.py): this pass only puts the
+lines that are shorter than the Chinese slot back at the right length, with a
+little digital silence, and reports the ones that are longer.
 
-How
----
-For each line whose duration is off by more than 1% (or 20 ms):
-  1. synthesise it with VOICEVOX at a speedScale computed from the measured error
-     (duration scales roughly like 1/speed), iterating until the speech is within
-     3% of the target,
-  2. pad the remainder with digital silence so the total length is *exactly* the
-     Chinese duration. The silence is split between the start and the end, because
-     the Chinese recording has an unknown amount of lead-in and tail; splitting the
-     difference keeps both the onset and the offset close to the original.
-
-The speedScale actually used is stored in jp_speeds.json, so a later run refines
-multiplicatively instead of restarting from 1.0.
+A line that is longer than the slot is *not* shortened: the duration table
+(DT_WwiseVoiceDuration) is written with the real length of the media, so the
+game knows how long the line really is.
 
 Usage: python tts_align.py [--max N] [--start I] [--tol 0.01]
 """
@@ -38,8 +25,8 @@ MANIFEST = os.path.join(BASE, 'data', 'manifest_jp.csv')
 DURATIONS = os.path.join(BASE, 'data', 'durations.json')
 VOICE_MAP = os.path.join(BASE, 'data', 'voice_map.json')
 
-REL_TOL = 0.03      # speech must land within 3% of the target before padding
-MAX_PAD_FRAC = 0.10  # never pad more than this fraction of the target with silence
+# silence never fills more than this fraction of the slot
+MAX_PAD_FRAC = 0.30
 
 rows = list(csv.DictReader(open(MANIFEST, encoding='utf-8')))
 durations = json.load(open(DURATIONS, encoding='utf-8'))
@@ -92,163 +79,48 @@ def rebuild_riff(original, frames_data, total_frames, ch, sw):
 
 
 def align(wav, target):
-    """Pad `wav` so its total length is exactly `target`, splitting the silence
-    between the head and the tail."""
+    """Pad `wav` so its total length is exactly `target`.
+
+    The silence is added at the end: the line starts when it should, and the
+    slot of the Chinese line keeps its length.
+    """
     n, sr, ch, sw = frames_of(wav)
     want = int(round(target * sr))
     if want <= n:
-        return wav, want - n
+        return wav, (want - n) / float(sr)
     extra = want - n
-    head = extra // 2
-    tail = extra - head
+    # the silence goes to the end: the line starts when it should, and the
+    # slot keeps its length
+    head = 0
+    tail = extra
 
     # read the raw sample payload
     w = wave.open(io.BytesIO(wav))
     payload = w.readframes(w.getnframes())
     w.close()
     new_payload = silence_frames(head, ch, sw) + payload + silence_frames(tail, ch, sw)
-    return rebuild_riff(wav, new_payload, want, ch, sw), extra
-
-
-# --- VOICEVOX engine pool -----------------------------------------------
-class Engines:
-    def __init__(self, ports):
-        self.ports = list(ports)
-        self.lock = threading.Lock()
-        self.procs = {}
-        self.dead = set()
-
-    def start(self, port):
-        log = open(os.path.join(BASE, 'logs', f'vv_{port}.log'), 'ab')
-        p = subprocess.Popen(
-            [os.path.join(VV_DIR, 'run.exe'), '--host', '127.0.0.1', '--port', str(port),
-             '--no-use_gpu', '--output_log_utf8', '--init_processes', '1'],
-            cwd=VV_DIR, stdout=log, stderr=log)
-        self.procs[port] = p
-
-    def healthy(self, port):
-        try:
-            http(f'http://127.0.0.1:{port}/version', timeout=8)
-            self.dead.discard(port)
-            return True
-        except Exception:
-            self.dead.add(port)
-            return False
-
-    def pick(self):
-        for p in self.ports:
-            if p not in self.dead:
-                return p
-        return None
-
-    def revive(self, port):
-        with self.lock:
-            p = self.procs.get(port)
-            if p is None or p.poll() is not None:
-                try:
-                    self.start(port)
-                except Exception:
-                    return False
-                time.sleep(22)
-            return self.healthy(port)
-
-
-engines = Engines(PORTS)
-errors = []
-
-
-def speed_target_factor(dur, target):
-    """Rough text-length ratio that would bring `dur` down to `target`."""
-    return target / dur if dur else 1.0
-
-
-def synth(text, speaker, speed, port):
-    query = json.loads(http(
-        f'http://127.0.0.1:{port}/audio_query?text={urllib.parse.quote(text)}&speaker={speaker}',
-        method='POST', timeout=90))
-    query['speedScale'] = speed
-    return http(f'http://127.0.0.1:{port}/synthesis?speaker={speaker}',
-                data=json.dumps(query).encode('utf-8'), timeout=180)
-
-
-def shorten(text, factor):
-    """Cut the text down to `factor` of its length by dropping trailing clauses.
-
-    VOICEVOX caps speedScale at 2.0, so a line whose Japanese is inherently longer
-    than the Chinese cannot be time-fitted by speed alone. Dropping the tail of the
-    sentence gets close enough for the aligner to finish the job.
-    """
-    if factor >= 0.99:
-        return text
-    # split on Japanese punctuation, keep the head of the sentence
-    parts = re.split(r'(?<=[。！？!?、,])', text)
-    keep = ''
-    for p in parts:
-        if not p:
-            continue
-        if len(keep) + len(p) > len(text) * factor:
-            break
-        keep += p
-    keep = keep.strip('、,，')
-    return keep if len(keep) >= 4 else text
+    return rebuild_riff(wav, new_payload, want, ch, sw), extra / float(sr)
 
 
 def process(row, target, tol):
+    """Pad the line with silence if it is shorter than its slot."""
     event = row['event_name']
-    text = (row.get('japanese_text_tts') or row['japanese_text'] or '').strip()
-    if not text or target <= 0:
-        return 'skip'
     path = os.path.join(OUT_DIR, event + '.wav')
-
-    for attempt in range(5):
-        port = engines.pick()
-        if port is None:
-            for p in PORTS:
-                if engines.revive(p):
-                    port = p
-                    break
-            if port is None:
-                time.sleep(5)
-                continue
-        try:
-            speed = float(speeds.get(event, 1.0))
-            speech_target = target * (1.0 - MAX_PAD_FRAC)
-            try_text = text
-            best = None
-            for _ in range(8):
-                wav = synth(try_text, speaker_for(event), speed, port)
-                dur = duration_of(wav)
-                best = (wav, dur, speed)
-                if abs(dur - speech_target) <= REL_TOL * speech_target:
-                    break
-                if dur > speech_target:
-                    ratio = dur / speech_target
-                    new_speed = speed * ratio
-                    if new_speed <= 2.0:
-                        speed = new_speed
-                    else:
-                        # speedScale is capped: shorten the line instead
-                        factor = max(0.4, speed_target_factor(dur, speech_target))
-                        new_text = shorten(text, factor)
-                        if new_text == try_text and new_text == text:
-                            speed = 2.0
-                        else:
-                            try_text = new_text
-                else:
-                    speed = max(0.5, min(2.0, speed * (dur / speech_target)))
-            wav, dur, speed = best
-            wav, _ = align(wav, target)
-            with open(path, 'wb') as f:
-                f.write(wav)
-            with lock:
-                speeds[event] = round(speed, 4)
-            return 'ok'
-        except Exception as e:
-            with lock:
-                errors.append((event, repr(e)[:120]))
-            engines.dead.add(port)
-            time.sleep(2)
-    return 'error'
+    if target <= 0:
+        return 'skip'
+    if not os.path.exists(path) or os.path.getsize(path) < 1000:
+        return 'error'
+    with open(path, 'rb') as f:
+        wav = f.read()
+    dur = duration_of(wav)
+    if dur < target and (target - dur) <= target * MAX_PAD_FRAC:
+        wav, _ = align(wav, target)
+        with open(path, 'wb') as f:
+            f.write(wav)
+        return 'ok'
+    # too long, or too short to be filled with silence: the duration table
+    # carries the real length of the media
+    return 'ok'
 
 
 def main():
