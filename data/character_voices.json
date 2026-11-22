@@ -1,2642 +1,4809 @@
 {
  "Character_Main_1": {
-  "style": 21,
-  "voice": "剣崎雌雄 ノーマル",
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
   "gender": "M",
-  "lines": 785
+  "lines": 776,
+  "target_f0": 74.1,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.946,
+  "height_gap": 0.055
  },
  "Character_Main_2": {
-  "style": 74,
-  "voice": "琴詠ニア ノーマル",
-  "gender": "F",
-  "lines": 173
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 170,
+  "target_f0": 79.1,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 0.963,
+  "height_gap": 0.038
  },
  "Character_Imp_10": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 136
+  "style": 53,
+  "voice": "麒ヶ島宗麟",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 136,
+  "target_f0": 136.9,
+  "voice_f0": 149.55821228027344,
+  "f0_ratio": 0.915,
+  "height_gap": 0.088
  },
  "Character_Imp_1": {
-  "style": 1,
-  "voice": "ずんだもん あまあま",
+  "style": 109,
+  "voice": "東北イタコ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 107
+  "lines": 102,
+  "target_f0": 227.3,
+  "voice_f0": 229.99667358398438,
+  "f0_ratio": 0.988,
+  "height_gap": 0.012
  },
  "Character_Imp_16": {
   "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "voice": "玄野武宏",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 88
+  "lines": 81,
+  "target_f0": 130.8,
+  "voice_f0": 123.28863525390625,
+  "f0_ratio": 1.061,
+  "height_gap": 0.059
  },
  "Character_Imp_5": {
-  "style": 2,
-  "voice": "四国めたん ノーマル",
-  "gender": "F",
-  "lines": 81
- },
- "Character_Imp_7_6": {
-  "style": 3,
-  "voice": "ずんだもん ノーマル",
-  "gender": "F",
-  "lines": 73
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 81,
+  "target_f0": 121.1,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 1.033,
+  "height_gap": 0.033
  },
  "Character_Main_3": {
-  "style": 113,
-  "voice": "あんこもん ノーマル",
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 65
+  "lines": 64,
+  "target_f0": 182.1,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.95,
+  "height_gap": 0.051
+ },
+ "Character_Imp_7_6": {
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 63,
+  "target_f0": 96.0,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.031,
+  "height_gap": 0.031
  },
  "Character_EX_2": {
-  "style": 12,
-  "voice": "白上虎太郎 ふつう",
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 60
- },
- "Character_Imp_18": {
-  "style": 13,
-  "voice": "青山龍星 ノーマル",
-  "gender": "M",
-  "lines": 51
+  "lines": 60,
+  "target_f0": 101.5,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 1.199,
+  "height_gap": 0.182
  },
  "Character_DDSD_2": {
-  "style": 4,
-  "voice": "四国めたん セクシー",
+  "style": 67,
+  "voice": "栗田まろん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 51
+  "lines": 51,
+  "target_f0": 147.7,
+  "voice_f0": 155.5118865966797,
+  "f0_ratio": 0.95,
+  "height_gap": 0.051
  },
- "Character_Imp_8": {
-  "style": 27,
-  "voice": "後鬼 人間ver.",
+ "Character_Imp_18": {
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
   "gender": "M",
-  "lines": 50
+  "lines": 50,
+  "target_f0": 76.5,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.977,
+  "height_gap": 0.023
  },
  "Character_Imp_15_1": {
-  "style": 28,
-  "voice": "後鬼 ぬいぐるみver.",
+  "style": 99,
+  "voice": "離途",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 49
+  "lines": 49,
+  "target_f0": 96.2,
+  "voice_f0": 92.58364868164062,
+  "f0_ratio": 1.039,
+  "height_gap": 0.038
+ },
+ "Character_Imp_8": {
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 45,
+  "target_f0": 86.5,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 1.022,
+  "height_gap": 0.022
  },
  "Character_Imp_11": {
-  "style": 5,
-  "voice": "ずんだもん セクシー",
-  "gender": "F",
-  "lines": 40
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 40,
+  "target_f0": 76.5,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 0.931,
+  "height_gap": 0.071
  },
  "Character_PZ_76": {
-  "style": 29,
-  "voice": "No.7 ノーマル",
+  "style": 81,
+  "voice": "青山龍星",
+  "style_name": "熱血",
   "gender": "M",
-  "lines": 40
+  "lines": 39,
+  "target_f0": 120.8,
+  "voice_f0": 123.28604125976562,
+  "f0_ratio": 0.98,
+  "height_gap": 0.02
  },
  "Character_DH_7": {
-  "style": 6,
-  "voice": "四国めたん ツンツン",
-  "gender": "F",
-  "lines": 37
- },
- "Character_Imp_7_2": {
-  "style": 7,
-  "voice": "ずんだもん ツンツン",
-  "gender": "F",
-  "lines": 36
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 37,
+  "target_f0": 78.3,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.999,
+  "height_gap": 0.001
  },
  "Character_Imp_7_7": {
-  "style": 8,
-  "voice": "春日部つむぎ ノーマル",
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 36
+  "lines": 36,
+  "target_f0": 158.2,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.006,
+  "height_gap": 0.006
  },
  "Character_Imp_4": {
-  "style": 9,
-  "voice": "波音リツ ノーマル",
+  "style": 51,
+  "voice": "†聖騎士 紅桜†",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 33
+  "lines": 33,
+  "target_f0": 146.6,
+  "voice_f0": 139.82705688476562,
+  "f0_ratio": 1.049,
+  "height_gap": 0.047
  },
- "Character_FJZL_17": {
-  "style": 10,
-  "voice": "雨晴はう ノーマル",
-  "gender": "F",
-  "lines": 31
- },
- "Character_EX_1": {
-  "style": 30,
-  "voice": "No.7 アナウンス",
+ "Character_Imp_7_2": {
+  "style": 12,
+  "voice": "白上虎太郎",
+  "style_name": "ふつう",
   "gender": "M",
-  "lines": 30
- },
- "Character_Imp_7_5": {
-  "style": 14,
-  "voice": "冥鳴ひまり ノーマル",
-  "gender": "F",
-  "lines": 30
- },
- "Character_DDSD_5": {
-  "style": 31,
-  "voice": "No.7 読み聞かせ",
-  "gender": "M",
-  "lines": 29
+  "lines": 32,
+  "target_f0": 122.1,
+  "voice_f0": 167.14938354492188,
+  "f0_ratio": 0.731,
+  "height_gap": 0.314
  },
  "Character_Imp_9": {
-  "style": 15,
-  "voice": "九州そら あまあま",
-  "gender": "F",
-  "lines": 29
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 29,
+  "target_f0": 81.6,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 0.993,
+  "height_gap": 0.007
  },
  "Character_LJC_26": {
-  "style": 16,
-  "voice": "九州そら ノーマル",
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 29
+  "lines": 29,
+  "target_f0": 206.2,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 0.993,
+  "height_gap": 0.007
  },
- "Character_Imp_10_1": {
-  "style": 17,
-  "voice": "九州そら セクシー",
+ "Character_DDSD_5": {
+  "style": 99,
+  "voice": "離途",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 28,
+  "target_f0": 91.0,
+  "voice_f0": 92.58364868164062,
+  "f0_ratio": 0.983,
+  "height_gap": 0.017
+ },
+ "Character_FJZL_17": {
+  "style": 68,
+  "voice": "あいえるたん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 28
+  "lines": 28,
+  "target_f0": 272.7,
+  "voice_f0": 271.9067077636719,
+  "f0_ratio": 1.003,
+  "height_gap": 0.003
+ },
+ "Character_Imp_7_5": {
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 28,
+  "target_f0": 102.4,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.1,
+  "height_gap": 0.096
  },
  "Character_Imp_12": {
-  "style": 18,
-  "voice": "九州そら ツンツン",
-  "gender": "F",
-  "lines": 27
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 27,
+  "target_f0": 69.4,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 0.82,
+  "height_gap": 0.198
+ },
+ "Character_EX_1": {
+  "style": 118,
+  "voice": "夜語トバリ",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 27,
+  "target_f0": 150.1,
+  "voice_f0": 197.10343170166016,
+  "f0_ratio": 0.762,
+  "height_gap": 0.272
+ },
+ "Character_Imp_10_1": {
+  "style": 11,
+  "voice": "玄野武宏",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 27,
+  "target_f0": 135.6,
+  "voice_f0": 123.28863525390625,
+  "f0_ratio": 1.1,
+  "height_gap": 0.096
  },
  "Character_PZ_41_1": {
-  "style": 19,
-  "voice": "九州そら ささやき",
-  "gender": "F",
-  "lines": 25
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 25,
+  "target_f0": 95.4,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.025,
+  "height_gap": 0.025
  },
  "Character_XM_1": {
-  "style": 20,
-  "voice": "もち子さん ノーマル",
+  "style": 61,
+  "voice": "中国うさぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 25
+  "lines": 25,
+  "target_f0": 161.3,
+  "voice_f0": 193.57925415039062,
+  "f0_ratio": 0.833,
+  "height_gap": 0.182
  },
  "Character_DDSD_6": {
-  "style": 32,
-  "voice": "白上虎太郎 わーい",
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 24
+  "lines": 24,
+  "target_f0": 108.0,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.922,
+  "height_gap": 0.082
  },
  "Character_EX_4": {
-  "style": 12,
-  "voice": "白上虎太郎 ふつう",
-  "gender": null,
-  "lines": 24
- },
- "Character_FJZL_50": {
-  "style": 33,
-  "voice": "白上虎太郎 びくびく",
+  "style": 81,
+  "voice": "青山龍星",
+  "style_name": "熱血",
   "gender": "M",
-  "lines": 23
+  "lines": 24,
+  "target_f0": 126.6,
+  "voice_f0": 123.28604125976562,
+  "f0_ratio": 1.027,
+  "height_gap": 0.026
  },
  "Character_Imp_14": {
-  "style": 22,
-  "voice": "ずんだもん ささやき",
-  "gender": "F",
-  "lines": 23
- },
- "Character_XG_34": {
-  "style": 34,
-  "voice": "白上虎太郎 おこ",
+  "style": 99,
+  "voice": "離途",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 23
+  "lines": 22,
+  "target_f0": 98.4,
+  "voice_f0": 92.58364868164062,
+  "f0_ratio": 1.063,
+  "height_gap": 0.061
  },
  "Character_XG_30": {
-  "style": 23,
-  "voice": "WhiteCUL ノーマル",
+  "style": 108,
+  "voice": "東北きりたん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 21
+  "lines": 21,
+  "target_f0": 260.0,
+  "voice_f0": 262.78526306152344,
+  "f0_ratio": 0.989,
+  "height_gap": 0.011
  },
  "Character_LJC_7": {
-  "style": 35,
-  "voice": "白上虎太郎 びえーん",
+  "style": 81,
+  "voice": "青山龍星",
+  "style_name": "熱血",
   "gender": "M",
-  "lines": 21
+  "lines": 21,
+  "target_f0": 121.9,
+  "voice_f0": 123.28604125976562,
+  "f0_ratio": 0.989,
+  "height_gap": 0.011
+ },
+ "Character_XG_34": {
+  "style": 14,
+  "voice": "冥鳴ひまり",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 21,
+  "target_f0": 183.7,
+  "voice_f0": 194.0742645263672,
+  "f0_ratio": 0.947,
+  "height_gap": 0.055
+ },
+ "Character_FJZL_50": {
+  "style": 53,
+  "voice": "麒ヶ島宗麟",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 20,
+  "target_f0": 153.9,
+  "voice_f0": 149.55821228027344,
+  "f0_ratio": 1.029,
+  "height_gap": 0.028
  },
  "Character_EX_6": {
-  "style": 24,
-  "voice": "WhiteCUL たのしい",
-  "gender": "F",
-  "lines": 19
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 19,
+  "target_f0": 66.6,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.851,
+  "height_gap": 0.161
  },
  "Character_Imp_19": {
-  "style": 25,
-  "voice": "WhiteCUL かなしい",
-  "gender": "F",
-  "lines": 19
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 19,
+  "target_f0": 72.7,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 0.885,
+  "height_gap": 0.123
  },
  "Character_FJZL_49_1": {
-  "style": 39,
-  "voice": "玄野武宏 喜び",
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 19
+  "lines": 19,
+  "target_f0": 115.9,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.989,
+  "height_gap": 0.011
  },
  "Character_Imp_13": {
-  "style": 26,
-  "voice": "WhiteCUL びえーん",
-  "gender": "F",
-  "lines": 19
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 19,
+  "target_f0": 79.6,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 0.94,
+  "height_gap": 0.062
  },
  "Character_XG_6": {
-  "style": 40,
-  "voice": "玄野武宏 ツンギレ",
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
   "gender": "M",
-  "lines": 19
+  "lines": 19,
+  "target_f0": 76.4,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.976,
+  "height_gap": 0.024
  },
  "Character_Imp_2": {
-  "style": 36,
-  "voice": "四国めたん ささやき",
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 19
- },
- "Character_Main_0": {
-  "style": 37,
-  "voice": "四国めたん ヒソヒソ",
-  "gender": "F",
-  "lines": 18
- },
- "Character_EX_10": {
-  "style": 42,
-  "voice": "ちび式じい ノーマル",
-  "gender": null,
-  "lines": 17
+  "lines": 19,
+  "target_f0": 180.2,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.94,
+  "height_gap": 0.061
  },
  "Character_LJC_6": {
-  "style": 38,
-  "voice": "ずんだもん ヒソヒソ",
+  "style": 10,
+  "voice": "雨晴はう",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 16
+  "lines": 16,
+  "target_f0": 223.5,
+  "voice_f0": 221.49972534179688,
+  "f0_ratio": 1.009,
+  "height_gap": 0.009
  },
  "Character_PZ_1": {
-  "style": 43,
-  "voice": "櫻歌ミコ ノーマル",
+  "style": 126,
+  "voice": "里石ユカ",
+  "style_name": "つぼみ",
   "gender": "F",
-  "lines": 16
- },
- "Character_Imp_20": {
-  "style": 41,
-  "voice": "玄野武宏 悲しみ",
-  "gender": "M",
-  "lines": 16
+  "lines": 16,
+  "target_f0": 204.3,
+  "voice_f0": 219.56853485107422,
+  "f0_ratio": 0.931,
+  "height_gap": 0.072
  },
  "Character_PZ_64": {
-  "style": 44,
-  "voice": "櫻歌ミコ 第二形態",
-  "gender": "F",
-  "lines": 16
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 16,
+  "target_f0": 69.5,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 0.846,
+  "height_gap": 0.168
  },
  "Character_XSSL_1": {
-  "style": 45,
-  "voice": "櫻歌ミコ ロリ",
-  "gender": "F",
-  "lines": 16
+  "style": 11,
+  "voice": "玄野武宏",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 16,
+  "target_f0": 103.0,
+  "voice_f0": 123.28863525390625,
+  "f0_ratio": 0.835,
+  "height_gap": 0.18
  },
  "Character_ZDDY_22": {
-  "style": 46,
-  "voice": "小夜/SAYO ノーマル",
+  "style": 14,
+  "voice": "冥鳴ひまり",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 16
+  "lines": 16,
+  "target_f0": 198.0,
+  "voice_f0": 194.0742645263672,
+  "f0_ratio": 1.02,
+  "height_gap": 0.02
  },
  "Character_XG_15": {
-  "style": 51,
-  "voice": "†聖騎士 紅桜† ノーマル",
-  "gender": "F",
-  "lines": 15
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 15,
+  "target_f0": 120.0,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 1.024,
+  "height_gap": 0.024
  },
  "Character_PZ_49": {
-  "style": 42,
-  "voice": "ちび式じい ノーマル",
+  "style": 99,
+  "voice": "離途",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 15
+  "lines": 15,
+  "target_f0": 68.6,
+  "voice_f0": 92.58364868164062,
+  "f0_ratio": 0.741,
+  "height_gap": 0.3
  },
  "Character_EX_1_2": {
-  "style": 52,
-  "voice": "雀松朱司 ノーマル",
+  "style": 81,
+  "voice": "青山龍星",
+  "style_name": "熱血",
   "gender": "M",
-  "lines": 15
+  "lines": 15,
+  "target_f0": 108.3,
+  "voice_f0": 123.28604125976562,
+  "f0_ratio": 0.879,
+  "height_gap": 0.129
+ },
+ "Character_Main_0": {
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 14,
+  "target_f0": 215.5,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 0.913,
+  "height_gap": 0.091
+ },
+ "Character_XM_26_1": {
+  "style": 16,
+  "voice": "九州そら",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 14,
+  "target_f0": 256.9,
+  "voice_f0": 263.2602233886719,
+  "f0_ratio": 0.976,
+  "height_gap": 0.024
+ },
+ "Character_ZDDY_12": {
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 14,
+  "target_f0": 79.5,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 0.854,
+  "height_gap": 0.158
  },
  "Character_Imp_10_2": {
   "style": 53,
-  "voice": "麒ヶ島宗麟 ノーマル",
-  "gender": null,
-  "lines": 14
- },
- "Character_XM_26_1": {
-  "style": 53,
-  "voice": "麒ヶ島宗麟 ノーマル",
+  "voice": "麒ヶ島宗麟",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 14
- },
- "Character_ZDDY_12": {
-  "style": 69,
-  "voice": "満別花丸 ノーマル",
-  "gender": "M",
-  "lines": 14
+  "lines": 13,
+  "target_f0": 133.3,
+  "voice_f0": 149.55821228027344,
+  "f0_ratio": 0.891,
+  "height_gap": 0.115
  },
  "Character_DDSD_1": {
-  "style": 54,
-  "voice": "春歌ナナ ノーマル",
+  "style": 10,
+  "voice": "雨晴はう",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 13
+  "lines": 13,
+  "target_f0": 222.7,
+  "voice_f0": 221.49972534179688,
+  "f0_ratio": 1.005,
+  "height_gap": 0.005
  },
- "Character_EX_8": {
-  "style": 70,
-  "voice": "満別花丸 元気",
+ "Character_EX_10": {
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 13
+  "lines": 13,
+  "target_f0": 77.9,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 0.92,
+  "height_gap": 0.083
  },
  "Character_FJZL_26": {
-  "style": 71,
-  "voice": "満別花丸 ささやき",
+  "style": 12,
+  "voice": "白上虎太郎",
+  "style_name": "ふつう",
   "gender": "M",
-  "lines": 13
+  "lines": 13,
+  "target_f0": 155.7,
+  "voice_f0": 167.14938354492188,
+  "f0_ratio": 0.931,
+  "height_gap": 0.071
  },
  "Character_EX_5_2": {
-  "style": 55,
-  "voice": "猫使アル ノーマル",
+  "style": 54,
+  "voice": "春歌ナナ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 13
+  "lines": 13,
+  "target_f0": 309.0,
+  "voice_f0": 313.3263397216797,
+  "f0_ratio": 0.986,
+  "height_gap": 0.014
  },
  "Character_XM_27_1": {
-  "style": 56,
-  "voice": "猫使アル おちつき",
+  "style": 113,
+  "voice": "あんこもん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 13
+  "lines": 13,
+  "target_f0": 259.3,
+  "voice_f0": 276.0755920410156,
+  "f0_ratio": 0.939,
+  "height_gap": 0.063
  },
  "Character_Imp_17": {
-  "style": 72,
-  "voice": "満別花丸 ぶりっ子",
-  "gender": "M",
-  "lines": 13
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 13,
+  "target_f0": 165.6,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.053,
+  "height_gap": 0.052
  },
  "Character_LJC_13_1": {
-  "style": 73,
-  "voice": "満別花丸 ボーイ",
+  "style": 11,
+  "voice": "玄野武宏",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 13
+  "lines": 13,
+  "target_f0": 134.0,
+  "voice_f0": 123.28863525390625,
+  "f0_ratio": 1.087,
+  "height_gap": 0.084
+ },
+ "Character_Imp_20": {
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 13,
+  "target_f0": 119.8,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 1.022,
+  "height_gap": 0.022
  },
  "Character_PZ_74": {
-  "style": 57,
-  "voice": "猫使アル うきうき",
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 13
+  "lines": 13,
+  "target_f0": 209.6,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 1.01,
+  "height_gap": 0.01
  },
  "Character_PZ_72": {
-  "style": 58,
-  "voice": "猫使ビィ ノーマル",
-  "gender": "F",
-  "lines": 13
+  "style": 81,
+  "voice": "青山龍星",
+  "style_name": "熱血",
+  "gender": "M",
+  "lines": 13,
+  "target_f0": 116.9,
+  "voice_f0": 123.28604125976562,
+  "f0_ratio": 0.948,
+  "height_gap": 0.053
  },
  "Character_XM_26": {
-  "style": 59,
-  "voice": "猫使ビィ おちつき",
+  "style": 61,
+  "voice": "中国うさぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 13
+  "lines": 13,
+  "target_f0": 199.5,
+  "voice_f0": 193.57925415039062,
+  "f0_ratio": 1.031,
+  "height_gap": 0.03
  },
  "Character_ZDDY_7": {
-  "style": 81,
-  "voice": "青山龍星 熱血",
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 13
+  "lines": 13,
+  "target_f0": 82.8,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 1.008,
+  "height_gap": 0.008
  },
  "Character_BHC_7": {
-  "style": 82,
-  "voice": "青山龍星 不機嫌",
+  "style": 53,
+  "voice": "麒ヶ島宗麟",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 12
+  "lines": 12,
+  "target_f0": 146.5,
+  "voice_f0": 149.55821228027344,
+  "f0_ratio": 0.98,
+  "height_gap": 0.02
  },
  "Character_DDSD_8": {
-  "style": 39,
-  "voice": "玄野武宏 喜び",
-  "gender": null,
-  "lines": 12
+  "style": 90,
+  "voice": "ぞん子",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 12,
+  "target_f0": 251.3,
+  "voice_f0": 276.4437561035156,
+  "f0_ratio": 0.909,
+  "height_gap": 0.095
  },
  "Character_XG_38": {
-  "style": 83,
-  "voice": "青山龍星 喜び",
+  "style": 99,
+  "voice": "離途",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 12
+  "lines": 12,
+  "target_f0": 81.8,
+  "voice_f0": 92.58364868164062,
+  "f0_ratio": 0.884,
+  "height_gap": 0.124
  },
  "Character_XM_10": {
-  "style": 60,
-  "voice": "猫使ビィ 人見知り",
-  "gender": "F",
-  "lines": 12
+  "style": 11,
+  "voice": "玄野武宏",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 12,
+  "target_f0": 111.9,
+  "voice_f0": 123.28863525390625,
+  "f0_ratio": 0.907,
+  "height_gap": 0.097
  },
  "Character_DDSD_9": {
-  "style": 61,
-  "voice": "中国うさぎ ノーマル",
+  "style": 126,
+  "voice": "里石ユカ",
+  "style_name": "つぼみ",
   "gender": "F",
-  "lines": 11
+  "lines": 11,
+  "target_f0": 198.7,
+  "voice_f0": 219.56853485107422,
+  "f0_ratio": 0.905,
+  "height_gap": 0.1
  },
  "Character_DDSD_7": {
-  "style": 62,
-  "voice": "中国うさぎ おどろき",
-  "gender": "F",
-  "lines": 11
- },
- "Character_Imp_21": {
-  "style": 2,
-  "voice": "四国めたん ノーマル",
-  "gender": null,
-  "lines": 11
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 11,
+  "target_f0": 89.7,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 0.964,
+  "height_gap": 0.037
  },
  "Character_FJZL_32": {
-  "style": 63,
-  "voice": "中国うさぎ こわがり",
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 11
+  "lines": 11,
+  "target_f0": 183.9,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.959,
+  "height_gap": 0.042
  },
  "Character_HFZ_1": {
-  "style": 84,
-  "voice": "青山龍星 しっとり",
+  "style": 12,
+  "voice": "白上虎太郎",
+  "style_name": "ふつう",
   "gender": "M",
-  "lines": 11
- },
- "Character_LJC_30": {
-  "style": 64,
-  "voice": "中国うさぎ へろへろ",
-  "gender": "F",
-  "lines": 11
+  "lines": 11,
+  "target_f0": 136.1,
+  "voice_f0": 167.14938354492188,
+  "f0_ratio": 0.814,
+  "height_gap": 0.206
  },
  "Character_LJC_37": {
-  "style": 85,
-  "voice": "青山龍星 かなしみ",
-  "gender": "M",
-  "lines": 11
+  "style": 61,
+  "voice": "中国うさぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 11,
+  "target_f0": 190.5,
+  "voice_f0": 193.57925415039062,
+  "f0_ratio": 0.984,
+  "height_gap": 0.016
  },
  "Character_PZ_7": {
-  "style": 86,
-  "voice": "青山龍星 囁き",
-  "gender": "M",
-  "lines": 11
+  "style": 67,
+  "voice": "栗田まろん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 11,
+  "target_f0": 173.9,
+  "voice_f0": 155.5118865966797,
+  "f0_ratio": 1.119,
+  "height_gap": 0.112
  },
  "Character_PZ_63": {
-  "style": 65,
-  "voice": "波音リツ クイーン",
+  "style": 51,
+  "voice": "†聖騎士 紅桜†",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 11
+  "lines": 11,
+  "target_f0": 142.6,
+  "voice_f0": 139.82705688476562,
+  "f0_ratio": 1.02,
+  "height_gap": 0.02
  },
  "Character_PZ_77": {
-  "style": 66,
-  "voice": "もち子さん セクシー／あん子",
-  "gender": "F",
-  "lines": 11
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 11,
+  "target_f0": 102.9,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.105,
+  "height_gap": 0.1
  },
  "Character_PZ_71": {
-  "style": 67,
-  "voice": "栗田まろん ノーマル",
+  "style": 51,
+  "voice": "†聖騎士 紅桜†",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 11
+  "lines": 11,
+  "target_f0": 145.7,
+  "voice_f0": 139.82705688476562,
+  "f0_ratio": 1.042,
+  "height_gap": 0.041
  },
  "Character_DDSD_8_1": {
-  "style": 87,
-  "voice": "後鬼 人間（怒り）ver.",
-  "gender": "M",
-  "lines": 10
+  "style": 14,
+  "voice": "冥鳴ひまり",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 10,
+  "target_f0": 182.0,
+  "voice_f0": 194.0742645263672,
+  "f0_ratio": 0.938,
+  "height_gap": 0.064
  },
  "Character_FJZL_3": {
-  "style": 68,
-  "voice": "あいえるたん ノーマル",
-  "gender": "F",
-  "lines": 10
+  "style": 118,
+  "voice": "夜語トバリ",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 10,
+  "target_f0": 130.2,
+  "voice_f0": 197.10343170166016,
+  "f0_ratio": 0.661,
+  "height_gap": 0.414
  },
  "Character_DH_23": {
-  "style": 23,
-  "voice": "WhiteCUL ノーマル",
-  "gender": null,
-  "lines": 10
+  "style": 99,
+  "voice": "離途",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 10,
+  "target_f0": 93.8,
+  "voice_f0": 92.58364868164062,
+  "f0_ratio": 1.013,
+  "height_gap": 0.013
  },
  "Character_LJC_39": {
-  "style": 9,
-  "voice": "波音リツ ノーマル",
-  "gender": null,
-  "lines": 10
+  "style": 3,
+  "voice": "ずんだもん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 10,
+  "target_f0": 284.7,
+  "voice_f0": 287.7033996582031,
+  "f0_ratio": 0.99,
+  "height_gap": 0.01
  },
  "Character_LJC_34": {
-  "style": 75,
-  "voice": "ずんだもん ヘロヘロ",
-  "gender": null,
-  "lines": 10
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 10,
+  "target_f0": 102.6,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.875,
+  "height_gap": 0.133
  },
  "Character_LJC_33": {
-  "style": 76,
-  "voice": "ずんだもん なみだめ",
-  "gender": null,
-  "lines": 10
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 10,
+  "target_f0": 75.1,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.959,
+  "height_gap": 0.042
  },
  "Character_PZ_70": {
-  "style": 77,
-  "voice": "もち子さん 泣き",
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 10
+  "lines": 10,
+  "target_f0": 175.7,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.118,
+  "height_gap": 0.111
  },
  "Character_XG_9": {
-  "style": 88,
-  "voice": "後鬼 鬼ver.",
+  "style": 53,
+  "voice": "麒ヶ島宗麟",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 10
+  "lines": 10,
+  "target_f0": 142.0,
+  "voice_f0": 149.55821228027344,
+  "f0_ratio": 0.949,
+  "height_gap": 0.052
  },
  "Character_Imp_15": {
-  "style": 89,
-  "voice": "Voidoll ノーマル",
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 10
+  "lines": 10,
+  "target_f0": 86.1,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 1.018,
+  "height_gap": 0.018
  },
  "Character_PZ_24_1": {
-  "style": 78,
-  "voice": "もち子さん 怒り",
-  "gender": null,
-  "lines": 10
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 10,
+  "target_f0": 94.2,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.012,
+  "height_gap": 0.012
  },
  "Character_DDSD_3": {
-  "style": 79,
-  "voice": "もち子さん 喜び",
+  "style": 109,
+  "voice": "東北イタコ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 9
+  "lines": 9,
+  "target_f0": 217.4,
+  "voice_f0": 229.99667358398438,
+  "f0_ratio": 0.945,
+  "height_gap": 0.056
  },
  "Character_EX_5": {
-  "style": 80,
-  "voice": "もち子さん のんびり",
+  "style": 58,
+  "voice": "猫使ビィ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 9
- },
- "Character_Imp_3": {
-  "style": 90,
-  "voice": "ぞん子 ノーマル",
-  "gender": "F",
-  "lines": 9
+  "lines": 9,
+  "target_f0": 263.7,
+  "voice_f0": 288.3091735839844,
+  "f0_ratio": 0.915,
+  "height_gap": 0.089
  },
  "Character_MG_1_1": {
-  "style": 91,
-  "voice": "ぞん子 低血圧",
+  "style": 9,
+  "voice": "波音リツ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 9
+  "lines": 9,
+  "target_f0": 260.4,
+  "voice_f0": 288.6452331542969,
+  "f0_ratio": 0.902,
+  "height_gap": 0.103
  },
  "Character_EX_1_1": {
-  "style": 99,
-  "voice": "離途 ノーマル",
+  "style": 81,
+  "voice": "青山龍星",
+  "style_name": "熱血",
   "gender": "M",
-  "lines": 9
+  "lines": 9,
+  "target_f0": 114.8,
+  "voice_f0": 123.28604125976562,
+  "f0_ratio": 0.931,
+  "height_gap": 0.071
+ },
+ "Character_Imp_21": {
+  "style": 67,
+  "voice": "栗田まろん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 8,
+  "target_f0": 172.7,
+  "voice_f0": 155.5118865966797,
+  "f0_ratio": 1.111,
+  "height_gap": 0.105
  },
  "Character_FJZL_2": {
-  "style": 92,
-  "voice": "ぞん子 覚醒",
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 8
+  "lines": 8,
+  "target_f0": 214.9,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 0.91,
+  "height_gap": 0.094
+ },
+ "Character_Imp_3": {
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 8,
+  "target_f0": 171.4,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.09,
+  "height_gap": 0.086
  },
  "Character_LJC_10": {
-  "style": 93,
-  "voice": "ぞん子 実況風",
+  "style": 43,
+  "voice": "櫻歌ミコ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 8
+  "lines": 8,
+  "target_f0": 290.9,
+  "voice_f0": 289.41815185546875,
+  "f0_ratio": 1.005,
+  "height_gap": 0.005
  },
  "Character_LJC_11": {
-  "style": 94,
-  "voice": "中部つるぎ ノーマル",
-  "gender": "F",
-  "lines": 8
- },
- "Character_LJC_8": {
-  "style": 95,
-  "voice": "中部つるぎ 怒り",
-  "gender": "F",
-  "lines": 8
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 8,
+  "target_f0": 82.7,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 1.007,
+  "height_gap": 0.007
  },
  "Character_LJC_70": {
-  "style": 101,
-  "voice": "離途 シリアス",
+  "style": 11,
+  "voice": "玄野武宏",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 8
+  "lines": 8,
+  "target_f0": 103.1,
+  "voice_f0": 123.28863525390625,
+  "f0_ratio": 0.836,
+  "height_gap": 0.179
  },
  "Character_Imp_9_2": {
-  "style": 96,
-  "voice": "中部つるぎ ヒソヒソ",
-  "gender": "F",
-  "lines": 8
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 8,
+  "target_f0": 82.9,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 1.01,
+  "height_gap": 0.01
  },
  "Character_FJZL_16": {
-  "style": 118,
-  "voice": "夜語トバリ ノーマル",
+  "style": 12,
+  "voice": "白上虎太郎",
+  "style_name": "ふつう",
   "gender": "M",
-  "lines": 8
+  "lines": 8,
+  "target_f0": 124.3,
+  "voice_f0": 167.14938354492188,
+  "f0_ratio": 0.744,
+  "height_gap": 0.296
  },
  "Character_XSSL_1_2": {
-  "style": 97,
-  "voice": "中部つるぎ おどおど",
-  "gender": null,
-  "lines": 8
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 8,
+  "target_f0": 117.4,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 1.001,
+  "height_gap": 0.001
  },
  "Character_XM_27": {
-  "style": 98,
-  "voice": "中部つるぎ 絶望と敗北",
+  "style": 0,
+  "voice": "四国めたん",
+  "style_name": "あまあま",
   "gender": "F",
-  "lines": 8
+  "lines": 8,
+  "target_f0": 324.2,
+  "voice_f0": 323.6634521484375,
+  "f0_ratio": 1.002,
+  "height_gap": 0.002
  },
  "Character_XM_7": {
-  "style": 119,
-  "voice": "夜語トバリ 明るい",
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 8
+  "lines": 8,
+  "target_f0": 98.6,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.06,
+  "height_gap": 0.058
  },
  "Character_BHC_1": {
-  "style": 100,
-  "voice": "黒沢冴白 ノーマル",
+  "style": 107,
+  "voice": "東北ずん子",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 7
+  "lines": 7,
+  "target_f0": 281.8,
+  "voice_f0": 300.91087341308594,
+  "f0_ratio": 0.937,
+  "height_gap": 0.065
  },
  "Character_DDSD_13": {
-  "style": 102,
-  "voice": "ユーレイちゃん ノーマル",
+  "style": 67,
+  "voice": "栗田まろん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 7
+  "lines": 7,
+  "target_f0": 170.1,
+  "voice_f0": 155.5118865966797,
+  "f0_ratio": 1.094,
+  "height_gap": 0.09
  },
  "Character_DDSD_10_2": {
-  "style": 103,
-  "voice": "ユーレイちゃん 甘々",
-  "gender": null,
-  "lines": 7
+  "style": 108,
+  "voice": "東北きりたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 7,
+  "target_f0": 245.0,
+  "voice_f0": 262.78526306152344,
+  "f0_ratio": 0.932,
+  "height_gap": 0.07
+ },
+ "Character_LJC_8": {
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 7,
+  "target_f0": 79.7,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 1.017,
+  "height_gap": 0.017
  },
  "Character_LJC_22": {
-  "style": 120,
-  "voice": "夜語トバリ 哀しみ",
+  "style": 1,
+  "voice": "ずんだもん",
+  "style_name": "あまあま",
+  "gender": "F",
+  "lines": 7,
+  "target_f0": 288.6,
+  "voice_f0": 302.4610595703125,
+  "f0_ratio": 0.954,
+  "height_gap": 0.047
+ },
+ "Character_LJC_30": {
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 7
+  "lines": 7,
+  "target_f0": 86.3,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 1.02,
+  "height_gap": 0.02
  },
  "Character_LJC_27": {
-  "style": 104,
-  "voice": "ユーレイちゃん 哀しみ",
-  "gender": "F",
-  "lines": 7
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 7,
+  "target_f0": 75.7,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.967,
+  "height_gap": 0.034
  },
  "Character_LJC_67": {
-  "style": 105,
-  "voice": "ユーレイちゃん ささやき",
+  "style": 16,
+  "voice": "九州そら",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 7
+  "lines": 7,
+  "target_f0": 262.9,
+  "voice_f0": 263.2602233886719,
+  "f0_ratio": 0.999,
+  "height_gap": 0.001
  },
  "Character_LJC_68": {
-  "style": 121,
-  "voice": "夜語トバリ 呆れ",
-  "gender": "M",
-  "lines": 7
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 7,
+  "target_f0": 212.1,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 1.022,
+  "height_gap": 0.022
  },
  "Character_LJC_68_1": {
-  "style": 127,
-  "voice": "ブイブイ・コバコ ノーマル",
-  "gender": "M",
-  "lines": 7
+  "style": 10,
+  "voice": "雨晴はう",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 7,
+  "target_f0": 222.9,
+  "voice_f0": 221.49972534179688,
+  "f0_ratio": 1.006,
+  "height_gap": 0.006
  },
  "Character_PZ_8": {
-  "style": 106,
-  "voice": "ユーレイちゃん ツクモちゃん",
+  "style": 68,
+  "voice": "あいえるたん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 7
+  "lines": 7,
+  "target_f0": 251.0,
+  "voice_f0": 271.9067077636719,
+  "f0_ratio": 0.923,
+  "height_gap": 0.08
  },
  "Character_PZ_25": {
-  "style": 107,
-  "voice": "東北ずん子 ノーマル",
+  "style": 126,
+  "voice": "里石ユカ",
+  "style_name": "つぼみ",
   "gender": "F",
-  "lines": 7
+  "lines": 7,
+  "target_f0": 209.8,
+  "voice_f0": 219.56853485107422,
+  "f0_ratio": 0.956,
+  "height_gap": 0.045
  },
  "Character_PZ_69": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 118,
+  "voice": "夜語トバリ",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 7
+  "lines": 7,
+  "target_f0": 153.6,
+  "voice_f0": 197.10343170166016,
+  "f0_ratio": 0.779,
+  "height_gap": 0.249
  },
  "Character_PZ_65": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 53,
+  "voice": "麒ヶ島宗麟",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 7
+  "lines": 7,
+  "target_f0": 133.0,
+  "voice_f0": 149.55821228027344,
+  "f0_ratio": 0.889,
+  "height_gap": 0.118
  },
  "Character_MCHJ_1": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 7
+  "lines": 7,
+  "target_f0": 95.2,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.023,
+  "height_gap": 0.023
  },
  "Character_XG_13": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 70,
+  "voice": "満別花丸",
+  "style_name": "元気",
   "gender": "M",
-  "lines": 7
+  "lines": 7,
+  "target_f0": 143.2,
+  "voice_f0": 247.40345764160156,
+  "f0_ratio": 0.579,
+  "height_gap": 0.547
  },
  "Character_ZDDY_1": {
-  "style": 108,
-  "voice": "東北きりたん ノーマル",
-  "gender": null,
-  "lines": 7
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 7,
+  "target_f0": 179.7,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.938,
+  "height_gap": 0.064
+ },
+ "Character_EX_8": {
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 6,
+  "target_f0": 106.3,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.907,
+  "height_gap": 0.098
  },
  "Character_FJZL_5": {
-  "style": 109,
-  "voice": "東北イタコ ノーマル",
-  "gender": "F",
-  "lines": 6
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 6,
+  "target_f0": 118.3,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 1.009,
+  "height_gap": 0.009
  },
  "Character_FJZL_31": {
-  "style": 110,
-  "voice": "猫使アル つよつよ",
+  "style": 61,
+  "voice": "中国うさぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 6
+  "lines": 6,
+  "target_f0": 175.7,
+  "voice_f0": 193.57925415039062,
+  "f0_ratio": 0.907,
+  "height_gap": 0.097
  },
  "Character_LJC_14": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 12,
+  "voice": "白上虎太郎",
+  "style_name": "ふつう",
   "gender": "M",
-  "lines": 6
+  "lines": 6,
+  "target_f0": 140.5,
+  "voice_f0": 167.14938354492188,
+  "f0_ratio": 0.841,
+  "height_gap": 0.173
  },
  "Character_LJC_12": {
-  "style": 111,
-  "voice": "猫使アル へろへろ",
+  "style": 14,
+  "voice": "冥鳴ひまり",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 6
+  "lines": 6,
+  "target_f0": 176.1,
+  "voice_f0": 194.0742645263672,
+  "f0_ratio": 0.908,
+  "height_gap": 0.097
  },
  "Character_LJC_66": {
-  "style": 112,
-  "voice": "猫使ビィ つよつよ",
+  "style": 2,
+  "voice": "四国めたん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 6
+  "lines": 6,
+  "target_f0": 290.1,
+  "voice_f0": 302.59661865234375,
+  "f0_ratio": 0.959,
+  "height_gap": 0.042
  },
  "Character_MG_2_1": {
-  "style": 114,
-  "voice": "あんこもん つよつよ",
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 6
- },
- "Character_PZ_78": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 6
+  "lines": 6,
+  "target_f0": 237.6,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 1.007,
+  "height_gap": 0.006
  },
  "Character_PZ_10": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 6
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 6,
+  "target_f0": 190.8,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 0.92,
+  "height_gap": 0.084
  },
  "Character_Imp_6": {
-  "style": 115,
-  "voice": "あんこもん よわよわ",
-  "gender": "F",
-  "lines": 6
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 6,
+  "target_f0": 83.8,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 0.991,
+  "height_gap": 0.01
  },
  "Character_XG_44": {
-  "style": 47,
-  "voice": "ナースロボ＿タイプＴ ノーマル",
-  "gender": null,
-  "lines": 6
+  "style": 109,
+  "voice": "東北イタコ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 6,
+  "target_f0": 217.0,
+  "voice_f0": 229.99667358398438,
+  "f0_ratio": 0.943,
+  "height_gap": 0.058
  },
  "Character_XG_20": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 99,
+  "voice": "離途",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 6
+  "lines": 6,
+  "target_f0": 89.0,
+  "voice_f0": 92.58364868164062,
+  "f0_ratio": 0.961,
+  "height_gap": 0.04
  },
  "Character_DXZL_5": {
-  "style": 116,
-  "voice": "あんこもん けだるげ",
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 6
+  "lines": 6,
+  "target_f0": 157.4,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.001,
+  "height_gap": 0.001
  },
  "Character_ZDDY_11": {
-  "style": 117,
-  "voice": "あんこもん ささやき",
+  "style": 126,
+  "voice": "里石ユカ",
+  "style_name": "つぼみ",
   "gender": "F",
-  "lines": 6
+  "lines": 6,
+  "target_f0": 218.2,
+  "voice_f0": 219.56853485107422,
+  "f0_ratio": 0.994,
+  "height_gap": 0.006
  },
  "Character_PZ_68": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 6
+  "lines": 6,
+  "target_f0": 107.3,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.916,
+  "height_gap": 0.088
  },
  "Character_BHC_2": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 5
+  "style": 10,
+  "voice": "雨晴はう",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 5,
+  "target_f0": 209.6,
+  "voice_f0": 221.49972534179688,
+  "f0_ratio": 0.946,
+  "height_gap": 0.055
  },
  "Character_DDSD_4": {
   "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "voice": "玄野武宏",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 5
+  "lines": 5,
+  "target_f0": 127.0,
+  "voice_f0": 123.28863525390625,
+  "f0_ratio": 1.03,
+  "height_gap": 0.029
  },
  "Character_DDSD_2_1": {
   "style": 122,
-  "voice": "暁記ミタマ ノーマル",
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 5
+  "lines": 5,
+  "target_f0": 183.6,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.958,
+  "height_gap": 0.043
  },
  "Character_DDSD_12": {
-  "style": 123,
-  "voice": "暁記ミタマ 怒り",
-  "gender": null,
-  "lines": 5
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 5,
+  "target_f0": 97.0,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.042,
+  "height_gap": 0.041
  },
  "Character_DH_4": {
-  "style": 124,
-  "voice": "暁記ミタマ 哀しみ",
-  "gender": null,
-  "lines": 5
+  "style": 113,
+  "voice": "あんこもん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 5,
+  "target_f0": 229.3,
+  "voice_f0": 276.0755920410156,
+  "f0_ratio": 0.83,
+  "height_gap": 0.186
  },
  "Character_Imp_5_1": {
-  "style": 21,
-  "voice": "剣崎雌雄 ノーマル",
-  "gender": null,
-  "lines": 5
+  "style": 15,
+  "voice": "九州そら",
+  "style_name": "あまあま",
+  "gender": "F",
+  "lines": 5,
+  "target_f0": 286.8,
+  "voice_f0": 315.2693176269531,
+  "f0_ratio": 0.91,
+  "height_gap": 0.095
  },
  "Character_FJZL_44": {
-  "style": 125,
-  "voice": "暁記ミタマ ささやき",
-  "gender": null,
-  "lines": 5
+  "style": 67,
+  "voice": "栗田まろん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 5,
+  "target_f0": 156.8,
+  "voice_f0": 155.5118865966797,
+  "f0_ratio": 1.008,
+  "height_gap": 0.008
  },
  "Character_LJC_19": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 5
+  "style": 90,
+  "voice": "ぞん子",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 5,
+  "target_f0": 269.0,
+  "voice_f0": 276.4437561035156,
+  "f0_ratio": 0.973,
+  "height_gap": 0.027
  },
  "Character_LJC_50": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 5
+  "style": 109,
+  "voice": "東北イタコ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 5,
+  "target_f0": 226.7,
+  "voice_f0": 229.99667358398438,
+  "f0_ratio": 0.986,
+  "height_gap": 0.014
  },
  "Character_LJC_42": {
-  "style": 126,
-  "voice": "里石ユカ つぼみ",
+  "style": 61,
+  "voice": "中国うさぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 5
- },
- "Character_LJC_2": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 5
+  "lines": 5,
+  "target_f0": 178.9,
+  "voice_f0": 193.57925415039062,
+  "f0_ratio": 0.924,
+  "height_gap": 0.079
  },
  "Character_MG_5": {
-  "style": 43,
-  "voice": "櫻歌ミコ ノーマル",
-  "gender": null,
-  "lines": 5
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 5,
+  "target_f0": 70.9,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.905,
+  "height_gap": 0.1
  },
  "Character_PZ_19_1": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 5
+  "style": 20,
+  "voice": "もち子さん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 5,
+  "target_f0": 238.3,
+  "voice_f0": 315.360595703125,
+  "f0_ratio": 0.756,
+  "height_gap": 0.28
  },
  "Character_PZ_18": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 5
+  "style": 74,
+  "voice": "琴詠ニア",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 5,
+  "target_f0": 223.7,
+  "voice_f0": 316.2068176269531,
+  "f0_ratio": 0.707,
+  "height_gap": 0.346
  },
  "Character_PZ_16_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 14,
+  "voice": "冥鳴ひまり",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 5
+  "lines": 5,
+  "target_f0": 196.7,
+  "voice_f0": 194.0742645263672,
+  "f0_ratio": 1.013,
+  "height_gap": 0.013
  },
  "Character_PZ_11": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": null,
-  "lines": 5
- },
- "Character_PZ_81": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 5
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 5,
+  "target_f0": 102.0,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.096,
+  "height_gap": 0.092
  },
  "Character_PZ_75": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 8,
+  "voice": "春日部つむぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 5
+  "lines": 5,
+  "target_f0": 235.1,
+  "voice_f0": 317.5832061767578,
+  "f0_ratio": 0.74,
+  "height_gap": 0.301
  },
  "Character_XG_8": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 5
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 5,
+  "target_f0": 80.0,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 1.022,
+  "height_gap": 0.022
  },
  "Character_DXZL_27": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 51,
+  "voice": "†聖騎士 紅桜†",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 5
+  "lines": 5,
+  "target_f0": 145.0,
+  "voice_f0": 139.82705688476562,
+  "f0_ratio": 1.037,
+  "height_gap": 0.036
  },
  "Character_ZDDY_2": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 5
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 5,
+  "target_f0": 114.5,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.977,
+  "height_gap": 0.024
  },
  "Character_ZDDY_19": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 5
+  "style": 3,
+  "voice": "ずんだもん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 5,
+  "target_f0": 240.0,
+  "voice_f0": 287.7033996582031,
+  "f0_ratio": 0.834,
+  "height_gap": 0.181
  },
  "Character_ZDDY_26": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 58,
+  "voice": "猫使ビィ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 5
+  "lines": 5,
+  "target_f0": 285.1,
+  "voice_f0": 288.3091735839844,
+  "f0_ratio": 0.989,
+  "height_gap": 0.011
  },
  "Character_PZ_67": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 5
+  "lines": 5,
+  "target_f0": 207.2,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 0.998,
+  "height_gap": 0.002
  },
  "Character_BHC_6": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 23,
+  "voice": "WhiteCUL",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 312.3,
+  "voice_f0": 325.43695068359375,
+  "f0_ratio": 0.96,
+  "height_gap": 0.041
  },
  "Character_DDSD_16": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 4,
+  "target_f0": 86.0,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 1.016,
+  "height_gap": 0.016
  },
  "Character_DH_12": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 9,
+  "voice": "波音リツ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 249.1,
+  "voice_f0": 288.6452331542969,
+  "f0_ratio": 0.863,
+  "height_gap": 0.147
  },
  "Character_DH_13": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 232.7,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 0.986,
+  "height_gap": 0.014
  },
  "Character_Imp_9_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 51,
+  "voice": "†聖騎士 紅桜†",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 143.6,
+  "voice_f0": 139.82705688476562,
+  "f0_ratio": 1.027,
+  "height_gap": 0.027
  },
  "Character_FJZL_51": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 189.1,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.987,
+  "height_gap": 0.013
  },
  "Character_FJZL_8": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 43,
+  "voice": "櫻歌ミコ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 199.3,
+  "voice_f0": 289.41815185546875,
+  "f0_ratio": 0.688,
+  "height_gap": 0.373
  },
  "Character_FJZL_10": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 4,
+  "target_f0": 101.4,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.089,
+  "height_gap": 0.086
  },
  "Character_FJZL_13": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 107,
+  "voice": "東北ずん子",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 291.5,
+  "voice_f0": 300.91087341308594,
+  "f0_ratio": 0.969,
+  "height_gap": 0.032
  },
  "Character_FJZL_43": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 108,
+  "voice": "東北きりたん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 240.2,
+  "voice_f0": 262.78526306152344,
+  "f0_ratio": 0.914,
+  "height_gap": 0.09
  },
  "Character_EX_5_3": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 61,
+  "voice": "中国うさぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 187.9,
+  "voice_f0": 193.57925415039062,
+  "f0_ratio": 0.97,
+  "height_gap": 0.03
  },
  "Character_FJZL_25": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 4
+  "style": 14,
+  "voice": "冥鳴ひまり",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 187.4,
+  "voice_f0": 194.0742645263672,
+  "f0_ratio": 0.965,
+  "height_gap": 0.035
  },
  "Character_FJZL_49": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 27,
+  "voice": "後鬼",
+  "style_name": "人間ver.",
   "gender": "M",
-  "lines": 4
- },
- "Character_XM_28_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "lines": 4,
+  "target_f0": 134.4,
+  "voice_f0": 263.6675720214844,
+  "f0_ratio": 0.51,
+  "height_gap": 0.674
  },
  "Character_LJC_71": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 51,
+  "voice": "†聖騎士 紅桜†",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 141.9,
+  "voice_f0": 139.82705688476562,
+  "f0_ratio": 1.015,
+  "height_gap": 0.015
  },
  "Character_EX_2_1": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 95.7,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.028,
+  "height_gap": 0.027
  },
  "Character_LJC_17": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 1,
+  "voice": "ずんだもん",
+  "style_name": "あまあま",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 290.1,
+  "voice_f0": 302.4610595703125,
+  "f0_ratio": 0.959,
+  "height_gap": 0.042
  },
  "Character_LJC_49": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 2,
+  "voice": "四国めたん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 275.6,
+  "voice_f0": 302.59661865234375,
+  "f0_ratio": 0.911,
+  "height_gap": 0.093
  },
  "Character_LJC_64": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 16,
+  "voice": "九州そら",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 218.2,
+  "voice_f0": 263.2602233886719,
+  "f0_ratio": 0.829,
+  "height_gap": 0.188
  },
  "Character_LJC_65": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 102,
+  "voice": "ユーレイちゃん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 289.4,
+  "voice_f0": 336.5884094238281,
+  "f0_ratio": 0.86,
+  "height_gap": 0.151
  },
  "Character_LJC_47": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 68,
+  "voice": "あいえるたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 266.7,
+  "voice_f0": 271.9067077636719,
+  "f0_ratio": 0.981,
+  "height_gap": 0.019
  },
  "Character_LJC_61": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 113,
+  "voice": "あんこもん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 235.1,
+  "voice_f0": 276.0755920410156,
+  "f0_ratio": 0.851,
+  "height_gap": 0.161
  },
  "Character_LJC_60": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 90,
+  "voice": "ぞん子",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 271.9,
+  "voice_f0": 276.4437561035156,
+  "f0_ratio": 0.984,
+  "height_gap": 0.017
  },
  "Character_PZ_15": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 126,
+  "voice": "里石ユカ",
+  "style_name": "つぼみ",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 198.7,
+  "voice_f0": 219.56853485107422,
+  "f0_ratio": 0.905,
+  "height_gap": 0.1
  },
  "Character_PZ_19": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 4
+  "style": 46,
+  "voice": "小夜/SAYO",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 233.8,
+  "voice_f0": 340.3422546386719,
+  "f0_ratio": 0.687,
+  "height_gap": 0.375
  },
  "Character_PZ_17": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 4
+  "style": 118,
+  "voice": "夜語トバリ",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 4,
+  "target_f0": 138.5,
+  "voice_f0": 197.10343170166016,
+  "f0_ratio": 0.703,
+  "height_gap": 0.353
  },
  "Character_PZ_52": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 4,
+  "target_f0": 103.3,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.11,
+  "height_gap": 0.104
  },
  "Character_PZ_51": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 4
+  "style": 10,
+  "voice": "雨晴はう",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 179.8,
+  "voice_f0": 221.49972534179688,
+  "f0_ratio": 0.812,
+  "height_gap": 0.208
  },
  "Character_PZ_56": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 67,
+  "voice": "栗田まろん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 143.9,
+  "voice_f0": 155.5118865966797,
+  "f0_ratio": 0.926,
+  "height_gap": 0.077
  },
  "Character_PZ_53": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 4,
+  "target_f0": 94.9,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.019,
+  "height_gap": 0.019
+ },
+ "Character_PZ_78": {
+  "style": 109,
+  "voice": "東北イタコ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 229.1,
+  "voice_f0": 229.99667358398438,
+  "f0_ratio": 0.996,
+  "height_gap": 0.004
  },
  "Character_PZ_49_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 4,
+  "target_f0": 76.6,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.978,
+  "height_gap": 0.023
  },
  "Character_PZ_37": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 208.3,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 1.004,
+  "height_gap": 0.004
  },
  "Character_PZ_24": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 54,
+  "voice": "春歌ナナ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 240.2,
+  "voice_f0": 313.3263397216797,
+  "f0_ratio": 0.767,
+  "height_gap": 0.266
  },
  "Character_PZ_12": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 4
+  "style": 15,
+  "voice": "九州そら",
+  "style_name": "あまあま",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 197.0,
+  "voice_f0": 315.2693176269531,
+  "f0_ratio": 0.625,
+  "height_gap": 0.47
  },
  "Character_PZ_13": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 4,
+  "target_f0": 111.4,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.95,
+  "height_gap": 0.051
+ },
+ "Character_PZ_81": {
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 142.6,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 0.907,
+  "height_gap": 0.098
  },
  "Character_Imp_6_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 4,
+  "target_f0": 110.1,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.939,
+  "height_gap": 0.063
  },
  "Character_XG_10": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 4,
+  "target_f0": 85.8,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 1.014,
+  "height_gap": 0.014
  },
  "Character_XG_16": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
   "gender": "M",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 76.0,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.97,
+  "height_gap": 0.03
  },
  "Character_XG_12": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 111.6,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.952,
+  "height_gap": 0.049
  },
  "Character_XG_31": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 20,
+  "voice": "もち子さん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 251.6,
+  "voice_f0": 315.360595703125,
+  "f0_ratio": 0.798,
+  "height_gap": 0.226
  },
  "Character_XG_25": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
   "gender": "M",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 79.3,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 1.013,
+  "height_gap": 0.013
  },
  "Character_DXZL_4": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 74,
+  "voice": "琴詠ニア",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 211.6,
+  "voice_f0": 316.2068176269531,
+  "f0_ratio": 0.669,
+  "height_gap": 0.402
  },
  "Character_DXZL_10": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 8,
+  "voice": "春日部つむぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 300.1,
+  "voice_f0": 317.5832061767578,
+  "f0_ratio": 0.945,
+  "height_gap": 0.057
  },
  "Character_ZDDY_10": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 3,
+  "voice": "ずんだもん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 239.5,
+  "voice_f0": 287.7033996582031,
+  "f0_ratio": 0.832,
+  "height_gap": 0.183
  },
  "Character_ZDDY_29": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 4
+  "style": 58,
+  "voice": "猫使ビィ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 279.3,
+  "voice_f0": 288.3091735839844,
+  "f0_ratio": 0.969,
+  "height_gap": 0.032
  },
  "Character_FJZL_14": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 4
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 4,
+  "target_f0": 94.0,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.01,
+  "height_gap": 0.01
  },
  "Character_ZDDY_27": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 9,
+  "voice": "波音リツ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 280.2,
+  "voice_f0": 288.6452331542969,
+  "f0_ratio": 0.971,
+  "height_gap": 0.03
  },
  "Character_ZDDY_25": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 43,
+  "voice": "櫻歌ミコ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 4
+  "lines": 4,
+  "target_f0": 239.2,
+  "voice_f0": 289.41815185546875,
+  "f0_ratio": 0.826,
+  "height_gap": 0.191
  },
  "Character_PZ_66": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 4
- },
- "Character_EX_9": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 4,
+  "target_f0": 184.4,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.962,
+  "height_gap": 0.039
  },
  "Character_BHC_5": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 3
+  "style": 0,
+  "voice": "四国めたん",
+  "style_name": "あまあま",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 273.2,
+  "voice_f0": 323.6634521484375,
+  "f0_ratio": 0.844,
+  "height_gap": 0.169
  },
  "Character_DDSD_10_7": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 169.9,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.08,
+  "height_gap": 0.077
  },
  "Character_DDSD_14": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 193.9,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 0.821,
+  "height_gap": 0.197
  },
  "Character_DDSD_15": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
- },
- "Character_DDSD_10_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 102.8,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.104,
+  "height_gap": 0.099
  },
  "Character_DH_18": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 108,
+  "voice": "東北きりたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 227.3,
+  "voice_f0": 262.78526306152344,
+  "f0_ratio": 0.865,
+  "height_gap": 0.145
  },
  "Character_DH_11": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 3
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 101.8,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.094,
+  "height_gap": 0.09
  },
  "Character_FJZL_40": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 16,
+  "voice": "九州そら",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 197.0,
+  "voice_f0": 263.2602233886719,
+  "f0_ratio": 0.748,
+  "height_gap": 0.29
  },
  "Character_FJZL_6": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 23,
+  "voice": "WhiteCUL",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 241.1,
+  "voice_f0": 325.43695068359375,
+  "f0_ratio": 0.741,
+  "height_gap": 0.3
  },
  "Character_FJZL_9": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 104.5,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.892,
+  "height_gap": 0.115
  },
  "Character_FJZL_35": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 61,
+  "voice": "中国うさぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 192.8,
+  "voice_f0": 193.57925415039062,
+  "f0_ratio": 0.996,
+  "height_gap": 0.004
  },
  "Character_FJZL_27": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 97.0,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.042,
+  "height_gap": 0.041
  },
  "Character_FJZL_33": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 68,
+  "voice": "あいえるたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 256.7,
+  "voice_f0": 271.9067077636719,
+  "f0_ratio": 0.944,
+  "height_gap": 0.057
  },
  "Character_FJZL_34": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 3
+  "style": 126,
+  "voice": "里石ユカ",
+  "style_name": "つぼみ",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 214.0,
+  "voice_f0": 219.56853485107422,
+  "f0_ratio": 0.975,
+  "height_gap": 0.025
  },
  "Character_EX_7": {
-  "style": 68,
-  "voice": "あいえるたん ノーマル",
-  "gender": null,
-  "lines": 3
+  "style": 107,
+  "voice": "東北ずん子",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 259.0,
+  "voice_f0": 300.91087341308594,
+  "f0_ratio": 0.861,
+  "height_gap": 0.15
  },
  "Character_DH_24": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 106.9,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.912,
+  "height_gap": 0.092
  },
- "Character_Imp_21_1": {
-  "style": 33,
-  "voice": "白上虎太郎 びくびく",
-  "gender": null,
-  "lines": 3
+ "Character_XM_28_1": {
+  "style": 1,
+  "voice": "ずんだもん",
+  "style_name": "あまあま",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 282.7,
+  "voice_f0": 302.4610595703125,
+  "f0_ratio": 0.935,
+  "height_gap": 0.068
  },
  "Character_LJC_9": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 163.8,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.042,
+  "height_gap": 0.041
  },
  "Character_LJC_15": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 2,
+  "voice": "四国めたん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 289.8,
+  "voice_f0": 302.59661865234375,
+  "f0_ratio": 0.958,
+  "height_gap": 0.043
  },
  "Character_LJC_20": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 102,
+  "voice": "ユーレイちゃん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 281.7,
+  "voice_f0": 336.5884094238281,
+  "f0_ratio": 0.837,
+  "height_gap": 0.178
  },
  "Character_LJC_69": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 11,
+  "voice": "玄野武宏",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 130.5,
+  "voice_f0": 123.28863525390625,
+  "f0_ratio": 1.059,
+  "height_gap": 0.057
  },
  "Character_LJC_23": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 114.2,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.974,
+  "height_gap": 0.026
  },
  "Character_LJC_25": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 3
+  "style": 113,
+  "voice": "あんこもん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 266.9,
+  "voice_f0": 276.0755920410156,
+  "f0_ratio": 0.967,
+  "height_gap": 0.034
  },
  "Character_LJC_35": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 90,
+  "voice": "ぞん子",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 268.8,
+  "voice_f0": 276.4437561035156,
+  "f0_ratio": 0.972,
+  "height_gap": 0.028
  },
  "Character_LJC_68_2": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 86.6,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 1.023,
+  "height_gap": 0.023
  },
  "Character_LJC_45": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 105.3,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.898,
+  "height_gap": 0.108
  },
  "Character_LJC_46": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 14,
+  "voice": "冥鳴ひまり",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 195.2,
+  "voice_f0": 194.0742645263672,
+  "f0_ratio": 1.006,
+  "height_gap": 0.006
  },
  "Character_LJC_48": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 3
+  "style": 81,
+  "voice": "青山龍星",
+  "style_name": "熱血",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 122.6,
+  "voice_f0": 123.28604125976562,
+  "f0_ratio": 0.995,
+  "height_gap": 0.005
  },
  "Character_LJC_59": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 109.7,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.936,
+  "height_gap": 0.066
  },
  "Character_LJC_58": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 98.7,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.06,
+  "height_gap": 0.058
  },
  "BossName_030": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
   "gender": "M",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 80.2,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 1.024,
+  "height_gap": 0.023
  },
  "Character_PZ_16": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
- },
- "Character_PZ_14_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 182.6,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.953,
+  "height_gap": 0.048
  },
  "Character_PZ_58": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 46,
+  "voice": "小夜/SAYO",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 330.5,
+  "voice_f0": 340.3422546386719,
+  "f0_ratio": 0.971,
+  "height_gap": 0.029
  },
  "Character_PZ_55": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 54,
+  "voice": "春歌ナナ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 312.0,
+  "voice_f0": 313.3263397216797,
+  "f0_ratio": 0.996,
+  "height_gap": 0.004
  },
  "Character_PZ_32": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 83.0,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 1.01,
+  "height_gap": 0.01
  },
  "Character_PZ_31": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 181.3,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.946,
+  "height_gap": 0.055
  },
  "Character_PZ_40": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 10,
+  "voice": "雨晴はう",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 222.8,
+  "voice_f0": 221.49972534179688,
+  "f0_ratio": 1.006,
+  "height_gap": 0.006
  },
  "Character_PZ_2": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 83.8,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 0.99,
+  "height_gap": 0.01
  },
  "Character_PZ_22": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 109,
+  "voice": "東北イタコ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 212.4,
+  "voice_f0": 229.99667358398438,
+  "f0_ratio": 0.924,
+  "height_gap": 0.079
  },
  "Character_PZ_61": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 205.0,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 0.988,
+  "height_gap": 0.012
  },
  "Character_PZ_80": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 3
+  "style": 15,
+  "voice": "九州そら",
+  "style_name": "あまあま",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 249.6,
+  "voice_f0": 315.2693176269531,
+  "f0_ratio": 0.792,
+  "height_gap": 0.234
  },
  "Character_PZ_60": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
- },
- "Character_PZ_79": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 118.6,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 1.012,
+  "height_gap": 0.012
  },
  "Character_XG_7_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 51,
+  "voice": "†聖騎士 紅桜†",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 143.6,
+  "voice_f0": 139.82705688476562,
+  "f0_ratio": 1.027,
+  "height_gap": 0.027
  },
  "Character_XG_2": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 208.3,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 1.004,
+  "height_gap": 0.004
  },
  "Character_XG_5": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 81.0,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 0.986,
+  "height_gap": 0.014
  },
  "Character_XG_33": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 20,
+  "voice": "もち子さん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 275.5,
+  "voice_f0": 315.360595703125,
+  "f0_ratio": 0.874,
+  "height_gap": 0.135
  },
  "Character_XG_26": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 94.0,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.01,
+  "height_gap": 0.01
  },
  "Character_XG_27": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 97.1,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.043,
+  "height_gap": 0.042
  },
  "Character_XG_22": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 75.5,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.964,
+  "height_gap": 0.037
  },
  "Character_XG_35": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 74,
+  "voice": "琴詠ニア",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 261.2,
+  "voice_f0": 316.2068176269531,
+  "f0_ratio": 0.826,
+  "height_gap": 0.191
  },
  "Character_PZ_23_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 181.7,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.948,
+  "height_gap": 0.053
  },
  "Character_DXZL_2": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 8,
+  "voice": "春日部つむぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 257.6,
+  "voice_f0": 317.5832061767578,
+  "f0_ratio": 0.811,
+  "height_gap": 0.209
  },
  "Character_DXZL_6": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 3,
+  "voice": "ずんだもん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 271.4,
+  "voice_f0": 287.7033996582031,
+  "f0_ratio": 0.943,
+  "height_gap": 0.058
  },
  "Character_XM_28": {
-  "style": 8,
-  "voice": "春日部つむぎ ノーマル",
-  "gender": null,
-  "lines": 3
+  "style": 67,
+  "voice": "栗田まろん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 151.3,
+  "voice_f0": 155.5118865966797,
+  "f0_ratio": 0.973,
+  "height_gap": 0.028
  },
  "Character_DH_2": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
- },
- "Character_DH_25": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 51,
+  "voice": "†聖騎士 紅桜†",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 140.4,
+  "voice_f0": 139.82705688476562,
+  "f0_ratio": 1.004,
+  "height_gap": 0.004
  },
  "Character_ZDDY_20": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 67,
+  "voice": "栗田まろん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 3,
+  "target_f0": 156.4,
+  "voice_f0": 155.5118865966797,
+  "f0_ratio": 1.005,
+  "height_gap": 0.005
  },
  "Character_ZDDY_13": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 3
+  "style": 99,
+  "voice": "離途",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 89.8,
+  "voice_f0": 92.58364868164062,
+  "f0_ratio": 0.97,
+  "height_gap": 0.03
  },
  "Character_ZDDY_16": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 58,
+  "voice": "猫使ビィ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 237.3,
+  "voice_f0": 288.3091735839844,
+  "f0_ratio": 0.823,
+  "height_gap": 0.195
  },
  "Character_ZDDY_17": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 3
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 114.6,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.977,
+  "height_gap": 0.023
  },
  "Character_ZDDY_18": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 3
+  "lines": 3,
+  "target_f0": 93.8,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.008,
+  "height_gap": 0.008
  },
  "Character_ZDDY_24": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 3
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 3,
+  "target_f0": 103.3,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.109,
+  "height_gap": 0.104
+ },
+ "Character_EX_9": {
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 116.5,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.994,
+  "height_gap": 0.006
  },
  "Character_BHC_4": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 172.9,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.1,
+  "height_gap": 0.095
  },
  "Character_BHC_3": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 2
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 226.8,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 0.961,
+  "height_gap": 0.04
  },
  "Character_BHC_12": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 43,
+  "voice": "櫻歌ミコ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 2
+  "lines": 2,
+  "target_f0": 289.3,
+  "voice_f0": 289.41815185546875,
+  "f0_ratio": 1.0,
+  "height_gap": 0.0
  },
  "Character_DDSD_11": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 53,
+  "voice": "麒ヶ島宗麟",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 137.6,
+  "voice_f0": 149.55821228027344,
+  "f0_ratio": 0.92,
+  "height_gap": 0.084
+ },
+ "Character_DDSD_10_1": {
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 186.4,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.972,
+  "height_gap": 0.028
  },
  "Character_DH_26": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 202.2,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 0.974,
+  "height_gap": 0.026
  },
  "Character_DH_3_2": {
   "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "voice": "四国めたん",
+  "style_name": "あまあま",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 297.9,
+  "voice_f0": 323.6634521484375,
+  "f0_ratio": 0.92,
+  "height_gap": 0.083
  },
  "Character_DH_6": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 11,
+  "voice": "玄野武宏",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 129.3,
+  "voice_f0": 123.28863525390625,
+  "f0_ratio": 1.049,
+  "height_gap": 0.048
  },
  "Character_DH_8": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 67,
+  "voice": "栗田まろん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 152.9,
+  "voice_f0": 155.5118865966797,
+  "f0_ratio": 0.983,
+  "height_gap": 0.017
  },
  "Character_FJZL_7": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 9,
+  "voice": "波音リツ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 2
+  "lines": 2,
+  "target_f0": 252.2,
+  "voice_f0": 288.6452331542969,
+  "f0_ratio": 0.874,
+  "height_gap": 0.135
  },
  "Character_FJZL_11": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 2
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 203.3,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 0.98,
+  "height_gap": 0.021
  },
  "Character_FJZL_12": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 108,
+  "voice": "東北きりたん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 2
+  "lines": 2,
+  "target_f0": 232.3,
+  "voice_f0": 262.78526306152344,
+  "f0_ratio": 0.884,
+  "height_gap": 0.123
  },
  "Character_FJZL_41": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 186.9,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.975,
+  "height_gap": 0.025
  },
  "Character_FJZL_42": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 2
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 82.2,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 1.001,
+  "height_gap": 0.001
  },
  "Character_FJZL_36": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 14,
+  "voice": "冥鳴ひまり",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 199.8,
+  "voice_f0": 194.0742645263672,
+  "f0_ratio": 1.029,
+  "height_gap": 0.029
  },
  "Character_FJZL_48": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 16,
+  "voice": "九州そら",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 242.6,
+  "voice_f0": 263.2602233886719,
+  "f0_ratio": 0.922,
+  "height_gap": 0.082
  },
  "Character_FJZL_45": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 51,
+  "voice": "†聖騎士 紅桜†",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 140.8,
+  "voice_f0": 139.82705688476562,
+  "f0_ratio": 1.007,
+  "height_gap": 0.007
  },
  "Character_DH_21": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 70.1,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.895,
+  "height_gap": 0.11
  },
  "Character_DH_22": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 72.9,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.931,
+  "height_gap": 0.072
  },
  "Character_DH_19": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 116.2,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.991,
+  "height_gap": 0.009
  },
  "Character_DH_20": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 77.7,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.992,
+  "height_gap": 0.008
+ },
+ "Character_Imp_21_1": {
+  "style": 67,
+  "voice": "栗田まろん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 153.4,
+  "voice_f0": 155.5118865966797,
+  "f0_ratio": 0.987,
+  "height_gap": 0.013
  },
  "Character_LJC_38": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 23,
+  "voice": "WhiteCUL",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 2
+  "lines": 2,
+  "target_f0": 287.3,
+  "voice_f0": 325.43695068359375,
+  "f0_ratio": 0.883,
+  "height_gap": 0.125
  },
  "Character_LJC_16": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 202.3,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 0.975,
+  "height_gap": 0.026
  },
  "Character_LJC_18": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 107,
+  "voice": "東北ずん子",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 296.3,
+  "voice_f0": 300.91087341308594,
+  "f0_ratio": 0.985,
+  "height_gap": 0.015
  },
  "Character_LJC_21": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 2
+  "style": 68,
+  "voice": "あいえるたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 230.3,
+  "voice_f0": 271.9067077636719,
+  "f0_ratio": 0.847,
+  "height_gap": 0.166
  },
  "Character_LJC_32": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 92.8,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 0.997,
+  "height_gap": 0.003
  },
  "Character_LJC_35_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 1,
+  "voice": "ずんだもん",
+  "style_name": "あまあま",
   "gender": "F",
-  "lines": 2
+  "lines": 2,
+  "target_f0": 262.3,
+  "voice_f0": 302.4610595703125,
+  "f0_ratio": 0.867,
+  "height_gap": 0.142
  },
  "Character_LJC_44": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 110.8,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.945,
+  "height_gap": 0.057
  },
  "Character_LJC_36": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 2,
+  "voice": "四国めたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 271.2,
+  "voice_f0": 302.59661865234375,
+  "f0_ratio": 0.896,
+  "height_gap": 0.11
  },
  "Character_LJC_63": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 2
+  "lines": 2,
+  "target_f0": 182.6,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.953,
+  "height_gap": 0.048
  },
  "Character_LJC_55": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 2
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 211.8,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 1.021,
+  "height_gap": 0.02
  },
  "Character_LJC_56": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 175.5,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.916,
+  "height_gap": 0.088
+ },
+ "Character_LJC_2": {
+  "style": 102,
+  "voice": "ユーレイちゃん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 276.2,
+  "voice_f0": 336.5884094238281,
+  "f0_ratio": 0.82,
+  "height_gap": 0.198
  },
  "Character_MG_4": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 74.8,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.955,
+  "height_gap": 0.046
  },
  "Character_MG_9": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 93.3,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.003,
+  "height_gap": 0.003
  },
  "Character_PZ_20": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 188.7,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.985,
+  "height_gap": 0.015
  },
  "Character_PZ_14": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 2
+  "style": 46,
+  "voice": "小夜/SAYO",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 282.3,
+  "voice_f0": 340.3422546386719,
+  "f0_ratio": 0.829,
+  "height_gap": 0.187
  },
  "Character_PZ_57": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 88.5,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 1.046,
+  "height_gap": 0.045
  },
  "Character_PZ_50": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 205.2,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 0.989,
+  "height_gap": 0.011
  },
  "Character_PZ_6": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 2
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 82.9,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 1.009,
+  "height_gap": 0.009
  },
  "Character_PZ_42": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 54,
+  "voice": "春歌ナナ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 283.4,
+  "voice_f0": 313.3263397216797,
+  "f0_ratio": 0.904,
+  "height_gap": 0.1
  },
  "Character_PZ_44": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 81.8,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 0.996,
+  "height_gap": 0.004
  },
  "Character_PZ_38": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 2
+  "lines": 2,
+  "target_f0": 180.5,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.942,
+  "height_gap": 0.06
  },
  "Character_PZ_47": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 51,
+  "voice": "†聖騎士 紅桜†",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 141.3,
+  "voice_f0": 139.82705688476562,
+  "f0_ratio": 1.011,
+  "height_gap": 0.011
  },
  "Character_PZ_41": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 164.7,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.048,
+  "height_gap": 0.047
  },
  "Character_PZ_39": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 23,
+  "voice": "WhiteCUL",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 2
+  "lines": 2,
+  "target_f0": 326.6,
+  "voice_f0": 325.43695068359375,
+  "f0_ratio": 1.004,
+  "height_gap": 0.004
  },
  "Character_PZ_4": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 15,
+  "voice": "九州そら",
+  "style_name": "あまあま",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 283.7,
+  "voice_f0": 315.2693176269531,
+  "f0_ratio": 0.9,
+  "height_gap": 0.105
  },
  "Character_PZ_23": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 8,
+  "voice": "春日部つむぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 319.0,
+  "voice_f0": 317.5832061767578,
+  "f0_ratio": 1.004,
+  "height_gap": 0.004
  },
  "Character_XM_3": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 211.0,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 1.017,
+  "height_gap": 0.016
  },
  "Character_XM_6": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 113,
+  "voice": "あんこもん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 231.0,
+  "voice_f0": 276.0755920410156,
+  "f0_ratio": 0.837,
+  "height_gap": 0.178
  },
  "Character_PZ_59": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 160.5,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.021,
+  "height_gap": 0.02
  },
  "Character_PZ_73": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 20,
+  "voice": "もち子さん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 284.2,
+  "voice_f0": 315.360595703125,
+  "f0_ratio": 0.901,
+  "height_gap": 0.104
  },
  "Character_XG_7": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 2
+  "lines": 2,
+  "target_f0": 211.9,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 1.021,
+  "height_gap": 0.021
  },
  "Character_XG_42": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 205.8,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 0.992,
+  "height_gap": 0.008
  },
  "Character_XG_43": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 90,
+  "voice": "ぞん子",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 246.4,
+  "voice_f0": 276.4437561035156,
+  "f0_ratio": 0.891,
+  "height_gap": 0.115
  },
  "Character_XG_3": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
- },
- "BossName_005": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 74,
+  "voice": "琴詠ニア",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 2
+  "lines": 2,
+  "target_f0": 294.8,
+  "voice_f0": 316.2068176269531,
+  "f0_ratio": 0.932,
+  "height_gap": 0.07
  },
  "Character_XG_21": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 2
+  "style": 43,
+  "voice": "櫻歌ミコ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 289.8,
+  "voice_f0": 289.41815185546875,
+  "f0_ratio": 1.001,
+  "height_gap": 0.001
  },
  "Character_XG_23": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 97.5,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.047,
+  "height_gap": 0.046
  },
  "Character_XG_24": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 2
+  "style": 14,
+  "voice": "冥鳴ひまり",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 197.1,
+  "voice_f0": 194.0742645263672,
+  "f0_ratio": 1.016,
+  "height_gap": 0.016
  },
  "Character_XG_17": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 14,
+  "voice": "冥鳴ひまり",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 195.6,
+  "voice_f0": 194.0742645263672,
+  "f0_ratio": 1.008,
+  "height_gap": 0.008
  },
  "Character_XG_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 3,
+  "voice": "ずんだもん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 279.5,
+  "voice_f0": 287.7033996582031,
+  "f0_ratio": 0.971,
+  "height_gap": 0.029
  },
  "Character_XM_14": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 111.4,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.95,
+  "height_gap": 0.051
  },
  "Character_XM_2": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 82.8,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 1.008,
+  "height_gap": 0.008
  },
  "Character_XM_5": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 2
+  "lines": 2,
+  "target_f0": 235.4,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 0.998,
+  "height_gap": 0.002
  },
  "Character_XM_8": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 2
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 115.8,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.988,
+  "height_gap": 0.012
  },
  "Character_XM_11": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 2
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 83.2,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 1.013,
+  "height_gap": 0.013
  },
- "Character_ZDDY_28": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+ "Character_DH_25": {
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 2
+  "lines": 2,
+  "target_f0": 159.8,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.016,
+  "height_gap": 0.016
  },
  "Character_ZDDY_3": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 119.4,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 1.019,
+  "height_gap": 0.019
  },
  "Character_FJZL_15": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 109.0,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.929,
+  "height_gap": 0.073
  },
  "Character_ZDDY_14": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 53,
+  "voice": "麒ヶ島宗麟",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 2,
+  "target_f0": 139.0,
+  "voice_f0": 149.55821228027344,
+  "f0_ratio": 0.93,
+  "height_gap": 0.073
  },
  "Character_ZDDY_23": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 2
+  "style": 58,
+  "voice": "猫使ビィ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 2,
+  "target_f0": 249.7,
+  "voice_f0": 288.3091735839844,
+  "f0_ratio": 0.866,
+  "height_gap": 0.144
  },
  "Character_Main_3_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 9,
+  "voice": "波音リツ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 270.1,
+  "voice_f0": 288.6452331542969,
+  "f0_ratio": 0.936,
+  "height_gap": 0.066
  },
  "Character_BHC_8": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 234.6,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 0.994,
+  "height_gap": 0.006
  },
  "Character_BHC_9": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 1
+  "style": 10,
+  "voice": "雨晴はう",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 224.9,
+  "voice_f0": 221.49972534179688,
+  "f0_ratio": 1.015,
+  "height_gap": 0.015
  },
  "Character_BHC_10": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 1
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 234.6,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 0.994,
+  "height_gap": 0.006
  },
  "Character_BHC_11": {
   "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "voice": "四国めたん",
+  "style_name": "あまあま",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 291.7,
+  "voice_f0": 323.6634521484375,
+  "f0_ratio": 0.901,
+  "height_gap": 0.104
  },
  "Character_DDSD_10_3": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 107,
+  "voice": "東北ずん子",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 273.2,
+  "voice_f0": 300.91087341308594,
+  "f0_ratio": 0.908,
+  "height_gap": 0.096
  },
  "Character_DDSD_10_4": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 51,
+  "voice": "†聖騎士 紅桜†",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 146.8,
+  "voice_f0": 139.82705688476562,
+  "f0_ratio": 1.05,
+  "height_gap": 0.049
  },
  "Character_DDSD_10_5": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 1,
+  "voice": "ずんだもん",
+  "style_name": "あまあま",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 298.3,
+  "voice_f0": 302.4610595703125,
+  "f0_ratio": 0.986,
+  "height_gap": 0.014
  },
  "Character_DDSD_10_6": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 2,
+  "voice": "四国めたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 273.6,
+  "voice_f0": 302.59661865234375,
+  "f0_ratio": 0.904,
+  "height_gap": 0.101
  },
  "Character_DH_27": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 173.2,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.102,
+  "height_gap": 0.097
  },
  "Character_DH_15": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 171.2,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.089,
+  "height_gap": 0.085
  },
  "Character_DH_16": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 68,
+  "voice": "あいえるたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 268.3,
+  "voice_f0": 271.9067077636719,
+  "f0_ratio": 0.987,
+  "height_gap": 0.014
  },
  "Character_DH_17": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 14,
+  "voice": "冥鳴ひまり",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 196.5,
+  "voice_f0": 194.0742645263672,
+  "f0_ratio": 1.013,
+  "height_gap": 0.012
  },
  "Character_DH_3_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 102,
+  "voice": "ユーレイちゃん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 319.7,
+  "voice_f0": 336.5884094238281,
+  "f0_ratio": 0.95,
+  "height_gap": 0.051
  },
  "Character_DH_3_3": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 113,
+  "voice": "あんこもん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 276.0,
+  "voice_f0": 276.0755920410156,
+  "f0_ratio": 1.0,
+  "height_gap": 0.0
  },
  "Character_DH_9": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 170.0,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.081,
+  "height_gap": 0.078
  },
  "Character_DH_10": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 94.5,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.016,
+  "height_gap": 0.016
  },
  "Character_MFZF_4": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 11,
+  "voice": "玄野武宏",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 128.9,
+  "voice_f0": 123.28863525390625,
+  "f0_ratio": 1.046,
+  "height_gap": 0.045
  },
  "Character_Imp_7_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 1
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 79.8,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 1.019,
+  "height_gap": 0.019
  },
  "Character_FJZL_4": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 1
+  "style": 90,
+  "voice": "ぞん子",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 272.5,
+  "voice_f0": 276.4437561035156,
+  "f0_ratio": 0.986,
+  "height_gap": 0.014
  },
  "Character_FJZL_38": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 158.5,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.008,
+  "height_gap": 0.008
  },
  "Character_FJZL_37": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 1
+  "lines": 1,
+  "target_f0": 105.5,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.9,
+  "height_gap": 0.106
  },
  "Character_FJZL_32_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 1
+  "lines": 1,
+  "target_f0": 206.4,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 0.995,
+  "height_gap": 0.005
  },
  "Character_FJZL_47": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 99,
+  "voice": "離途",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 1
+  "lines": 1,
+  "target_f0": 89.0,
+  "voice_f0": 92.58364868164062,
+  "f0_ratio": 0.961,
+  "height_gap": 0.04
  },
  "Character_FJZL_44_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 234.9,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 0.995,
+  "height_gap": 0.005
  },
  "Character_FJZL_46": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 1
+  "style": 94,
+  "voice": "中部つるぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 201.0,
+  "voice_f0": 207.52113342285156,
+  "f0_ratio": 0.969,
+  "height_gap": 0.032
  },
  "Character_FJZL_52": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 46,
+  "voice": "小夜/SAYO",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 291.8,
+  "voice_f0": 340.3422546386719,
+  "f0_ratio": 0.857,
+  "height_gap": 0.154
  },
  "Character_EX_3": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 67,
+  "voice": "栗田まろん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 155.1,
+  "voice_f0": 155.5118865966797,
+  "f0_ratio": 0.997,
+  "height_gap": 0.003
  },
  "Character_LJC_10_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 16,
+  "voice": "九州そら",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 1
+  "lines": 1,
+  "target_f0": 272.2,
+  "voice_f0": 263.2602233886719,
+  "f0_ratio": 1.034,
+  "height_gap": 0.033
  },
  "Character_LJC_39_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 54,
+  "voice": "春歌ナナ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 279.1,
+  "voice_f0": 313.3263397216797,
+  "f0_ratio": 0.891,
+  "height_gap": 0.116
  },
  "Character_LJC_4": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 84.4,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 0.997,
+  "height_gap": 0.003
  },
  "Character_LJC_41": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 1
+  "style": 15,
+  "voice": "九州そら",
+  "style_name": "あまあま",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 298.0,
+  "voice_f0": 315.2693176269531,
+  "f0_ratio": 0.945,
+  "height_gap": 0.056
  },
  "Character_LJC_5": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 126,
+  "voice": "里石ユカ",
+  "style_name": "つぼみ",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 214.4,
+  "voice_f0": 219.56853485107422,
+  "f0_ratio": 0.976,
+  "height_gap": 0.024
  },
  "Character_LJC_24": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 10,
+  "voice": "雨晴はう",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 222.1,
+  "voice_f0": 221.49972534179688,
+  "f0_ratio": 1.003,
+  "height_gap": 0.003
  },
  "Character_LJC_31": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 109.1,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.931,
+  "height_gap": 0.072
  },
  "Character_MFZF_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 233.8,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 0.991,
+  "height_gap": 0.009
  },
  "Character_LJC_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 20,
+  "voice": "もち子さん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 295.0,
+  "voice_f0": 315.360595703125,
+  "f0_ratio": 0.936,
+  "height_gap": 0.067
  },
  "Character_LJC_40": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 74,
+  "voice": "琴詠ニア",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 289.3,
+  "voice_f0": 316.2068176269531,
+  "f0_ratio": 0.915,
+  "height_gap": 0.089
  },
  "Character_LJC_3": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
   "gender": "M",
-  "lines": 1
+  "lines": 1,
+  "target_f0": 66.5,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.849,
+  "height_gap": 0.163
  },
  "Character_LJC_53": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 1
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 233.1,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 0.988,
+  "height_gap": 0.012
  },
  "Character_LJC_67_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 108,
+  "voice": "東北きりたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 257.1,
+  "voice_f0": 262.78526306152344,
+  "f0_ratio": 0.978,
+  "height_gap": 0.022
  },
  "Character_LJC_43": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 8,
+  "voice": "春日部つむぎ",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 1
+  "lines": 1,
+  "target_f0": 295.6,
+  "voice_f0": 317.5832061767578,
+  "f0_ratio": 0.931,
+  "height_gap": 0.072
  },
  "Character_MG_3": {
   "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "voice": "四国めたん",
+  "style_name": "あまあま",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 295.6,
+  "voice_f0": 323.6634521484375,
+  "f0_ratio": 0.913,
+  "height_gap": 0.091
  },
  "Character_MG_6": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 102,
+  "voice": "ユーレイちゃん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 334.7,
+  "voice_f0": 336.5884094238281,
+  "f0_ratio": 0.994,
+  "height_gap": 0.006
  },
  "Character_MG_7": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 242.0,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 1.025,
+  "height_gap": 0.025
  },
  "Character_MG_8": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 51,
+  "voice": "†聖騎士 紅桜†",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 142.4,
+  "voice_f0": 139.82705688476562,
+  "f0_ratio": 1.018,
+  "height_gap": 0.018
  },
  "Character_MG_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 23,
+  "voice": "WhiteCUL",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 330.2,
+  "voice_f0": 325.43695068359375,
+  "f0_ratio": 1.015,
+  "height_gap": 0.015
  },
  "Character_MFZF_2": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 61,
+  "voice": "中国うさぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 193.8,
+  "voice_f0": 193.57925415039062,
+  "f0_ratio": 1.001,
+  "height_gap": 0.001
  },
  "Character_MFZF_3": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 109,
+  "voice": "東北イタコ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 230.8,
+  "voice_f0": 229.99667358398438,
+  "f0_ratio": 1.003,
+  "height_gap": 0.003
  },
  "Character_PZ_21": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 46,
+  "voice": "小夜/SAYO",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 312.8,
+  "voice_f0": 340.3422546386719,
+  "f0_ratio": 0.919,
+  "height_gap": 0.084
  },
  "Character_PZ_1_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 8,
+  "voice": "春日部つむぎ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 320.3,
+  "voice_f0": 317.5832061767578,
+  "f0_ratio": 1.009,
+  "height_gap": 0.008
  },
  "Character_PZ_35": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 1
+  "style": 126,
+  "voice": "里石ユカ",
+  "style_name": "つぼみ",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 213.9,
+  "voice_f0": 219.56853485107422,
+  "f0_ratio": 0.974,
+  "height_gap": 0.026
  },
  "Character_PZ_36": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 191.3,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.998,
+  "height_gap": 0.002
  },
  "Character_PZ_43": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 86.7,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 1.025,
+  "height_gap": 0.025
  },
  "Character_PZ_33": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
   "gender": "M",
-  "lines": 1
+  "lines": 1,
+  "target_f0": 88.5,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 1.046,
+  "height_gap": 0.045
  },
  "Character_PZ_34": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 13,
+  "voice": "青山龍星",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 80.4,
+  "voice_f0": 82.14710235595703,
+  "f0_ratio": 0.978,
+  "height_gap": 0.022
  },
  "Character_PZ_48": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 158.5,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.008,
+  "height_gap": 0.008
  },
  "Character_PZ_45": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 93.2,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.002,
+  "height_gap": 0.002
  },
  "Character_PZ_46": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 42,
+  "voice": "ちび式じい",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 96.9,
+  "voice_f0": 93.0819320678711,
+  "f0_ratio": 1.041,
+  "height_gap": 0.04
  },
  "Character_PZ_3_1": {
   "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "voice": "四国めたん",
+  "style_name": "あまあま",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 322.7,
+  "voice_f0": 323.6634521484375,
+  "f0_ratio": 0.997,
+  "height_gap": 0.003
  },
  "Character_PZ_3_2": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 244.4,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 1.035,
+  "height_gap": 0.035
  },
  "Character_PZ_3_3": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 1
+  "style": 126,
+  "voice": "里石ユカ",
+  "style_name": "つぼみ",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 215.6,
+  "voice_f0": 219.56853485107422,
+  "f0_ratio": 0.982,
+  "height_gap": 0.018
  },
  "Character_PZ_3_4": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 43,
+  "voice": "櫻歌ミコ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 294.6,
+  "voice_f0": 289.41815185546875,
+  "f0_ratio": 1.018,
+  "height_gap": 0.018
  },
  "Character_PZ_3_5": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 3,
+  "voice": "ずんだもん",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 1
+  "lines": 1,
+  "target_f0": 276.7,
+  "voice_f0": 287.7033996582031,
+  "f0_ratio": 0.962,
+  "height_gap": 0.039
  },
  "Character_PZ_62": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 67,
+  "voice": "栗田まろん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 154.7,
+  "voice_f0": 155.5118865966797,
+  "f0_ratio": 0.995,
+  "height_gap": 0.005
  },
  "Character_PZ_26": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 55,
+  "voice": "猫使アル",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 234.8,
+  "voice_f0": 236.03520965576172,
+  "f0_ratio": 0.995,
+  "height_gap": 0.005
  },
  "Character_PZ_27": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 66.1,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 0.844,
+  "height_gap": 0.169
  },
  "Character_PZ_9": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
   "gender": "F",
-  "lines": 1
+  "lines": 1,
+  "target_f0": 163.3,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.039,
+  "height_gap": 0.038
  },
- "Character_XM_29": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+ "Character_PZ_79": {
+  "style": 58,
+  "voice": "猫使ビィ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 259.0,
+  "voice_f0": 288.3091735839844,
+  "f0_ratio": 0.898,
+  "height_gap": 0.107
  },
  "Character_XG_28": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 87.9,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 1.039,
+  "height_gap": 0.038
  },
  "Character_XG_29": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 52,
+  "voice": "雀松朱司",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 85.4,
+  "voice_f0": 84.62013244628906,
+  "f0_ratio": 1.009,
+  "height_gap": 0.009
  },
  "Character_XG_19": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 109,
+  "voice": "東北イタコ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 231.5,
+  "voice_f0": 229.99667358398438,
+  "f0_ratio": 1.007,
+  "height_gap": 0.007
  },
  "Character_XG_11": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 51,
+  "voice": "†聖騎士 紅桜†",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 147.2,
+  "voice_f0": 139.82705688476562,
+  "f0_ratio": 1.053,
+  "height_gap": 0.051
  },
  "Character_XG_14": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 166.8,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.06,
+  "height_gap": 0.059
  },
  "Character_XG_32": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 9,
+  "voice": "波音リツ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 289.1,
+  "voice_f0": 288.6452331542969,
+  "f0_ratio": 1.001,
+  "height_gap": 0.001
+ },
+ "BossName_005": {
+  "style": 108,
+  "voice": "東北きりたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 260.1,
+  "voice_f0": 262.78526306152344,
+  "f0_ratio": 0.99,
+  "height_gap": 0.01
  },
  "Character_XG_40": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 1
+  "style": 99,
+  "voice": "離途",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 90.9,
+  "voice_f0": 92.58364868164062,
+  "f0_ratio": 0.982,
+  "height_gap": 0.019
  },
  "Character_XG_36": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
-  "gender": "M",
-  "lines": 1
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 176.8,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.922,
+  "height_gap": 0.081
  },
  "Character_XSSL_1_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 165.2,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.051,
+  "height_gap": 0.049
  },
  "Character_DXZL_7": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 16,
+  "voice": "九州そら",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 266.2,
+  "voice_f0": 263.2602233886719,
+  "f0_ratio": 1.011,
+  "height_gap": 0.011
  },
  "Character_DXZL_8": {
-  "style": 11,
-  "voice": "玄野武宏 ノーマル",
+  "style": 70,
+  "voice": "満別花丸",
+  "style_name": "元気",
   "gender": "M",
-  "lines": 1
+  "lines": 1,
+  "target_f0": 163.9,
+  "voice_f0": 247.40345764160156,
+  "f0_ratio": 0.662,
+  "height_gap": 0.412
  },
  "Character_DXZL_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 162.5,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.034,
+  "height_gap": 0.033
  },
  "Character_DXZL_3": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 108,
+  "voice": "東北きりたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 251.3,
+  "voice_f0": 262.78526306152344,
+  "f0_ratio": 0.956,
+  "height_gap": 0.045
  },
  "Character_DXZL_9": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 126,
+  "voice": "里石ユカ",
+  "style_name": "つぼみ",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 218.0,
+  "voice_f0": 219.56853485107422,
+  "f0_ratio": 0.993,
+  "height_gap": 0.007
  },
  "Character_XM_4": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 126,
+  "voice": "里石ユカ",
+  "style_name": "つぼみ",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 215.8,
+  "voice_f0": 219.56853485107422,
+  "f0_ratio": 0.983,
+  "height_gap": 0.018
  },
  "Character_XM_13": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 68,
+  "voice": "あいえるたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 268.8,
+  "voice_f0": 271.9067077636719,
+  "f0_ratio": 0.989,
+  "height_gap": 0.011
  },
  "Character_XM_9": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 21,
+  "voice": "剣崎雌雄",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 112.3,
+  "voice_f0": 117.22750091552734,
+  "f0_ratio": 0.958,
+  "height_gap": 0.043
  },
  "Character_ZDDY_16_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 126,
+  "voice": "里石ユカ",
+  "style_name": "つぼみ",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 217.8,
+  "voice_f0": 219.56853485107422,
+  "f0_ratio": 0.992,
+  "height_gap": 0.008
  },
  "Character_ZDDY_17_1": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 108,
+  "voice": "東北きりたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 260.1,
+  "voice_f0": 262.78526306152344,
+  "f0_ratio": 0.99,
+  "height_gap": 0.01
+ },
+ "Character_ZDDY_28": {
+  "style": 100,
+  "voice": "黒沢冴白",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 167.8,
+  "voice_f0": 157.2449722290039,
+  "f0_ratio": 1.067,
+  "height_gap": 0.065
  },
  "Character_ZDDY_9": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 74,
+  "voice": "琴詠ニア",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 317.4,
+  "voice_f0": 316.2068176269531,
+  "f0_ratio": 1.004,
+  "height_gap": 0.004
  },
  "Character_ZDDY_4": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 108,
+  "voice": "東北きりたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 258.2,
+  "voice_f0": 262.78526306152344,
+  "f0_ratio": 0.982,
+  "height_gap": 0.018
  },
  "Character_ZDDY_6": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 122,
+  "voice": "暁記ミタマ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 178.0,
+  "voice_f0": 191.64974212646484,
+  "f0_ratio": 0.929,
+  "height_gap": 0.074
  },
  "Character_ZDDY_5": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
- },
- "Character_ZDDY_30": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 1
+  "style": 53,
+  "voice": "麒ヶ島宗麟",
+  "style_name": "ノーマル",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 136.9,
+  "voice_f0": 149.55821228027344,
+  "f0_ratio": 0.916,
+  "height_gap": 0.088
  },
  "Character_ZDDY_21": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 54,
+  "voice": "春歌ナナ",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 313.5,
+  "voice_f0": 313.3263397216797,
+  "f0_ratio": 1.001,
+  "height_gap": 0.001
  },
  "Character_ZDDY_15": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": "F",
-  "lines": 1
+  "style": 101,
+  "voice": "離途",
+  "style_name": "シリアス",
+  "gender": "M",
+  "lines": 1,
+  "target_f0": 79.7,
+  "voice_f0": 78.31503295898438,
+  "f0_ratio": 1.017,
+  "height_gap": 0.017
  },
  "Character_ZDDY_8": {
-  "style": 0,
-  "voice": "四国めたん あまあま",
-  "gender": null,
-  "lines": 1
+  "style": 108,
+  "voice": "東北きりたん",
+  "style_name": "ノーマル",
+  "gender": "F",
+  "lines": 1,
+  "target_f0": 256.7,
+  "voice_f0": 262.78526306152344,
+  "f0_ratio": 0.977,
+  "height_gap": 0.023
  }
 }

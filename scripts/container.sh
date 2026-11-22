@@ -115,6 +115,11 @@ print("ordre de montage : mod=%d (nom %s), jeu=%d (nom %s) -> le mod est monte e
       "dernier, il est prioritaire" % (mod_order, name, game_order, game))
 PY
 
+# Le conteneur précédent et sa copie installée sont remplaces : les effacer
+# d'abord libere 2 Go, sans quoi la construction échoue sur un disque plein.
+rm -f "$OUT/$NAME.ucas" "$OUT/$NAME.utoc" "$OUT/$NAME.pak"
+rm -f "$PAKS/$NAME.ucas" "$PAKS/$NAME.utoc" "$PAKS/$NAME.pak"
+
 python src/patch/build_container.py --files data/container_files.tsv --out "$OUT" --name "$NAME" --work "$WORK"
 
 # Controle d'integrite : le .ucas doit contenir toutes les donnees que le .utoc
@@ -122,6 +127,10 @@ python src/patch/build_container.py --files data/container_files.tsv --out "$OUT
 # moteur la liste des paquets. Un conteneur tronque est monte sans erreur mais
 # ne resout aucun paquet, et le jeu joue alors le contenu original.
 python src/patch/check_container.py "$OUT" "$NAME"
+
+# le dossier de travail (la copie des fichiers patches) n'est plus necessaire
+rm -rf "$WORK"
+
 # espace libre : le conteneur (1,5 Go) doit etre ecrit puis recopie dans le jeu
 free_mb=$(df -Pm "$OUT" | tail -1 | awk '{print $4}')
 if [ "$free_mb" -lt 4096 ]; then

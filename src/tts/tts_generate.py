@@ -7,6 +7,11 @@
 """
 import csv, json, os, re, sys, time, threading, queue, subprocess, urllib.request, urllib.parse, wave, io
 
+#: regenerate the lines that already exist (the voice of a character may have
+#: changed since they were synthesized)
+FORCE = '--force' in sys.argv
+sys.argv = [a for a in sys.argv if a != '--force']
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from paths import BASE, out, voicevox
 from tts.voices import speaker_for
@@ -83,7 +88,7 @@ def synthesize(row):
     if not text:
         return None
     out_path = os.path.join(OUT_DIR, event + '.wav')
-    if os.path.exists(out_path) and os.path.getsize(out_path) > 1000:
+    if not FORCE and os.path.exists(out_path) and os.path.getsize(out_path) > 1000:
         return 'skip'
     target = durations.get(event, [0.0, 0.0])[0] or 0.0
     speaker = speaker_for(event)
