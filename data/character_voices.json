@@ -1,0 +1,2642 @@
+{
+ "Character_Main_1": {
+  "style": 21,
+  "voice": "剣崎雌雄 ノーマル",
+  "gender": "M",
+  "lines": 785
+ },
+ "Character_Main_2": {
+  "style": 74,
+  "voice": "琴詠ニア ノーマル",
+  "gender": "F",
+  "lines": 173
+ },
+ "Character_Imp_10": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 136
+ },
+ "Character_Imp_1": {
+  "style": 1,
+  "voice": "ずんだもん あまあま",
+  "gender": "F",
+  "lines": 107
+ },
+ "Character_Imp_16": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 88
+ },
+ "Character_Imp_5": {
+  "style": 2,
+  "voice": "四国めたん ノーマル",
+  "gender": "F",
+  "lines": 81
+ },
+ "Character_Imp_7_6": {
+  "style": 3,
+  "voice": "ずんだもん ノーマル",
+  "gender": "F",
+  "lines": 73
+ },
+ "Character_Main_3": {
+  "style": 113,
+  "voice": "あんこもん ノーマル",
+  "gender": "F",
+  "lines": 65
+ },
+ "Character_EX_2": {
+  "style": 12,
+  "voice": "白上虎太郎 ふつう",
+  "gender": "M",
+  "lines": 60
+ },
+ "Character_Imp_18": {
+  "style": 13,
+  "voice": "青山龍星 ノーマル",
+  "gender": "M",
+  "lines": 51
+ },
+ "Character_DDSD_2": {
+  "style": 4,
+  "voice": "四国めたん セクシー",
+  "gender": "F",
+  "lines": 51
+ },
+ "Character_Imp_8": {
+  "style": 27,
+  "voice": "後鬼 人間ver.",
+  "gender": "M",
+  "lines": 50
+ },
+ "Character_Imp_15_1": {
+  "style": 28,
+  "voice": "後鬼 ぬいぐるみver.",
+  "gender": "M",
+  "lines": 49
+ },
+ "Character_Imp_11": {
+  "style": 5,
+  "voice": "ずんだもん セクシー",
+  "gender": "F",
+  "lines": 40
+ },
+ "Character_PZ_76": {
+  "style": 29,
+  "voice": "No.7 ノーマル",
+  "gender": "M",
+  "lines": 40
+ },
+ "Character_DH_7": {
+  "style": 6,
+  "voice": "四国めたん ツンツン",
+  "gender": "F",
+  "lines": 37
+ },
+ "Character_Imp_7_2": {
+  "style": 7,
+  "voice": "ずんだもん ツンツン",
+  "gender": "F",
+  "lines": 36
+ },
+ "Character_Imp_7_7": {
+  "style": 8,
+  "voice": "春日部つむぎ ノーマル",
+  "gender": "F",
+  "lines": 36
+ },
+ "Character_Imp_4": {
+  "style": 9,
+  "voice": "波音リツ ノーマル",
+  "gender": "F",
+  "lines": 33
+ },
+ "Character_FJZL_17": {
+  "style": 10,
+  "voice": "雨晴はう ノーマル",
+  "gender": "F",
+  "lines": 31
+ },
+ "Character_EX_1": {
+  "style": 30,
+  "voice": "No.7 アナウンス",
+  "gender": "M",
+  "lines": 30
+ },
+ "Character_Imp_7_5": {
+  "style": 14,
+  "voice": "冥鳴ひまり ノーマル",
+  "gender": "F",
+  "lines": 30
+ },
+ "Character_DDSD_5": {
+  "style": 31,
+  "voice": "No.7 読み聞かせ",
+  "gender": "M",
+  "lines": 29
+ },
+ "Character_Imp_9": {
+  "style": 15,
+  "voice": "九州そら あまあま",
+  "gender": "F",
+  "lines": 29
+ },
+ "Character_LJC_26": {
+  "style": 16,
+  "voice": "九州そら ノーマル",
+  "gender": "F",
+  "lines": 29
+ },
+ "Character_Imp_10_1": {
+  "style": 17,
+  "voice": "九州そら セクシー",
+  "gender": "F",
+  "lines": 28
+ },
+ "Character_Imp_12": {
+  "style": 18,
+  "voice": "九州そら ツンツン",
+  "gender": "F",
+  "lines": 27
+ },
+ "Character_PZ_41_1": {
+  "style": 19,
+  "voice": "九州そら ささやき",
+  "gender": "F",
+  "lines": 25
+ },
+ "Character_XM_1": {
+  "style": 20,
+  "voice": "もち子さん ノーマル",
+  "gender": "F",
+  "lines": 25
+ },
+ "Character_DDSD_6": {
+  "style": 32,
+  "voice": "白上虎太郎 わーい",
+  "gender": "M",
+  "lines": 24
+ },
+ "Character_EX_4": {
+  "style": 12,
+  "voice": "白上虎太郎 ふつう",
+  "gender": null,
+  "lines": 24
+ },
+ "Character_FJZL_50": {
+  "style": 33,
+  "voice": "白上虎太郎 びくびく",
+  "gender": "M",
+  "lines": 23
+ },
+ "Character_Imp_14": {
+  "style": 22,
+  "voice": "ずんだもん ささやき",
+  "gender": "F",
+  "lines": 23
+ },
+ "Character_XG_34": {
+  "style": 34,
+  "voice": "白上虎太郎 おこ",
+  "gender": "M",
+  "lines": 23
+ },
+ "Character_XG_30": {
+  "style": 23,
+  "voice": "WhiteCUL ノーマル",
+  "gender": "F",
+  "lines": 21
+ },
+ "Character_LJC_7": {
+  "style": 35,
+  "voice": "白上虎太郎 びえーん",
+  "gender": "M",
+  "lines": 21
+ },
+ "Character_EX_6": {
+  "style": 24,
+  "voice": "WhiteCUL たのしい",
+  "gender": "F",
+  "lines": 19
+ },
+ "Character_Imp_19": {
+  "style": 25,
+  "voice": "WhiteCUL かなしい",
+  "gender": "F",
+  "lines": 19
+ },
+ "Character_FJZL_49_1": {
+  "style": 39,
+  "voice": "玄野武宏 喜び",
+  "gender": "M",
+  "lines": 19
+ },
+ "Character_Imp_13": {
+  "style": 26,
+  "voice": "WhiteCUL びえーん",
+  "gender": "F",
+  "lines": 19
+ },
+ "Character_XG_6": {
+  "style": 40,
+  "voice": "玄野武宏 ツンギレ",
+  "gender": "M",
+  "lines": 19
+ },
+ "Character_Imp_2": {
+  "style": 36,
+  "voice": "四国めたん ささやき",
+  "gender": "F",
+  "lines": 19
+ },
+ "Character_Main_0": {
+  "style": 37,
+  "voice": "四国めたん ヒソヒソ",
+  "gender": "F",
+  "lines": 18
+ },
+ "Character_EX_10": {
+  "style": 42,
+  "voice": "ちび式じい ノーマル",
+  "gender": null,
+  "lines": 17
+ },
+ "Character_LJC_6": {
+  "style": 38,
+  "voice": "ずんだもん ヒソヒソ",
+  "gender": "F",
+  "lines": 16
+ },
+ "Character_PZ_1": {
+  "style": 43,
+  "voice": "櫻歌ミコ ノーマル",
+  "gender": "F",
+  "lines": 16
+ },
+ "Character_Imp_20": {
+  "style": 41,
+  "voice": "玄野武宏 悲しみ",
+  "gender": "M",
+  "lines": 16
+ },
+ "Character_PZ_64": {
+  "style": 44,
+  "voice": "櫻歌ミコ 第二形態",
+  "gender": "F",
+  "lines": 16
+ },
+ "Character_XSSL_1": {
+  "style": 45,
+  "voice": "櫻歌ミコ ロリ",
+  "gender": "F",
+  "lines": 16
+ },
+ "Character_ZDDY_22": {
+  "style": 46,
+  "voice": "小夜/SAYO ノーマル",
+  "gender": "F",
+  "lines": 16
+ },
+ "Character_XG_15": {
+  "style": 51,
+  "voice": "†聖騎士 紅桜† ノーマル",
+  "gender": "F",
+  "lines": 15
+ },
+ "Character_PZ_49": {
+  "style": 42,
+  "voice": "ちび式じい ノーマル",
+  "gender": "M",
+  "lines": 15
+ },
+ "Character_EX_1_2": {
+  "style": 52,
+  "voice": "雀松朱司 ノーマル",
+  "gender": "M",
+  "lines": 15
+ },
+ "Character_Imp_10_2": {
+  "style": 53,
+  "voice": "麒ヶ島宗麟 ノーマル",
+  "gender": null,
+  "lines": 14
+ },
+ "Character_XM_26_1": {
+  "style": 53,
+  "voice": "麒ヶ島宗麟 ノーマル",
+  "gender": "M",
+  "lines": 14
+ },
+ "Character_ZDDY_12": {
+  "style": 69,
+  "voice": "満別花丸 ノーマル",
+  "gender": "M",
+  "lines": 14
+ },
+ "Character_DDSD_1": {
+  "style": 54,
+  "voice": "春歌ナナ ノーマル",
+  "gender": "F",
+  "lines": 13
+ },
+ "Character_EX_8": {
+  "style": 70,
+  "voice": "満別花丸 元気",
+  "gender": "M",
+  "lines": 13
+ },
+ "Character_FJZL_26": {
+  "style": 71,
+  "voice": "満別花丸 ささやき",
+  "gender": "M",
+  "lines": 13
+ },
+ "Character_EX_5_2": {
+  "style": 55,
+  "voice": "猫使アル ノーマル",
+  "gender": "F",
+  "lines": 13
+ },
+ "Character_XM_27_1": {
+  "style": 56,
+  "voice": "猫使アル おちつき",
+  "gender": "F",
+  "lines": 13
+ },
+ "Character_Imp_17": {
+  "style": 72,
+  "voice": "満別花丸 ぶりっ子",
+  "gender": "M",
+  "lines": 13
+ },
+ "Character_LJC_13_1": {
+  "style": 73,
+  "voice": "満別花丸 ボーイ",
+  "gender": "M",
+  "lines": 13
+ },
+ "Character_PZ_74": {
+  "style": 57,
+  "voice": "猫使アル うきうき",
+  "gender": "F",
+  "lines": 13
+ },
+ "Character_PZ_72": {
+  "style": 58,
+  "voice": "猫使ビィ ノーマル",
+  "gender": "F",
+  "lines": 13
+ },
+ "Character_XM_26": {
+  "style": 59,
+  "voice": "猫使ビィ おちつき",
+  "gender": "F",
+  "lines": 13
+ },
+ "Character_ZDDY_7": {
+  "style": 81,
+  "voice": "青山龍星 熱血",
+  "gender": "M",
+  "lines": 13
+ },
+ "Character_BHC_7": {
+  "style": 82,
+  "voice": "青山龍星 不機嫌",
+  "gender": "M",
+  "lines": 12
+ },
+ "Character_DDSD_8": {
+  "style": 39,
+  "voice": "玄野武宏 喜び",
+  "gender": null,
+  "lines": 12
+ },
+ "Character_XG_38": {
+  "style": 83,
+  "voice": "青山龍星 喜び",
+  "gender": "M",
+  "lines": 12
+ },
+ "Character_XM_10": {
+  "style": 60,
+  "voice": "猫使ビィ 人見知り",
+  "gender": "F",
+  "lines": 12
+ },
+ "Character_DDSD_9": {
+  "style": 61,
+  "voice": "中国うさぎ ノーマル",
+  "gender": "F",
+  "lines": 11
+ },
+ "Character_DDSD_7": {
+  "style": 62,
+  "voice": "中国うさぎ おどろき",
+  "gender": "F",
+  "lines": 11
+ },
+ "Character_Imp_21": {
+  "style": 2,
+  "voice": "四国めたん ノーマル",
+  "gender": null,
+  "lines": 11
+ },
+ "Character_FJZL_32": {
+  "style": 63,
+  "voice": "中国うさぎ こわがり",
+  "gender": "F",
+  "lines": 11
+ },
+ "Character_HFZ_1": {
+  "style": 84,
+  "voice": "青山龍星 しっとり",
+  "gender": "M",
+  "lines": 11
+ },
+ "Character_LJC_30": {
+  "style": 64,
+  "voice": "中国うさぎ へろへろ",
+  "gender": "F",
+  "lines": 11
+ },
+ "Character_LJC_37": {
+  "style": 85,
+  "voice": "青山龍星 かなしみ",
+  "gender": "M",
+  "lines": 11
+ },
+ "Character_PZ_7": {
+  "style": 86,
+  "voice": "青山龍星 囁き",
+  "gender": "M",
+  "lines": 11
+ },
+ "Character_PZ_63": {
+  "style": 65,
+  "voice": "波音リツ クイーン",
+  "gender": "F",
+  "lines": 11
+ },
+ "Character_PZ_77": {
+  "style": 66,
+  "voice": "もち子さん セクシー／あん子",
+  "gender": "F",
+  "lines": 11
+ },
+ "Character_PZ_71": {
+  "style": 67,
+  "voice": "栗田まろん ノーマル",
+  "gender": "F",
+  "lines": 11
+ },
+ "Character_DDSD_8_1": {
+  "style": 87,
+  "voice": "後鬼 人間（怒り）ver.",
+  "gender": "M",
+  "lines": 10
+ },
+ "Character_FJZL_3": {
+  "style": 68,
+  "voice": "あいえるたん ノーマル",
+  "gender": "F",
+  "lines": 10
+ },
+ "Character_DH_23": {
+  "style": 23,
+  "voice": "WhiteCUL ノーマル",
+  "gender": null,
+  "lines": 10
+ },
+ "Character_LJC_39": {
+  "style": 9,
+  "voice": "波音リツ ノーマル",
+  "gender": null,
+  "lines": 10
+ },
+ "Character_LJC_34": {
+  "style": 75,
+  "voice": "ずんだもん ヘロヘロ",
+  "gender": null,
+  "lines": 10
+ },
+ "Character_LJC_33": {
+  "style": 76,
+  "voice": "ずんだもん なみだめ",
+  "gender": null,
+  "lines": 10
+ },
+ "Character_PZ_70": {
+  "style": 77,
+  "voice": "もち子さん 泣き",
+  "gender": "F",
+  "lines": 10
+ },
+ "Character_XG_9": {
+  "style": 88,
+  "voice": "後鬼 鬼ver.",
+  "gender": "M",
+  "lines": 10
+ },
+ "Character_Imp_15": {
+  "style": 89,
+  "voice": "Voidoll ノーマル",
+  "gender": "M",
+  "lines": 10
+ },
+ "Character_PZ_24_1": {
+  "style": 78,
+  "voice": "もち子さん 怒り",
+  "gender": null,
+  "lines": 10
+ },
+ "Character_DDSD_3": {
+  "style": 79,
+  "voice": "もち子さん 喜び",
+  "gender": "F",
+  "lines": 9
+ },
+ "Character_EX_5": {
+  "style": 80,
+  "voice": "もち子さん のんびり",
+  "gender": "F",
+  "lines": 9
+ },
+ "Character_Imp_3": {
+  "style": 90,
+  "voice": "ぞん子 ノーマル",
+  "gender": "F",
+  "lines": 9
+ },
+ "Character_MG_1_1": {
+  "style": 91,
+  "voice": "ぞん子 低血圧",
+  "gender": "F",
+  "lines": 9
+ },
+ "Character_EX_1_1": {
+  "style": 99,
+  "voice": "離途 ノーマル",
+  "gender": "M",
+  "lines": 9
+ },
+ "Character_FJZL_2": {
+  "style": 92,
+  "voice": "ぞん子 覚醒",
+  "gender": "F",
+  "lines": 8
+ },
+ "Character_LJC_10": {
+  "style": 93,
+  "voice": "ぞん子 実況風",
+  "gender": "F",
+  "lines": 8
+ },
+ "Character_LJC_11": {
+  "style": 94,
+  "voice": "中部つるぎ ノーマル",
+  "gender": "F",
+  "lines": 8
+ },
+ "Character_LJC_8": {
+  "style": 95,
+  "voice": "中部つるぎ 怒り",
+  "gender": "F",
+  "lines": 8
+ },
+ "Character_LJC_70": {
+  "style": 101,
+  "voice": "離途 シリアス",
+  "gender": "M",
+  "lines": 8
+ },
+ "Character_Imp_9_2": {
+  "style": 96,
+  "voice": "中部つるぎ ヒソヒソ",
+  "gender": "F",
+  "lines": 8
+ },
+ "Character_FJZL_16": {
+  "style": 118,
+  "voice": "夜語トバリ ノーマル",
+  "gender": "M",
+  "lines": 8
+ },
+ "Character_XSSL_1_2": {
+  "style": 97,
+  "voice": "中部つるぎ おどおど",
+  "gender": null,
+  "lines": 8
+ },
+ "Character_XM_27": {
+  "style": 98,
+  "voice": "中部つるぎ 絶望と敗北",
+  "gender": "F",
+  "lines": 8
+ },
+ "Character_XM_7": {
+  "style": 119,
+  "voice": "夜語トバリ 明るい",
+  "gender": "M",
+  "lines": 8
+ },
+ "Character_BHC_1": {
+  "style": 100,
+  "voice": "黒沢冴白 ノーマル",
+  "gender": "F",
+  "lines": 7
+ },
+ "Character_DDSD_13": {
+  "style": 102,
+  "voice": "ユーレイちゃん ノーマル",
+  "gender": "F",
+  "lines": 7
+ },
+ "Character_DDSD_10_2": {
+  "style": 103,
+  "voice": "ユーレイちゃん 甘々",
+  "gender": null,
+  "lines": 7
+ },
+ "Character_LJC_22": {
+  "style": 120,
+  "voice": "夜語トバリ 哀しみ",
+  "gender": "M",
+  "lines": 7
+ },
+ "Character_LJC_27": {
+  "style": 104,
+  "voice": "ユーレイちゃん 哀しみ",
+  "gender": "F",
+  "lines": 7
+ },
+ "Character_LJC_67": {
+  "style": 105,
+  "voice": "ユーレイちゃん ささやき",
+  "gender": "F",
+  "lines": 7
+ },
+ "Character_LJC_68": {
+  "style": 121,
+  "voice": "夜語トバリ 呆れ",
+  "gender": "M",
+  "lines": 7
+ },
+ "Character_LJC_68_1": {
+  "style": 127,
+  "voice": "ブイブイ・コバコ ノーマル",
+  "gender": "M",
+  "lines": 7
+ },
+ "Character_PZ_8": {
+  "style": 106,
+  "voice": "ユーレイちゃん ツクモちゃん",
+  "gender": "F",
+  "lines": 7
+ },
+ "Character_PZ_25": {
+  "style": 107,
+  "voice": "東北ずん子 ノーマル",
+  "gender": "F",
+  "lines": 7
+ },
+ "Character_PZ_69": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 7
+ },
+ "Character_PZ_65": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 7
+ },
+ "Character_MCHJ_1": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 7
+ },
+ "Character_XG_13": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 7
+ },
+ "Character_ZDDY_1": {
+  "style": 108,
+  "voice": "東北きりたん ノーマル",
+  "gender": null,
+  "lines": 7
+ },
+ "Character_FJZL_5": {
+  "style": 109,
+  "voice": "東北イタコ ノーマル",
+  "gender": "F",
+  "lines": 6
+ },
+ "Character_FJZL_31": {
+  "style": 110,
+  "voice": "猫使アル つよつよ",
+  "gender": "F",
+  "lines": 6
+ },
+ "Character_LJC_14": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 6
+ },
+ "Character_LJC_12": {
+  "style": 111,
+  "voice": "猫使アル へろへろ",
+  "gender": "F",
+  "lines": 6
+ },
+ "Character_LJC_66": {
+  "style": 112,
+  "voice": "猫使ビィ つよつよ",
+  "gender": "F",
+  "lines": 6
+ },
+ "Character_MG_2_1": {
+  "style": 114,
+  "voice": "あんこもん つよつよ",
+  "gender": "F",
+  "lines": 6
+ },
+ "Character_PZ_78": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 6
+ },
+ "Character_PZ_10": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 6
+ },
+ "Character_Imp_6": {
+  "style": 115,
+  "voice": "あんこもん よわよわ",
+  "gender": "F",
+  "lines": 6
+ },
+ "Character_XG_44": {
+  "style": 47,
+  "voice": "ナースロボ＿タイプＴ ノーマル",
+  "gender": null,
+  "lines": 6
+ },
+ "Character_XG_20": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 6
+ },
+ "Character_DXZL_5": {
+  "style": 116,
+  "voice": "あんこもん けだるげ",
+  "gender": "F",
+  "lines": 6
+ },
+ "Character_ZDDY_11": {
+  "style": 117,
+  "voice": "あんこもん ささやき",
+  "gender": "F",
+  "lines": 6
+ },
+ "Character_PZ_68": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 6
+ },
+ "Character_BHC_2": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 5
+ },
+ "Character_DDSD_4": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 5
+ },
+ "Character_DDSD_2_1": {
+  "style": 122,
+  "voice": "暁記ミタマ ノーマル",
+  "gender": "F",
+  "lines": 5
+ },
+ "Character_DDSD_12": {
+  "style": 123,
+  "voice": "暁記ミタマ 怒り",
+  "gender": null,
+  "lines": 5
+ },
+ "Character_DH_4": {
+  "style": 124,
+  "voice": "暁記ミタマ 哀しみ",
+  "gender": null,
+  "lines": 5
+ },
+ "Character_Imp_5_1": {
+  "style": 21,
+  "voice": "剣崎雌雄 ノーマル",
+  "gender": null,
+  "lines": 5
+ },
+ "Character_FJZL_44": {
+  "style": 125,
+  "voice": "暁記ミタマ ささやき",
+  "gender": null,
+  "lines": 5
+ },
+ "Character_LJC_19": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 5
+ },
+ "Character_LJC_50": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 5
+ },
+ "Character_LJC_42": {
+  "style": 126,
+  "voice": "里石ユカ つぼみ",
+  "gender": "F",
+  "lines": 5
+ },
+ "Character_LJC_2": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 5
+ },
+ "Character_MG_5": {
+  "style": 43,
+  "voice": "櫻歌ミコ ノーマル",
+  "gender": null,
+  "lines": 5
+ },
+ "Character_PZ_19_1": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 5
+ },
+ "Character_PZ_18": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 5
+ },
+ "Character_PZ_16_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 5
+ },
+ "Character_PZ_11": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": null,
+  "lines": 5
+ },
+ "Character_PZ_81": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 5
+ },
+ "Character_PZ_75": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 5
+ },
+ "Character_XG_8": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 5
+ },
+ "Character_DXZL_27": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 5
+ },
+ "Character_ZDDY_2": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 5
+ },
+ "Character_ZDDY_19": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 5
+ },
+ "Character_ZDDY_26": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 5
+ },
+ "Character_PZ_67": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 5
+ },
+ "Character_BHC_6": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_DDSD_16": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_DH_12": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_DH_13": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_Imp_9_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_FJZL_51": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_FJZL_8": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_FJZL_10": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_FJZL_13": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_FJZL_43": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_EX_5_3": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_FJZL_25": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 4
+ },
+ "Character_FJZL_49": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 4
+ },
+ "Character_XM_28_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_LJC_71": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_EX_2_1": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 4
+ },
+ "Character_LJC_17": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_LJC_49": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_LJC_64": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_LJC_65": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_LJC_47": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_LJC_61": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_LJC_60": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_PZ_15": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_PZ_19": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 4
+ },
+ "Character_PZ_17": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_PZ_52": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_PZ_51": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 4
+ },
+ "Character_PZ_56": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_PZ_53": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_PZ_49_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_PZ_37": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_PZ_24": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_PZ_12": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 4
+ },
+ "Character_PZ_13": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_Imp_6_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_XG_10": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_XG_16": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 4
+ },
+ "Character_XG_12": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 4
+ },
+ "Character_XG_31": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_XG_25": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 4
+ },
+ "Character_DXZL_4": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_DXZL_10": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_ZDDY_10": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_ZDDY_29": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 4
+ },
+ "Character_FJZL_14": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 4
+ },
+ "Character_ZDDY_27": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_ZDDY_25": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 4
+ },
+ "Character_PZ_66": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 4
+ },
+ "Character_EX_9": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_BHC_5": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 3
+ },
+ "Character_DDSD_10_7": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_DDSD_14": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_DDSD_15": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_DDSD_10_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_DH_18": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_DH_11": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_FJZL_40": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_FJZL_6": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_FJZL_9": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_FJZL_35": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_FJZL_27": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_FJZL_33": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_FJZL_34": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 3
+ },
+ "Character_EX_7": {
+  "style": 68,
+  "voice": "あいえるたん ノーマル",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_DH_24": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_Imp_21_1": {
+  "style": 33,
+  "voice": "白上虎太郎 びくびく",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_LJC_9": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_LJC_15": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_LJC_20": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_LJC_69": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_LJC_23": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_LJC_25": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 3
+ },
+ "Character_LJC_35": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_LJC_68_2": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 3
+ },
+ "Character_LJC_45": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_LJC_46": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_LJC_48": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_LJC_59": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_LJC_58": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 3
+ },
+ "BossName_030": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 3
+ },
+ "Character_PZ_16": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_PZ_14_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_PZ_58": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_PZ_55": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_PZ_32": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_PZ_31": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_PZ_40": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_PZ_2": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_PZ_22": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_PZ_61": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_PZ_80": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 3
+ },
+ "Character_PZ_60": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_PZ_79": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_XG_7_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_XG_2": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_XG_5": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 3
+ },
+ "Character_XG_33": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_XG_26": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_XG_27": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_XG_22": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_XG_35": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_PZ_23_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_DXZL_2": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_DXZL_6": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_XM_28": {
+  "style": 8,
+  "voice": "春日部つむぎ ノーマル",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_DH_2": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_DH_25": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_ZDDY_20": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_ZDDY_13": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_ZDDY_16": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_ZDDY_17": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 3
+ },
+ "Character_ZDDY_18": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 3
+ },
+ "Character_ZDDY_24": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 3
+ },
+ "Character_BHC_4": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_BHC_3": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 2
+ },
+ "Character_BHC_12": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_DDSD_11": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_DH_26": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_DH_3_2": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_DH_6": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_DH_8": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_FJZL_7": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_FJZL_11": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 2
+ },
+ "Character_FJZL_12": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_FJZL_41": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_FJZL_42": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_FJZL_36": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_FJZL_48": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_FJZL_45": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_DH_21": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_DH_22": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_DH_19": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_DH_20": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_LJC_38": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_LJC_16": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_LJC_18": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_LJC_21": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 2
+ },
+ "Character_LJC_32": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_LJC_35_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_LJC_44": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_LJC_36": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_LJC_63": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_LJC_55": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 2
+ },
+ "Character_LJC_56": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_MG_4": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_MG_9": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_PZ_20": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_PZ_14": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 2
+ },
+ "Character_PZ_57": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_PZ_50": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_PZ_6": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_PZ_42": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_PZ_44": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_PZ_38": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_PZ_47": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_PZ_41": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_PZ_39": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_PZ_4": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_PZ_23": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_XM_3": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_XM_6": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_PZ_59": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_PZ_73": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_XG_7": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_XG_42": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_XG_43": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_XG_3": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "BossName_005": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_XG_21": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 2
+ },
+ "Character_XG_23": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_XG_24": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 2
+ },
+ "Character_XG_17": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_XG_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_XM_14": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_XM_2": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_XM_5": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_XM_8": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_XM_11": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_ZDDY_28": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 2
+ },
+ "Character_ZDDY_3": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_FJZL_15": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_ZDDY_14": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_ZDDY_23": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 2
+ },
+ "Character_Main_3_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_BHC_8": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_BHC_9": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_BHC_10": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_BHC_11": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DDSD_10_3": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DDSD_10_4": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DDSD_10_5": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DDSD_10_6": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DH_27": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DH_15": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DH_16": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DH_17": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DH_3_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DH_3_3": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DH_9": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DH_10": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_MFZF_4": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_Imp_7_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 1
+ },
+ "Character_FJZL_4": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_FJZL_38": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_FJZL_37": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_FJZL_32_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 1
+ },
+ "Character_FJZL_47": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_FJZL_44_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_FJZL_46": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_FJZL_52": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_EX_3": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_LJC_10_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 1
+ },
+ "Character_LJC_39_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_LJC_4": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_LJC_41": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_LJC_5": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_LJC_24": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_LJC_31": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_MFZF_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_LJC_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_LJC_40": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_LJC_3": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_LJC_53": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_LJC_67_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_LJC_43": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 1
+ },
+ "Character_MG_3": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_MG_6": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_MG_7": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_MG_8": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_MG_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_MFZF_2": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_MFZF_3": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_21": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_1_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_35": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_PZ_36": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_43": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_33": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_PZ_34": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_48": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_45": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_46": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_3_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_3_2": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_3_3": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_PZ_3_4": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_3_5": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 1
+ },
+ "Character_PZ_62": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_26": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_27": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_PZ_9": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 1
+ },
+ "Character_XM_29": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_XG_28": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_XG_29": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_XG_19": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_XG_11": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_XG_14": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_XG_32": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_XG_40": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 1
+ },
+ "Character_XG_36": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_XSSL_1_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DXZL_7": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DXZL_8": {
+  "style": 11,
+  "voice": "玄野武宏 ノーマル",
+  "gender": "M",
+  "lines": 1
+ },
+ "Character_DXZL_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DXZL_3": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_DXZL_9": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_XM_4": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_XM_13": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_XM_9": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_ZDDY_16_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_ZDDY_17_1": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_ZDDY_9": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_ZDDY_4": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_ZDDY_6": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_ZDDY_5": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_ZDDY_30": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 1
+ },
+ "Character_ZDDY_21": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ },
+ "Character_ZDDY_15": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": "F",
+  "lines": 1
+ },
+ "Character_ZDDY_8": {
+  "style": 0,
+  "voice": "四国めたん あまあま",
+  "gender": null,
+  "lines": 1
+ }
+}

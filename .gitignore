@@ -37,12 +37,12 @@ data/container_files.tsv
 data/dt_duration_patch.json
 # durees mesurees sur les .wem injectes (produit par src/audio/wem_durations.py)
 data/jp_wem_durations.json
-# correspondace evenement -> personnage (produit par src/translate/loc_dump.py)
-data/event_speaker.json
-# voix par personnage (produit par src/tts/voice_assign.py)
-data/character_voices.json
-# styles du moteur VOICEVOX (produit par src/tts/voicevox_styles.py)
-data/voicevox_styles.json
+# Ces trois fichiers ne sont plus ignores : ils portent les choix de doublage
+# (personnage -> style VOICEVOX) et doivent etre versionnes pour etre
+# revus et corriges event au event.
+#  data/event_speaker.json     evenement -> personnage (src/translate/loc_dump.py)
+#  data/character_voices.json  personnage -> style VOICEVOX (src/tts/voice_assign.py)
+#  data/voicevox_styles.json   styles du moteur VOICEVOX (src/tts/voicevox_styles.py)
 # vitesses de synthese par evenement (produit par src/tts/tts_align.py)
 data/jp_speeds.json
 
