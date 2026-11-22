@@ -28,6 +28,10 @@ DATATABLE_PATH = 'ProjectPBZ/Content/PBZContent/DataTable/Audio/DT_WwiseVoiceDur
 def main():
     rows = []
     paths = {}
+    # The container has to hold every patched package. If the injection failed,
+    # the list would be made of the few files that exist, and the container
+    # would be installed without the voices : refuse to build it.
+    MIN_FILES = 7000
     for line in open(PATHS, encoding='utf-8'):
         if not line.strip():
             continue
@@ -51,6 +55,11 @@ def main():
         rows.append((DATATABLE_PATH, local))
     else:
         print(f'! {local} absent : la table des durees ne sera pas remplacee')
+
+    if len(rows) < MIN_FILES:
+        sys.exit('ERREUR : seulement %d fichiers a empaqueter (attendu au moins %d). '
+                 "L'injection a probablement echoue : le conteneur ne doit pas etre "
+                 'construit.' % (len(rows), MIN_FILES))
 
     with open(OUT, 'w', encoding='utf-8', newline='\n') as f:
         for path, local in rows:

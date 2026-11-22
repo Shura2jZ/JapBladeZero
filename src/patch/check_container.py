@@ -114,6 +114,13 @@ def main():
     rows, blocks, chunk_ids = dumped
 
     errors = []
+    # Un conteneur qui ne contient pas tous les paquets patches est monte
+    # sans erreur, mais le jeu joue alors l'original pour les absents.
+    MIN_CHUNKS = 7000
+    if len(rows) < MIN_CHUNKS:
+        errors.append('le conteneur ne contient que %d chunks (attendu au moins %d) : '
+                      "l'injection n'a probablement pas ete complete"
+                      % (len(rows), MIN_CHUNKS))
     # La fin reelle du fichier se deduit de la table des blocs : c'est elle qui
     # donne la position sur le disque de chaque bloc de compression.
     disk_end = max((off + size for off, size in blocks), default=0)

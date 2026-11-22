@@ -115,10 +115,16 @@ print("ordre de montage : mod=%d (nom %s), jeu=%d (nom %s) -> le mod est monte e
       "dernier, il est prioritaire" % (mod_order, name, game_order, game))
 PY
 
-# Le conteneur précédent et sa copie installée sont remplaces : les effacer
-# d'abord libere 2 Go, sans quoi la construction échoue sur un disque plein.
-rm -f "$OUT/$NAME.ucas" "$OUT/$NAME.utoc" "$OUT/$NAME.pak"
-rm -f "$PAKS/$NAME.ucas" "$PAKS/$NAME.utoc" "$PAKS/$NAME.pak"
+# Le conteneur précédent et sa copie installée sont remplacés. Les effacer
+# d'abord libère 2 Go, sans quoi la construction échoue sur un disque plein :
+# ce n'est fait que si l'espace manque, sinon une erreur de construction
+# laisserait le jeu sans le mod.
+free_mb=$(df -Pm "$OUT" | tail -1 | awk '{print $4}')
+if [ "$free_mb" -lt 6144 ]; then
+    echo "espace limité (${free_mb} Mo) : l'ancien conteneur est effacé avant construction"
+    rm -f "$OUT/$NAME.ucas" "$OUT/$NAME.utoc" "$OUT/$NAME.pak"
+    rm -f "$PAKS/$NAME.ucas" "$PAKS/$NAME.utoc" "$PAKS/$NAME.pak"
+fi
 
 python src/patch/build_container.py --files data/container_files.tsv --out "$OUT" --name "$NAME" --work "$WORK"
 
