@@ -60,11 +60,12 @@ def patch_mask(path, mask=GAME_CHANNEL_MASK):
 
 def build(event, ff, quality, tmpdir, lock):
     out = os.path.join(OUT_DIR, event + '.wem')
-    if os.path.exists(out) and os.path.getsize(out) > 1000:
-        return 'skip'
     wav = os.path.join(WAV_DIR, event + '.wav')
     if not os.path.exists(wav):
         return 'missing'
+    if os.path.exists(out) and os.path.getsize(out) > 1000 \
+            and os.path.getmtime(out) > os.path.getmtime(wav):
+        return 'skip'
     raw = os.path.join(tmpdir, event + '.48k.wav')
     ogg = os.path.join(tmpdir, event + '.ogg')
     try:
