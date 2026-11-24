@@ -171,7 +171,7 @@ def main():
             with lock:
                 done[0] += 1
                 if done[0] % 25 == 0:
-                    print(f'{done[0]} aligned, errors={len(errors)}, remaining={len(todo)}', flush=True)
+                    print(f'{done[0]} aligned, remaining={len(todo)}', flush=True)
                     json.dump(speeds, open(SPEEDS_PATH, 'w'))
 
     threads = [threading.Thread(target=worker, daemon=True) for _ in range(args.threads)]
@@ -181,12 +181,7 @@ def main():
         t.join()
 
     json.dump(speeds, open(SPEEDS_PATH, 'w'))
-    print(f'finished. errors={len(errors)}', flush=True)
-    seen = set()
-    for e, m in errors:
-        if m not in seen:
-            seen.add(m)
-            print('ERR', e, m, flush=True)
+    print(f'finished: {done[0]} lignes, {sum(1 for v in speeds.values() if v)} paddees', flush=True)
 
 
 if __name__ == '__main__':
