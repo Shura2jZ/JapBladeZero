@@ -46,7 +46,7 @@ def dump_toc(container_dir, name):
         dump = os.path.join(container_dir, '_toc_dump.tsv')
         hashes = os.path.join(container_dir, '_hashes.txt')
         open(hashes, 'w').close()
-        cmd = ['dotnet', CHUNKMAP, '--paks', container_dir, '--dump', dump, '--hashes', hashes, '--all']
+        cmd = ['dotnet', CHUNKMAP, '--paks', container_dir, '--name', name, '--dump', dump, '--hashes', hashes, '--all']
         res = subprocess.run(cmd, capture_output=True, text=True)
         if res.returncode != 0 or not os.path.exists(dump):
             print(res.stdout[-1500:])

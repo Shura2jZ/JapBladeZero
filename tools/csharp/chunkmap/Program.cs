@@ -33,12 +33,14 @@ foreach (var line in File.ReadAllLines(FindConfig()))
 
 var versions = new VersionContainer(EGame.GAME_PhantomBladeZero);
 string paks = cfg["paks"], hashesFile = null, dumpFile = null, sizesFile = null;
+string name = cfg.TryGetValue("name", out var n) ? n : null;
 for (int i = 0; i < args.Length; i++)
 {
     if (args[i] == "--paks") paks = args[++i];
     if (args[i] == "--hashes") hashesFile = args[++i];
     if (args[i] == "--dump") dumpFile = args[++i];
     if (args[i] == "--sizes") sizesFile = args[++i];
+    if (args[i] == "--name") name = args[++i];
 }
 
 var wanted = new HashSet<uint>();
@@ -49,6 +51,7 @@ Console.WriteLine($"{wanted.Count} hashes to look for");
 var sw = dumpFile != null ? new StreamWriter(dumpFile) : null;
 foreach (var tocPath in Directory.GetFiles(paks, "*.utoc").OrderBy(p => p))
 {
+    if (!string.IsNullOrEmpty(name) && !Path.GetFileName(tocPath).StartsWith(name, StringComparison.OrdinalIgnoreCase)) continue;
     IoStoreReader reader;
     try { reader = new IoStoreReader(tocPath, EIoStoreTocReadOptions.Default, versions); }
     catch (Exception e) { Console.WriteLine($"{Path.GetFileName(tocPath)}: cannot open ({e.GetType().Name})"); continue; }
