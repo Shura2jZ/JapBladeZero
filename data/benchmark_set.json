@@ -1,0 +1,202 @@
+{
+ "Vo_Plot_DDSD_LY_LY_6": {
+  "bucket": "old_man",
+  "character": "Character_DDSD_6",
+  "duration_zh": 19.021626
+ },
+ "Vo_Plot_DDSD_LY_LY_5": {
+  "bucket": "old_man",
+  "character": "Character_DDSD_6",
+  "duration_zh": 17.875668
+ },
+ "Vo_Plot_XiMeng_MEM_QiuMingDiZi3_QiuMingZhe_8": {
+  "bucket": "old_man",
+  "character": "Character_XM_11",
+  "duration_zh": 17.285334
+ },
+ "Vo_Plot_ZDDY_MEM_QianQian2_MoJiZi_2": {
+  "bucket": "old_man",
+  "character": "Character_Imp_12",
+  "duration_zh": 17.026333
+ },
+ "Vo_Plot_FJZL_MEM_Inanis3_WanXieWang_1": {
+  "bucket": "old_man",
+  "character": "Character_EX_6",
+  "duration_zh": 16.835333
+ },
+ "Vo_Plot_PZ_YuErJ3_YuErFu_42": {
+  "bucket": "old_man",
+  "character": "Character_Imp_14",
+  "duration_zh": 16.784313
+ },
+ "Vo_Plot_DHSD_MEM_FengXueDaoKe2_FengXueDaoKe_7": {
+  "bucket": "old_man",
+  "character": "Character_DH_7",
+  "duration_zh": 16.573668
+ },
+ "Vo_Plot_DDSD_ZPZ_ZPZ_12_1": {
+  "bucket": "old_man",
+  "character": "Character_DDSD_7",
+  "duration_zh": 16.530666
+ },
+ "Vo_Plot_PZ_YuErJ2b_YuErFu_2": {
+  "bucket": "young_man",
+  "character": "Character_Imp_14",
+  "duration_zh": 25.589333
+ },
+ "Vo_Plot_PZ_YuErJ2a_YuErFu_2": {
+  "bucket": "young_man",
+  "character": "Character_Imp_14",
+  "duration_zh": 22.293333
+ },
+ "Vo_Plot_LJC_NvZhi2_NvZhi_6": {
+  "bucket": "young_man",
+  "character": "Character_LJC_12",
+  "duration_zh": 22.14725
+ },
+ "Vo_Plot_DHSD_MEM_FengXueDaoKe2_HuanShuShi_5": {
+  "bucket": "young_man",
+  "character": "Character_DH_8",
+  "duration_zh": 20.683187
+ },
+ "Vo_Plot_DDSD_HXZ_HXZ_14": {
+  "bucket": "young_man",
+  "character": "Character_Imp_11",
+  "duration_zh": 19.330708
+ },
+ "Vo_Plot_PZ_HUanGui1_HUanGui_2": {
+  "bucket": "young_man",
+  "character": "Character_Imp_4",
+  "duration_zh": 18.333334
+ },
+ "Vo_Plot_PZ_YuErJ3_YuErFu_Re_2": {
+  "bucket": "young_man",
+  "character": "Character_Imp_14",
+  "duration_zh": 18.051834
+ },
+ "Vo_Plot_PZ_YuErJ1_YuErFu_1": {
+  "bucket": "young_man",
+  "character": "Character_Imp_14",
+  "duration_zh": 17.973333
+ },
+ "Vo_Plot_DDSD_GM_GM_16": {
+  "bucket": "woman",
+  "character": "Character_DDSD_8",
+  "duration_zh": 21.522667
+ },
+ "Vo_Plot_DDSD_GM_GM_7": {
+  "bucket": "woman",
+  "character": "Character_DDSD_8",
+  "duration_zh": 21.4445
+ },
+ "Vo_Plot_LJC_MEM_CunMin4_Son_10": {
+  "bucket": "woman",
+  "character": "Character_LJC_22",
+  "duration_zh": 20.224667
+ },
+ "Vo_Plot_DDSD_GM_GM_3": {
+  "bucket": "woman",
+  "character": "Character_DDSD_8",
+  "duration_zh": 20.094667
+ },
+ "Vo_Plot_LJC_MEM_CunMin2_HaiZi_5": {
+  "bucket": "woman",
+  "character": "Character_LJC_18",
+  "duration_zh": 20.046604
+ },
+ "Vo_Plot_FJZL_MEM_Inanis5_XianZhe_12": {
+  "bucket": "woman",
+  "character": "Character_EX_5_2",
+  "duration_zh": 19.947353
+ },
+ "Vo_Plot_DHSD_HuanShuShiNan4_HuanShuShiNan4_1": {
+  "bucket": "woman",
+  "character": "Character_XG_30",
+  "duration_zh": 18.7
+ },
+ "Vo_Plot_FJZL_BSMW_BaiShanNvDiZi_BaiShanNvDiZi_7": {
+  "bucket": "woman",
+  "character": "Character_FJZL_2",
+  "duration_zh": 18.603687
+ },
+ "Vo_Plot_FJZL_BaiChiLian1_Battle_1": {
+  "bucket": "shout",
+  "character": "Character_FJZL_17",
+  "duration_zh": 16.606667
+ },
+ "Vo_Plot_FJZL_BaiChiLian1_Battle_2": {
+  "bucket": "shout",
+  "character": "Character_FJZL_17",
+  "duration_zh": 14.886666
+ },
+ "Vo_Plot_PZ_HuoLiuXing3_HuoLiuXing_Battle_1": {
+  "bucket": "shout",
+  "character": "Character_PZ_78",
+  "duration_zh": 10.250667
+ },
+ "Vo_Plot_FJZL_HSPP_BaiChiLian_Battle_2": {
+  "bucket": "shout",
+  "character": "Character_FJZL_17",
+  "duration_zh": 10.165334
+ },
+ "Vo_Plot_End_MengHua1_Battle_2": {
+  "bucket": "shout",
+  "character": "Character_Imp_21",
+  "duration_zh": 9.742792
+ },
+ "Vo_Plot_End_MengHua2_Battle_3": {
+  "bucket": "shout",
+  "character": "Character_Imp_21",
+  "duration_zh": 9.570604
+ },
+ "Vo_Plot_DDSD_LY_LY_23": {
+  "bucket": "long",
+  "character": "Character_DDSD_6",
+  "duration_zh": 25.424
+ },
+ "Vo_Plot_PZ_MEM_LieYan3_GaoYuanWai_12": {
+  "bucket": "long",
+  "character": "Character_XM_1",
+  "duration_zh": 23.783667
+ },
+ "Vo_Plot_PZ_MEM_BaiXueEr_BXE_5": {
+  "bucket": "long",
+  "character": "Character_DDSD_8_1",
+  "duration_zh": 17.856
+ },
+ "Vo_Plot_LJC_FZMD_Feizei2_FZ_5": {
+  "bucket": "long",
+  "character": "Character_LJC_7",
+  "duration_zh": 17.760166
+ },
+ "Vo_Plot_XSSL_LuJieYuan1b_LJY_2": {
+  "bucket": "long",
+  "character": "Character_XSSL_1",
+  "duration_zh": 17.666666
+ },
+ "Vo_Plot_DDSD_GM_GM_14": {
+  "bucket": "long",
+  "character": "Character_DDSD_8",
+  "duration_zh": 17.420666
+ },
+ "Vo_Plot_DHSD_LaoGenTou_Hun_4_2": {
+  "bucket": "short",
+  "character": "Character_Main_1",
+  "duration_zh": 1.7986667
+ },
+ "Vo_Plot_XSSL_ShaQiTa_Hun_Weapon_1": {
+  "bucket": "short",
+  "character": "Character_Main_1",
+  "duration_zh": 1.784
+ },
+ "Vo_Plot_XG_JianKeDuiZhang_Hun_1": {
+  "bucket": "short",
+  "character": "Character_Main_1",
+  "duration_zh": 1.7823125
+ },
+ "Vo_Plot_DDSD_LSQ2_Hun_5": {
+  "bucket": "short",
+  "character": "Character_Main_1",
+  "duration_zh": 1.7813333
+ }
+}
