@@ -48,12 +48,8 @@ for event, meta in items:
             fail += 1
             continue
         wav, sr = res
-        p = os.path.join(outdir, event + '.wav')
-        with wave.open(p, 'wb') as w:
-            w.setnchannels(1)
-            w.setsampwidth(2)
-            w.setframerate(sr)
-            w.writeframes(wav)
+        with open(os.path.join(outdir, event + '.wav'), 'wb') as f:
+            f.write(wav)
         ok += 1
         print('ok', event, flush=True)
     except Exception as e:

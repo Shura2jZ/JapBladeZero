@@ -13,6 +13,21 @@ TARGET_RMS = 0.079   # -22 dBFS
 PEAK_MAX = 0.97
 
 def norm_path(p):
+    try:
+        with wave.open(p, 'rb') as w:
+            fmt_ok = True
+    except wave.Error:
+        # IEEE float32 wav (torchaudio) : conversion en PCM16 avant tout
+        import subprocess, sys as _sys
+        _sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'audio'))
+        from wem_batch import ffmpeg_exe
+        tmp = p + '.tmp.wav'
+        r = subprocess.run([ffmpeg_exe(), '-y', '-loglevel', 'error', '-i', p,
+                            '-ac', '1', '-sample_fmt', 's16', tmp],
+                           capture_output=True)
+        if r.returncode != 0:
+            return 'ffmpeg:' + r.stderr.decode()[:80]
+        os.replace(tmp, p)
     with wave.open(p, 'rb') as w:
         n, r, ch, sw = w.getnframes(), w.getframerate(), w.getnchannels(), w.getsampwidth()
         data = w.readframes(n)

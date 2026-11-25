@@ -44,11 +44,8 @@ for ev in WORST:
                                  reference_wav=ref)
             wav, sr = res
             p = os.path.join(outdir, f'{ev}.{mode}.wav')
-            with wave.open(p, 'wb') as w:
-                w.setnchannels(1)
-                w.setsampwidth(2)
-                w.setframerate(sr)
-                w.writeframes(wav)
+            with open(p, 'wb') as f:
+                f.write(wav)
             with wave.open(p) as w:
                 d = w.getnframes() / w.getframerate()
             print(f'{ev} {mode}: {d:.1f}s (zh={bench[ev]["duration_zh"]:.1f}s)', flush=True)
