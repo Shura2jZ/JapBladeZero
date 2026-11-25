@@ -69,7 +69,15 @@ class Engine:
         return self._wav_bytes(speech)
 
     def _wav_bytes(self, speech):
+        # CosyVoice output peaks beyond +-1.0: writing it as-is clips the
+        # int16 conversion into a monster-like distortion. Guard + normalize.
+        import torch
+        x = speech.detach().float().flatten()
+        peak = x.abs().max().item()
+        if peak > 0.97:
+            x = x * (0.97 / peak)
+        x = x.unsqueeze(0)
         import torchaudio
         buf = io.BytesIO()
-        torchaudio.save(buf, speech, self.sample_rate, format='wav')
+        torchaudio.save(buf, x, self.sample_rate, format='wav')
         return buf.getvalue(), self.sample_rate
