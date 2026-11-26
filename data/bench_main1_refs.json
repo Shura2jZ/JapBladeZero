@@ -1,0 +1,156 @@
+{
+ "Vo_Plot_LJC_FZMD_Feizei2_Hun_4": {
+  "single": "Vo_Plot_Common_Map_Touchpad_Hun_2",
+  "multi": [
+   "Vo_Plot_LJC_FZMD_Feizei2_Hun_4",
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1",
+   "Vo_Plot_2D_Animation1_Hun_1_HuaWaiYin"
+  ]
+ },
+ "Vo_Plot_BaiHe_IMPTMEM3_Hun_3_ZiYan": {
+  "single": "Vo_Plot_PZ_YaoFang2_XieXiaoRong_Hun_2",
+  "multi": [
+   "Vo_Plot_BaiHe_IMPTMEM3_Hun_3_ZiYan",
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1",
+   "Vo_Plot_2D_Animation1_Hun_1_HuaWaiYin"
+  ]
+ },
+ "Vo_Plot_FJZL_ZhenYao_Hun_15": {
+  "single": "Vo_Plot_FJZL_BSMW_BaiShanNvDiZi_Hun_6_ZiYan",
+  "multi": [
+   "Vo_Plot_FJZL_ZhenYao_Hun_15",
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1"
+  ]
+ },
+ "Vo_Plot_LJC_Danghui_Hun_2": {
+  "single": "Vo_Plot_DDSD_LSQ3_Hun_10_ZiYan",
+  "multi": [
+   "Vo_Plot_LJC_Danghui_Hun_2",
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1",
+   "Vo_Plot_2D_Animation1_Hun_1_HuaWaiYin"
+  ]
+ },
+ "Vo_Plot_XSSL_LuJieYuan1a_Hun_6": {
+  "single": "Vo_Plot_Common_WuMen_Hun_1",
+  "multi": [
+   "Vo_Plot_XSSL_LuJieYuan1a_Hun_6",
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1",
+   "Vo_Plot_2D_Animation1_Hun_1_HuaWaiYin"
+  ]
+ },
+ "Vo_Plot_XiMeng_XiPiao_Hun_1": {
+  "single": "Vo_Plot_XG_CanGang_ChuXie_Hun_1",
+  "multi": [
+   "Vo_Plot_XiMeng_XiPiao_Hun_1",
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1",
+   "Vo_Plot_2D_Animation1_Hun_1_HuaWaiYin"
+  ]
+ },
+ "Vo_Plot_ZDDY_MCMS1_Hun1_1_ZiYan": {
+  "single": "Vo_Plot_PZ_YaoFang2_XieXiaoRong_Hun_4",
+  "multi": [
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1",
+   "Vo_Plot_2D_Animation1_Hun_1_HuaWaiYin"
+  ]
+ },
+ "Vo_Plot_PZ_JYX_LeiDang_Hun_19": {
+  "single": "Vo_Plot_FJZL_JianChiJiBai_Hun_1",
+  "multi": [
+   "Vo_Plot_PZ_JYX_LeiDang_Hun_19",
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1"
+  ]
+ },
+ "Vo_Plot_JHSY_HXMM_Inanis_Hun_28": {
+  "single": "Vo_Plot_Common_Map_Touchpad_Hun_2",
+  "multi": [
+   "Vo_Plot_JHSY_HXMM_Inanis_Hun_28",
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1",
+   "Vo_Plot_2D_Animation1_Hun_1_HuaWaiYin"
+  ]
+ },
+ "Vo_Plot_LJC_XiaoWu_GeNvPeiLang_Hun_6": {
+  "single": "Vo_Plot_LJC_LJGZ_LanShaoDi2_Hun_10",
+  "multi": [
+   "Vo_Plot_LJC_XiaoWu_GeNvPeiLang_Hun_6",
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1",
+   "Vo_Plot_2D_Animation1_Hun_1_HuaWaiYin"
+  ]
+ },
+ "Vo_Plot_XG_YingDi_LanJianKe_Hun_2": {
+  "single": "Vo_Plot_Common_Map_Touchpad_Hun_2",
+  "multi": [
+   "Vo_Plot_XG_YingDi_LanJianKe_Hun_2",
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1",
+   "Vo_Plot_2D_Animation1_Hun_1_HuaWaiYin"
+  ]
+ },
+ "Vo_Plot_XSSL_ChangHong1_Hun_9": {
+  "single": "Vo_Plot_XiMeng_LeiDang4_Hun_3",
+  "multi": [
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1",
+   "Vo_Plot_2D_Animation1_Hun_1_HuaWaiYin"
+  ]
+ },
+ "Vo_Plot_DDSD_NJK_Hun_5": {
+  "single": "Vo_Plot_PZ_Investigate_YEXRH2_1_ZiYan",
+  "multi": [
+   "Vo_Plot_DDSD_NJK_Hun_5",
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1",
+   "Vo_Plot_2D_Animation1_Hun_1_HuaWaiYin"
+  ]
+ },
+ "Vo_Plot_PZ_YuErJ2_Hun_2_ZiYan": {
+  "single": "Vo_Plot_XSSL_ShaQiTa_MuXuaoKui_Hun_28",
+  "multi": [
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1",
+   "Vo_Plot_2D_Animation1_Hun_1_HuaWaiYin"
+  ]
+ },
+ "Vo_Plot_XG_HFZ_LieFeng_Hun_1": {
+  "single": "Vo_Plot_ZDDY_QXJZ_Hun_10",
+  "multi": [
+   "Vo_Plot_XG_HFZ_LieFeng_Hun_1",
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1",
+   "Vo_Plot_2D_Animation1_Hun_1_HuaWaiYin"
+  ]
+ },
+ "Vo_Plot_FJZL_YingDi_BaiShanJia1_Hun_9": {
+  "single": "Vo_Plot_PZ_GYDRW_JYX_Hun_30",
+  "multi": [
+   "Vo_Plot_FJZL_YingDi_BaiShanJia1_Hun_9",
+   "Vo_Plot_2D_Animation1_Hun_10_1",
+   "Vo_Plot_2D_Animation1_Hun_12_1",
+   "Vo_Plot_2D_Animation1_Hun_16_1"
+  ]
+ }
+}
