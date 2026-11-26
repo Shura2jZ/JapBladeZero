@@ -1,0 +1,198 @@
+{
+ "Vo_Plot_DDSD_LY_LY_6": {
+  "ref_event": "Vo_Plot_DDSD_LY_LY_13",
+  "ref_f0": 89.5059585571289,
+  "ref_dur": 8.992666
+ },
+ "Vo_Plot_DDSD_LY_LY_5": {
+  "ref_event": "Vo_Plot_DDSD_LY_LY_11",
+  "ref_f0": 85.21925354003906,
+  "ref_dur": 9.398666
+ },
+ "Vo_Plot_XiMeng_MEM_QiuMingDiZi3_QiuMingZhe_8": {
+  "ref_event": "Vo_Plot_XiMeng_MEM_QiuMingDiZi3_QiuMingZhe_5",
+  "ref_f0": 71.85674667358398,
+  "ref_dur": 8.562
+ },
+ "Vo_Plot_ZDDY_MEM_QianQian2_MoJiZi_2": {
+  "ref_event": "Vo_Plot_DDSD_KLSJ_MJZ_8",
+  "ref_f0": 67.74247741699219,
+  "ref_dur": 9.270333
+ },
+ "Vo_Plot_FJZL_MEM_Inanis3_WanXieWang_1": {
+  "ref_event": "Vo_Plot_FJZL_MEM_Inanis2_WanXieWang_8",
+  "ref_f0": 62.87267303466797,
+  "ref_dur": 9.510667
+ },
+ "Vo_Plot_PZ_YuErJ3_YuErFu_42": {
+  "ref_event": "Vo_Plot_PZ_YuErJ3_YuErFu_Re_1",
+  "ref_f0": 91.32914733886719,
+  "ref_dur": 8.208667
+ },
+ "Vo_Plot_DHSD_MEM_FengXueDaoKe2_FengXueDaoKe_7": {
+  "ref_event": "Vo_Plot_DHSD_MEM_FXDK2_FengXueDaoKe_4",
+  "ref_f0": 78.75342559814453,
+  "ref_dur": 8.872666
+ },
+ "Vo_Plot_DDSD_ZPZ_ZPZ_12_1": {
+  "ref_event": "Vo_Plot_DDSD_ZPZ_ZPZ_7_1",
+  "ref_f0": 78.6753921508789,
+  "ref_dur": 9.4453335
+ },
+ "Vo_Plot_PZ_YuErJ2b_YuErFu_2": {
+  "ref_event": "Vo_Plot_PZ_YuErJ2_YuErFu_9",
+  "ref_f0": 121.29155349731445,
+  "ref_dur": 4.234667
+ },
+ "Vo_Plot_PZ_YuErJ2a_YuErFu_2": {
+  "ref_event": "Vo_Plot_PZ_YuErJ3_YuErFu_36",
+  "ref_f0": 99.27826690673828,
+  "ref_dur": 7.997271
+ },
+ "Vo_Plot_LJC_NvZhi2_NvZhi_6": {
+  "ref_event": "Vo_Plot_LJC_NvZhi_NvZhi_1",
+  "ref_f0": 134.27904510498047,
+  "ref_dur": 3.5287917
+ },
+ "Vo_Plot_DHSD_MEM_FengXueDaoKe2_HuanShuShi_5": null,
+ "Vo_Plot_DDSD_HXZ_HXZ_14": {
+  "ref_event": "Vo_Plot_DDSD_MEM_HXZ6_HXZ_46",
+  "ref_f0": 179.88888549804688,
+  "ref_dur": 8.86375
+ },
+ "Vo_Plot_PZ_HUanGui1_HUanGui_2": {
+  "ref_event": "Vo_Plot_PZ_HUanGui2_HUanGui_2",
+  "ref_f0": 140.44757080078125,
+  "ref_dur": 8.160438
+ },
+ "Vo_Plot_PZ_YuErJ3_YuErFu_Re_2": {
+  "ref_event": "Vo_Plot_PZ_YuErJ2_YuErFu_4",
+  "ref_f0": 107.53118515014648,
+  "ref_dur": 9.606667
+ },
+ "Vo_Plot_PZ_YuErJ1_YuErFu_1": {
+  "ref_event": "Vo_Plot_PZ_YuErJ3_YuErFu_36",
+  "ref_f0": 99.27826690673828,
+  "ref_dur": 7.997271
+ },
+ "Vo_Plot_DDSD_GM_GM_16": {
+  "ref_event": "Vo_Plot_DDSD_GM_GM_10",
+  "ref_f0": 222.69190979003906,
+  "ref_dur": 9.723
+ },
+ "Vo_Plot_DDSD_GM_GM_7": {
+  "ref_event": "Vo_Plot_DDSD_GM_GM_11_1",
+  "ref_f0": 267.6623229980469,
+  "ref_dur": 7.77
+ },
+ "Vo_Plot_LJC_MEM_CunMin4_Son_10": {
+  "ref_event": "Vo_Plot_LJC_MEM_CunMin4_Son_9",
+  "ref_f0": 289.15562438964844,
+  "ref_dur": 8.622666
+ },
+ "Vo_Plot_DDSD_GM_GM_3": {
+  "ref_event": "Vo_Plot_DDSD_GM_GM_2",
+  "ref_f0": 276.3499450683594,
+  "ref_dur": 7.7013335
+ },
+ "Vo_Plot_LJC_MEM_CunMin2_HaiZi_5": {
+  "ref_event": "Vo_Plot_LJC_MEM_CunMin2_HaiZi_3",
+  "ref_f0": 297.5391082763672,
+  "ref_dur": 7.658
+ },
+ "Vo_Plot_FJZL_MEM_Inanis5_XianZhe_12": {
+  "ref_event": "Vo_Plot_FJZL_MEM_Inanis3_XianZhe_4",
+  "ref_f0": 292.9800262451172,
+  "ref_dur": 7.668979
+ },
+ "Vo_Plot_DHSD_HuanShuShiNan4_HuanShuShiNan4_1": {
+  "ref_event": "Vo_Plot_XG_AHuaBaoTu_BaoTu6_1",
+  "ref_f0": 237.4194564819336,
+  "ref_dur": 5.58075
+ },
+ "Vo_Plot_FJZL_BSMW_BaiShanNvDiZi_BaiShanNvDiZi_7": {
+  "ref_event": "Vo_Plot_FJZL_BSMW_BaiShanNvDiZi_BaiShanNvDiZi_8",
+  "ref_f0": 220.92201232910156,
+  "ref_dur": 8.84625
+ },
+ "Vo_Plot_FJZL_BaiChiLian1_Battle_1": {
+  "ref_event": "Vo_Plot_FJZL_HSPP_BaiChiLian_4",
+  "ref_f0": 237.6999053955078,
+  "ref_dur": 6.4773335
+ },
+ "Vo_Plot_FJZL_BaiChiLian1_Battle_2": {
+  "ref_event": "Vo_Plot_FJZL_HSPP_BaiChiLian_7",
+  "ref_f0": 187.99884796142578,
+  "ref_dur": 9.066667
+ },
+ "Vo_Plot_PZ_HuoLiuXing3_HuoLiuXing_Battle_1": {
+  "ref_event": "Vo_Plot_PZ_HuoLiuXing1_Battle_2",
+  "ref_f0": 232.69336700439453,
+  "ref_dur": 5.386667
+ },
+ "Vo_Plot_FJZL_HSPP_BaiChiLian_Battle_2": {
+  "ref_event": "Vo_Plot_FJZL_MEM_HSPP3_BaiChiLian_2",
+  "ref_f0": 299.135986328125,
+  "ref_dur": 9.701333
+ },
+ "Vo_Plot_End_MengHua1_Battle_2": {
+  "ref_event": "Vo_Plot_End_MengHua2_Battle_1",
+  "ref_f0": 226.15795135498047,
+  "ref_dur": 6.960146
+ },
+ "Vo_Plot_End_MengHua2_Battle_3": {
+  "ref_event": "Vo_Plot_End_MengHua1_Battle_3",
+  "ref_f0": 121.88951110839844,
+  "ref_dur": 4.4907084
+ },
+ "Vo_Plot_DDSD_LY_LY_23": {
+  "ref_event": "Vo_Plot_DDSD_LY_LY_25_R1",
+  "ref_f0": 148.44810485839844,
+  "ref_dur": 9.246396
+ },
+ "Vo_Plot_PZ_MEM_LieYan3_GaoYuanWai_12": {
+  "ref_event": "Vo_Plot_XiMeng_MEM_GaoYuanWai3_GaoYuanWai_4",
+  "ref_f0": 161.3139190673828,
+  "ref_dur": 9.491417
+ },
+ "Vo_Plot_PZ_MEM_BaiXueEr_BXE_5": {
+  "ref_event": "Vo_Plot_PZ_MEM_BaiXueEr_BXE_6",
+  "ref_f0": 269.8010559082031,
+  "ref_dur": 7.025417
+ },
+ "Vo_Plot_LJC_FZMD_Feizei2_FZ_5": {
+  "ref_event": "Vo_Plot_LJC_FZMD_Feizei2_FZ_12",
+  "ref_f0": 288.43231201171875,
+  "ref_dur": 5.408
+ },
+ "Vo_Plot_XSSL_LuJieYuan1b_LJY_2": {
+  "ref_event": "Vo_Plot_XSSL_LuJieYuan1a_LJY_12",
+  "ref_f0": 231.38174438476562,
+  "ref_dur": 9.481833
+ },
+ "Vo_Plot_DDSD_GM_GM_14": {
+  "ref_event": "Vo_Plot_DDSD_GM_GM_10",
+  "ref_f0": 222.69190979003906,
+  "ref_dur": 9.723
+ },
+ "Vo_Plot_DHSD_LaoGenTou_Hun_4_2": {
+  "ref_event": "Vo_Plot_PZ_HUanGui01_Hun_3",
+  "ref_f0": 67.92057037353516,
+  "ref_dur": 3.00625
+ },
+ "Vo_Plot_XSSL_ShaQiTa_Hun_Weapon_1": {
+  "ref_event": "Vo_Plot_Common_Map_Touchpad_Hun_2",
+  "ref_f0": 65.60963439941406,
+  "ref_dur": 3.0
+ },
+ "Vo_Plot_XG_JianKeDuiZhang_Hun_1": {
+  "ref_event": "Vo_Plot_DDSD_LSQ2_Hun_9",
+  "ref_f0": 75.81343078613281,
+  "ref_dur": 3.056
+ },
+ "Vo_Plot_DDSD_LSQ2_Hun_5": {
+  "ref_event": "Vo_Plot_DDSD_LSQ3_Hun_5",
+  "ref_f0": 79.79706573486328,
+  "ref_dur": 3.0026667
+ }
+}
