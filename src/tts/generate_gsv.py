@@ -15,7 +15,7 @@ import csv, json, os, sys, time, struct, wave, urllib.request, urllib.error
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.join(REPO, 'src'))
 sys.path.insert(0, os.path.join(REPO, 'src', 'audio'))
-API = 'http://127.0.0.1:9891'
+API = None
 
 speakers = json.load(open(REPO + r'/data/event_speaker.json', encoding='utf-8'))
 durations = json.load(open(REPO + r'/data/durations.json', encoding='utf-8'))
@@ -115,7 +115,12 @@ def main():
     import urllib.parse
     limit = int(sys.argv[sys.argv.index('--limit') + 1]) if '--limit' in sys.argv else 0
     chars_filter = sys.argv[sys.argv.index('--chars') + 1].split(',') if '--chars' in sys.argv else None
+    shard = int(sys.argv[sys.argv.index('--shard') + 1]) if '--shard' in sys.argv else 0
+    nshard = int(sys.argv[sys.argv.index('--nshard') + 1]) if '--nshard' in sys.argv else 1
+    port = sys.argv[sys.argv.index('--port') + 1] if '--port' in sys.argv else '9891'
 
+    global API
+    API = f'http://127.0.0.1:{port}'
     vv = Engine()
     outd = REPO + r'/out/jp_events_gsv'
     os.makedirs(outd, exist_ok=True)
@@ -127,6 +132,8 @@ def main():
         if not ch or ch not in weights or not (r.get('japanese_text_tts') or r.get('japanese_text') or '').strip():
             continue
         if chars_filter and ch not in chars_filter:
+            continue
+        if hash(ch) % nshard != shard % nshard:
             continue
         todo.append(ev)
     print(f'{len(todo)} lignes couvertes par GSV fine-tune ({len(weights)} personnages)', flush=True)
@@ -154,7 +161,7 @@ def main():
                     f.write(data)
                 f0, d = f0_robust(outp)
                 f0c = (profiles.get('characters', {}).get(ch, {}) or {}).get('f0_median') or 100
-                lo, hi = max(35, 0.5 * f0c), 1.8 * f0c
+                lo, hi = max(35, 0.4 * f0c), 2.5 * f0c
                 if lo <= f0 <= hi and d <= max(3.5, dzh * 1.9) and d > 0.5:
                     ok += 1
                     done = True
